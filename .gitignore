@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+venv_gpu/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos pesados (descomentar si no quieres subirlos a github)
+models/
+data/
+outputs/
