@@ -1,0 +1,10 @@
+﻿split,label,cantidad
+test,negativo,129
+test,neutro,108
+test,positivo,160
+train,negativo,544
+train,neutro,432
+train,positivo,703
+validation,negativo,113
+validation,neutro,91
+validation,positivo,161

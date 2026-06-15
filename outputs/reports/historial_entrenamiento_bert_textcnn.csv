@@ -1,0 +1,5 @@
+﻿epoch,train_accuracy,train_precision_macro,train_recall_macro,train_f1_macro,train_precision_weighted,train_recall_weighted,train_f1_weighted,train_loss,validation_accuracy,validation_precision_macro,validation_recall_macro,validation_f1_macro,validation_precision_weighted,validation_recall_weighted,validation_f1_weighted,validation_loss
+1,0.4253,0.3995,0.3997,0.3987,0.4188,0.4253,0.421,1.076821,0.5096,0.5652,0.515,0.5131,0.6167,0.5096,0.5331,0.933029
+2,0.6766,0.6379,0.643,0.6389,0.6656,0.6766,0.6697,0.763923,0.5726,0.4925,0.5127,0.5011,0.5501,0.5726,0.56,0.846104
+3,0.8148,0.7941,0.7924,0.7919,0.8095,0.8148,0.811,0.512364,0.5699,0.5913,0.5373,0.537,0.6379,0.5699,0.58,1.023561
+4,0.8833,0.8723,0.8719,0.8721,0.883,0.8833,0.8831,0.362911,0.5973,0.5657,0.5552,0.5594,0.6154,0.5973,0.6054,1.044269

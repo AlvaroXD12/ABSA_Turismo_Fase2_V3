@@ -15,5 +15,5 @@ __pycache__/
 
 # Archivos pesados (descomentar si no quieres subirlos a github)
 models/
-data/
-outputs/
+# data/
+# outputs/

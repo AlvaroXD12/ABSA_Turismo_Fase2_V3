@@ -1,0 +1,101 @@
+﻿destination,aspecto,total_tuplas,reseñas_unicas,confianza_promedio
+Centro Histórico de Lima,accesibilidad,172.0,172,0.8066580851757249
+Centro Histórico de Lima,aforo_multitudes,222.0,222,0.8271697849572242
+Centro Histórico de Lima,alojamiento,19.0,19,0.8492787292129115
+Centro Histórico de Lima,atencion_servicio,112.0,112,0.8476366185184036
+Centro Histórico de Lima,atractivos,1071.0,1071,0.8622556201884058
+Centro Histórico de Lima,clima,35.0,35,0.8231325490134103
+Centro Histórico de Lima,costos,75.0,75,0.7947577039400736
+Centro Histórico de Lima,gastronomia,242.0,242,0.8366266631883038
+Centro Histórico de Lima,limpieza,221.0,221,0.84946644441035
+Centro Histórico de Lima,seguridad,332.0,332,0.8128229130104364
+Circuito Mágico del Agua,accesibilidad,468.0,468,0.8241562876436446
+Circuito Mágico del Agua,aforo_multitudes,289.0,289,0.8265334188319408
+Circuito Mágico del Agua,alojamiento,22.0,22,0.8867251466621052
+Circuito Mágico del Agua,atencion_servicio,141.0,141,0.8497071826288886
+Circuito Mágico del Agua,atractivos,988.0,988,0.8696168613759613
+Circuito Mágico del Agua,clima,75.0,75,0.8201947887738545
+Circuito Mágico del Agua,costos,605.0,605,0.8168713349941348
+Circuito Mágico del Agua,gastronomia,191.0,191,0.8273731732243643
+Circuito Mágico del Agua,limpieza,235.0,235,0.8230390494174146
+Circuito Mágico del Agua,seguridad,114.0,114,0.8224033938165296
+Ciudadela de Kuélap,accesibilidad,226.0,226,0.8258666419877415
+Ciudadela de Kuélap,aforo_multitudes,58.0,58,0.8422108647124521
+Ciudadela de Kuélap,alojamiento,10.0,10,0.8743136346340179
+Ciudadela de Kuélap,atencion_servicio,140.0,140,0.8355117516858237
+Ciudadela de Kuélap,atractivos,478.0,478,0.8621895615027041
+Ciudadela de Kuélap,clima,52.0,52,0.8270341433011569
+Ciudadela de Kuélap,costos,101.0,101,0.805854209873936
+Ciudadela de Kuélap,gastronomia,25.0,25,0.8282948386669159
+Ciudadela de Kuélap,limpieza,21.0,21,0.8235489584150768
+Ciudadela de Kuélap,seguridad,23.0,23,0.8679369921269624
+Líneas y Geoglifos de Nasca y Palpa,accesibilidad,66.0,66,0.7683347337173693
+Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,44.0,44,0.8137434192679145
+Líneas y Geoglifos de Nasca y Palpa,alojamiento,6.0,6,0.7732185820738474
+Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,36.0,36,0.7885708378420936
+Líneas y Geoglifos de Nasca y Palpa,atractivos,164.0,164,0.8524628788596247
+Líneas y Geoglifos de Nasca y Palpa,clima,22.0,22,0.7587391869588331
+Líneas y Geoglifos de Nasca y Palpa,costos,45.0,45,0.78723154730267
+Líneas y Geoglifos de Nasca y Palpa,gastronomia,3.0,3,0.7619077563285828
+Líneas y Geoglifos de Nasca y Palpa,limpieza,4.0,4,0.7972640544176102
+Líneas y Geoglifos de Nasca y Palpa,seguridad,13.0,13,0.7674895524978638
+Monasterio de Santa Catalina,accesibilidad,204.0,204,0.8420913929448408
+Monasterio de Santa Catalina,aforo_multitudes,96.0,96,0.8603214357669154
+Monasterio de Santa Catalina,alojamiento,29.0,29,0.8711701035499573
+Monasterio de Santa Catalina,atencion_servicio,496.0,496,0.8622121603618706
+Monasterio de Santa Catalina,atractivos,740.0,740,0.8818619514236579
+Monasterio de Santa Catalina,clima,37.0,37,0.8504328486081716
+Monasterio de Santa Catalina,costos,376.0,376,0.8333115454842436
+Monasterio de Santa Catalina,gastronomia,17.0,17,0.8943408622461206
+Monasterio de Santa Catalina,limpieza,32.0,32,0.8435797858983278
+Monasterio de Santa Catalina,seguridad,6.0,6,0.6737068245808283
+Museo Tumbas Reales del Señor de Sipán,accesibilidad,129.0,129,0.8083071408345718
+Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,61.0,61,0.866710609099904
+Museo Tumbas Reales del Señor de Sipán,alojamiento,5.0,5,0.8887849569320678
+Museo Tumbas Reales del Señor de Sipán,atencion_servicio,359.0,359,0.8548630436980956
+Museo Tumbas Reales del Señor de Sipán,atractivos,904.0,904,0.8569297651076211
+Museo Tumbas Reales del Señor de Sipán,clima,27.0,27,0.8270664193012096
+Museo Tumbas Reales del Señor de Sipán,costos,154.0,154,0.8228191361798869
+Museo Tumbas Reales del Señor de Sipán,gastronomia,11.0,11,0.8134625825014982
+Museo Tumbas Reales del Señor de Sipán,limpieza,47.0,47,0.8523096264676845
+Museo Tumbas Reales del Señor de Sipán,seguridad,35.0,35,0.7938112241881234
+Museo de Sitio Huaca Pucllana,accesibilidad,223.0,223,0.8314697793246385
+Museo de Sitio Huaca Pucllana,aforo_multitudes,107.0,107,0.8606733312116606
+Museo de Sitio Huaca Pucllana,alojamiento,19.0,19,0.8273969888687134
+Museo de Sitio Huaca Pucllana,atencion_servicio,739.0,739,0.8486257187407136
+Museo de Sitio Huaca Pucllana,atractivos,843.0,843,0.8611627086060186
+Museo de Sitio Huaca Pucllana,clima,103.0,103,0.8399984309974226
+Museo de Sitio Huaca Pucllana,costos,335.0,335,0.8297095983775694
+Museo de Sitio Huaca Pucllana,gastronomia,301.0,301,0.8515723222909972
+Museo de Sitio Huaca Pucllana,limpieza,28.0,28,0.83043886082513
+Museo de Sitio Huaca Pucllana,seguridad,19.0,19,0.8356241332857233
+Reserva Nacional de Paracas,accesibilidad,105.0,105,0.78912075871513
+Reserva Nacional de Paracas,aforo_multitudes,117.0,117,0.8180703062277573
+Reserva Nacional de Paracas,alojamiento,10.0,10,0.9137682020664215
+Reserva Nacional de Paracas,atencion_servicio,54.0,54,0.8367776484401138
+Reserva Nacional de Paracas,atractivos,418.0,418,0.8511237566265764
+Reserva Nacional de Paracas,clima,119.0,119,0.8245551110315723
+Reserva Nacional de Paracas,costos,90.0,90,0.8109060201379988
+Reserva Nacional de Paracas,gastronomia,71.0,71,0.8115188949544665
+Reserva Nacional de Paracas,limpieza,165.0,165,0.8090375997803428
+Reserva Nacional de Paracas,seguridad,31.0,31,0.8203230923221957
+Santuario Histórico de Machu Picchu,accesibilidad,1214.0,1214,0.8297545056563036
+Santuario Histórico de Machu Picchu,aforo_multitudes,709.0,709,0.827532161736522
+Santuario Histórico de Machu Picchu,alojamiento,141.0,141,0.8180592894976866
+Santuario Histórico de Machu Picchu,atencion_servicio,898.0,898,0.8455075620609296
+Santuario Histórico de Machu Picchu,atractivos,2218.0,2218,0.8670342309422274
+Santuario Histórico de Machu Picchu,clima,620.0,620,0.8274624008805521
+Santuario Histórico de Machu Picchu,costos,729.0,729,0.8149719742754032
+Santuario Histórico de Machu Picchu,gastronomia,133.0,133,0.822915458141413
+Santuario Histórico de Machu Picchu,limpieza,151.0,151,0.8011125559048937
+Santuario Histórico de Machu Picchu,seguridad,86.0,86,0.7949758019558218
+Valle del Colca,accesibilidad,133.0,133,0.8416933446450341
+Valle del Colca,aforo_multitudes,61.0,61,0.8591005753298275
+Valle del Colca,alojamiento,42.0,42,0.8263776671318781
+Valle del Colca,atencion_servicio,65.0,65,0.8848108144906851
+Valle del Colca,atractivos,522.0,522,0.8891033308145186
+Valle del Colca,clima,103.0,103,0.8739991899832938
+Valle del Colca,costos,47.0,47,0.8034157594467731
+Valle del Colca,gastronomia,60.0,60,0.832052352031072
+Valle del Colca,limpieza,37.0,37,0.8698450842419186
+Valle del Colca,seguridad,16.0,16,0.8333629686385393

@@ -1,0 +1,5 @@
+﻿dataset,filas,reseñas_unicas,destinos,aspectos,negativo,neutro,positivo
+gold_set,2441,1105,10,10,786,631,1024
+train,1679,773,10,10,544,432,703
+validation,365,166,10,10,113,91,161
+test,397,166,10,10,129,108,160
