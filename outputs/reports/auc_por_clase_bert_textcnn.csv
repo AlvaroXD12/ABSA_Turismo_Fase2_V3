@@ -1,4 +1,4 @@
 ﻿modelo,clase,auc
-bert_textcnn,negativo,0.8432835820895522
-bert_textcnn,neutro,0.6265859284890427
-bert_textcnn,positivo,0.9332014767932489
+bert_textcnn,negativo,0.8228913571676502
+bert_textcnn,neutro,0.567442009483532
+bert_textcnn,positivo,0.9281118143459915

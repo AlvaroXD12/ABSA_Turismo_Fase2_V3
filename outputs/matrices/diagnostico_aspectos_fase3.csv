@@ -1,101 +1,101 @@
 ﻿destination,aspecto,score_normalizado_0_1,total_tuplas,diagnostico
-Centro Histórico de Lima,accesibilidad,0.7936046511627908,172.0,percepcion_favorable
-Centro Histórico de Lima,aforo_multitudes,0.8018018018018018,222.0,percepcion_favorable
-Centro Histórico de Lima,alojamiento,0.8421052631578947,19.0,percepcion_favorable
-Centro Histórico de Lima,atencion_servicio,0.8348214285714286,112.0,percepcion_favorable
-Centro Histórico de Lima,atractivos,0.9070961718020542,1071.0,percepcion_favorable
-Centro Histórico de Lima,clima,0.8428571428571429,35.0,percepcion_favorable
-Centro Histórico de Lima,costos,0.7733333333333333,75.0,percepcion_favorable
-Centro Histórico de Lima,gastronomia,0.8925619834710744,242.0,percepcion_favorable
-Centro Histórico de Lima,limpieza,0.8280542986425339,221.0,percepcion_favorable
-Centro Histórico de Lima,seguridad,0.766566265060241,332.0,percepcion_favorable
-Circuito Mágico del Agua,accesibilidad,0.7425213675213675,468.0,percepcion_favorable
-Circuito Mágico del Agua,aforo_multitudes,0.5865051903114187,289.0,percepcion_mixta
-Circuito Mágico del Agua,alojamiento,0.8409090909090908,22.0,percepcion_favorable
-Circuito Mágico del Agua,atencion_servicio,0.6773049645390071,141.0,percepcion_mixta
-Circuito Mágico del Agua,atractivos,0.8820850202429149,988.0,percepcion_favorable
-Circuito Mágico del Agua,clima,0.7866666666666666,75.0,percepcion_favorable
-Circuito Mágico del Agua,costos,0.7082644628099174,605.0,percepcion_favorable
-Circuito Mágico del Agua,gastronomia,0.7643979057591623,191.0,percepcion_favorable
-Circuito Mágico del Agua,limpieza,0.6702127659574468,235.0,percepcion_mixta
-Circuito Mágico del Agua,seguridad,0.7236842105263158,114.0,percepcion_favorable
-Ciudadela de Kuélap,accesibilidad,0.7853982300884956,226.0,percepcion_favorable
-Ciudadela de Kuélap,aforo_multitudes,0.75,58.0,percepcion_favorable
-Ciudadela de Kuélap,alojamiento,0.8,10.0,percepcion_favorable
-Ciudadela de Kuélap,atencion_servicio,0.7464285714285714,140.0,percepcion_favorable
-Ciudadela de Kuélap,atractivos,0.8661087866108786,478.0,percepcion_favorable
-Ciudadela de Kuélap,clima,0.8653846153846154,52.0,percepcion_favorable
-Ciudadela de Kuélap,costos,0.6683168316831684,101.0,percepcion_mixta
-Ciudadela de Kuélap,gastronomia,0.78,25.0,percepcion_favorable
-Ciudadela de Kuélap,limpieza,0.8333333333333333,21.0,percepcion_favorable
-Ciudadela de Kuélap,seguridad,0.7608695652173914,23.0,percepcion_favorable
-Líneas y Geoglifos de Nasca y Palpa,accesibilidad,0.7424242424242424,66.0,percepcion_favorable
-Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,0.6704545454545454,44.0,percepcion_mixta
-Líneas y Geoglifos de Nasca y Palpa,alojamiento,0.6666666666666666,6.0,soporte_bajo
-Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,0.6666666666666666,36.0,percepcion_mixta
-Líneas y Geoglifos de Nasca y Palpa,atractivos,0.8323170731707317,164.0,percepcion_favorable
+Centro Histórico de Lima,accesibilidad,0.6918604651162791,172.0,percepcion_mixta
+Centro Histórico de Lima,aforo_multitudes,0.7094594594594594,222.0,percepcion_favorable
+Centro Histórico de Lima,alojamiento,0.8157894736842105,19.0,percepcion_favorable
+Centro Histórico de Lima,atencion_servicio,0.7991071428571428,112.0,percepcion_favorable
+Centro Histórico de Lima,atractivos,0.8860877684407096,1071.0,percepcion_favorable
+Centro Histórico de Lima,clima,0.8142857142857143,35.0,percepcion_favorable
+Centro Histórico de Lima,costos,0.66,75.0,percepcion_mixta
+Centro Histórico de Lima,gastronomia,0.8016528925619835,242.0,percepcion_favorable
+Centro Histórico de Lima,limpieza,0.7352941176470589,221.0,percepcion_favorable
+Centro Histórico de Lima,seguridad,0.6746987951807228,332.0,percepcion_mixta
+Circuito Mágico del Agua,accesibilidad,0.6933760683760684,468.0,percepcion_mixta
+Circuito Mágico del Agua,aforo_multitudes,0.5467128027681661,289.0,percepcion_mixta
+Circuito Mágico del Agua,alojamiento,0.7045454545454546,22.0,percepcion_favorable
+Circuito Mágico del Agua,atencion_servicio,0.6312056737588653,141.0,percepcion_mixta
+Circuito Mágico del Agua,atractivos,0.8810728744939271,988.0,percepcion_favorable
+Circuito Mágico del Agua,clima,0.6666666666666666,75.0,percepcion_mixta
+Circuito Mágico del Agua,costos,0.671900826446281,605.0,percepcion_mixta
+Circuito Mágico del Agua,gastronomia,0.7382198952879582,191.0,percepcion_favorable
+Circuito Mágico del Agua,limpieza,0.6361702127659574,235.0,percepcion_mixta
+Circuito Mágico del Agua,seguridad,0.6710526315789473,114.0,percepcion_mixta
+Ciudadela de Kuélap,accesibilidad,0.7278761061946902,226.0,percepcion_favorable
+Ciudadela de Kuélap,aforo_multitudes,0.7155172413793103,58.0,percepcion_favorable
+Ciudadela de Kuélap,alojamiento,0.75,10.0,percepcion_favorable
+Ciudadela de Kuélap,atencion_servicio,0.6928571428571428,140.0,percepcion_mixta
+Ciudadela de Kuélap,atractivos,0.8723849372384938,478.0,percepcion_favorable
+Ciudadela de Kuélap,clima,0.8365384615384616,52.0,percepcion_favorable
+Ciudadela de Kuélap,costos,0.6039603960396039,101.0,percepcion_mixta
+Ciudadela de Kuélap,gastronomia,0.64,25.0,percepcion_mixta
+Ciudadela de Kuélap,limpieza,0.8095238095238095,21.0,percepcion_favorable
+Ciudadela de Kuélap,seguridad,0.6956521739130435,23.0,percepcion_mixta
+Líneas y Geoglifos de Nasca y Palpa,accesibilidad,0.6893939393939394,66.0,percepcion_mixta
+Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,0.6022727272727273,44.0,percepcion_mixta
+Líneas y Geoglifos de Nasca y Palpa,alojamiento,0.5833333333333334,6.0,soporte_bajo
+Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,0.6111111111111112,36.0,percepcion_mixta
+Líneas y Geoglifos de Nasca y Palpa,atractivos,0.8414634146341464,164.0,percepcion_favorable
 Líneas y Geoglifos de Nasca y Palpa,clima,0.7954545454545454,22.0,percepcion_favorable
-Líneas y Geoglifos de Nasca y Palpa,costos,0.5777777777777777,45.0,percepcion_mixta
-Líneas y Geoglifos de Nasca y Palpa,gastronomia,0.8333333333333333,3.0,soporte_bajo
-Líneas y Geoglifos de Nasca y Palpa,limpieza,0.5,4.0,soporte_bajo
-Líneas y Geoglifos de Nasca y Palpa,seguridad,0.5,13.0,percepcion_mixta
-Monasterio de Santa Catalina,accesibilidad,0.7965686274509804,204.0,percepcion_favorable
-Monasterio de Santa Catalina,aforo_multitudes,0.8541666666666667,96.0,percepcion_favorable
-Monasterio de Santa Catalina,alojamiento,0.896551724137931,29.0,percepcion_favorable
-Monasterio de Santa Catalina,atencion_servicio,0.8568548387096775,496.0,percepcion_favorable
-Monasterio de Santa Catalina,atractivos,0.9216216216216216,740.0,percepcion_favorable
-Monasterio de Santa Catalina,clima,0.9189189189189189,37.0,percepcion_favorable
-Monasterio de Santa Catalina,costos,0.7779255319148937,376.0,percepcion_favorable
-Monasterio de Santa Catalina,gastronomia,0.7941176470588236,17.0,percepcion_favorable
-Monasterio de Santa Catalina,limpieza,0.75,32.0,percepcion_favorable
-Monasterio de Santa Catalina,seguridad,0.5833333333333334,6.0,soporte_bajo
-Museo Tumbas Reales del Señor de Sipán,accesibilidad,0.7441860465116279,129.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,0.8360655737704918,61.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,alojamiento,0.6,5.0,soporte_bajo
-Museo Tumbas Reales del Señor de Sipán,atencion_servicio,0.7994428969359331,359.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,atractivos,0.8561946902654867,904.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,clima,0.8148148148148149,27.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,costos,0.7175324675324675,154.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,gastronomia,0.8636363636363636,11.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,limpieza,0.7978723404255319,47.0,percepcion_favorable
-Museo Tumbas Reales del Señor de Sipán,seguridad,0.6714285714285715,35.0,percepcion_mixta
-Museo de Sitio Huaca Pucllana,accesibilidad,0.8340807174887892,223.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,aforo_multitudes,0.7570093457943925,107.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,alojamiento,0.7894736842105263,19.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,atencion_servicio,0.8051420838971584,739.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,atractivos,0.8813760379596678,843.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,clima,0.8203883495145632,103.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,costos,0.8238805970149254,335.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,gastronomia,0.8554817275747508,301.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,limpieza,0.8214285714285714,28.0,percepcion_favorable
-Museo de Sitio Huaca Pucllana,seguridad,0.7894736842105263,19.0,percepcion_favorable
-Reserva Nacional de Paracas,accesibilidad,0.7238095238095238,105.0,percepcion_favorable
-Reserva Nacional de Paracas,aforo_multitudes,0.5598290598290598,117.0,percepcion_mixta
-Reserva Nacional de Paracas,alojamiento,0.7,10.0,percepcion_favorable
-Reserva Nacional de Paracas,atencion_servicio,0.6203703703703703,54.0,percepcion_mixta
-Reserva Nacional de Paracas,atractivos,0.8265550239234449,418.0,percepcion_favorable
-Reserva Nacional de Paracas,clima,0.8361344537815126,119.0,percepcion_favorable
-Reserva Nacional de Paracas,costos,0.6222222222222222,90.0,percepcion_mixta
-Reserva Nacional de Paracas,gastronomia,0.6338028169014085,71.0,percepcion_mixta
-Reserva Nacional de Paracas,limpieza,0.703030303030303,165.0,percepcion_favorable
-Reserva Nacional de Paracas,seguridad,0.6612903225806451,31.0,percepcion_mixta
-Santuario Histórico de Machu Picchu,accesibilidad,0.8179571663920923,1214.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,aforo_multitudes,0.7898448519040903,709.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,alojamiento,0.7907801418439716,141.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,atencion_servicio,0.8223830734966593,898.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,atractivos,0.8899909828674482,2218.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,clima,0.8395161290322581,620.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,costos,0.7455418381344308,729.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,gastronomia,0.7744360902255639,133.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,limpieza,0.7549668874172186,151.0,percepcion_favorable
-Santuario Histórico de Machu Picchu,seguridad,0.6976744186046512,86.0,percepcion_mixta
-Valle del Colca,accesibilidad,0.8383458646616542,133.0,percepcion_favorable
-Valle del Colca,aforo_multitudes,0.8114754098360656,61.0,percepcion_favorable
-Valle del Colca,alojamiento,0.8571428571428572,42.0,percepcion_favorable
-Valle del Colca,atencion_servicio,0.8769230769230769,65.0,percepcion_favorable
-Valle del Colca,atractivos,0.9157088122605364,522.0,percepcion_favorable
-Valle del Colca,clima,0.8883495145631068,103.0,percepcion_favorable
-Valle del Colca,costos,0.6595744680851063,47.0,percepcion_mixta
+Líneas y Geoglifos de Nasca y Palpa,costos,0.5888888888888889,45.0,percepcion_mixta
+Líneas y Geoglifos de Nasca y Palpa,gastronomia,0.6666666666666666,3.0,soporte_bajo
+Líneas y Geoglifos de Nasca y Palpa,limpieza,0.0,4.0,soporte_bajo
+Líneas y Geoglifos de Nasca y Palpa,seguridad,0.3076923076923077,13.0,percepcion_desfavorable
+Monasterio de Santa Catalina,accesibilidad,0.7450980392156863,204.0,percepcion_favorable
+Monasterio de Santa Catalina,aforo_multitudes,0.8020833333333333,96.0,percepcion_favorable
+Monasterio de Santa Catalina,alojamiento,0.9310344827586207,29.0,percepcion_favorable
+Monasterio de Santa Catalina,atencion_servicio,0.814516129032258,496.0,percepcion_favorable
+Monasterio de Santa Catalina,atractivos,0.9209459459459459,740.0,percepcion_favorable
+Monasterio de Santa Catalina,clima,0.8783783783783784,37.0,percepcion_favorable
+Monasterio de Santa Catalina,costos,0.7300531914893618,376.0,percepcion_favorable
+Monasterio de Santa Catalina,gastronomia,0.7647058823529411,17.0,percepcion_favorable
+Monasterio de Santa Catalina,limpieza,0.71875,32.0,percepcion_favorable
+Monasterio de Santa Catalina,seguridad,0.6666666666666666,6.0,soporte_bajo
+Museo Tumbas Reales del Señor de Sipán,accesibilidad,0.686046511627907,129.0,percepcion_mixta
+Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,0.7786885245901639,61.0,percepcion_favorable
+Museo Tumbas Reales del Señor de Sipán,alojamiento,0.5,5.0,soporte_bajo
+Museo Tumbas Reales del Señor de Sipán,atencion_servicio,0.7646239554317549,359.0,percepcion_favorable
+Museo Tumbas Reales del Señor de Sipán,atractivos,0.8573008849557522,904.0,percepcion_favorable
+Museo Tumbas Reales del Señor de Sipán,clima,0.7222222222222222,27.0,percepcion_favorable
+Museo Tumbas Reales del Señor de Sipán,costos,0.672077922077922,154.0,percepcion_mixta
+Museo Tumbas Reales del Señor de Sipán,gastronomia,0.8181818181818181,11.0,percepcion_favorable
+Museo Tumbas Reales del Señor de Sipán,limpieza,0.7765957446808511,47.0,percepcion_favorable
+Museo Tumbas Reales del Señor de Sipán,seguridad,0.6571428571428571,35.0,percepcion_mixta
+Museo de Sitio Huaca Pucllana,accesibilidad,0.7668161434977578,223.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,aforo_multitudes,0.7242990654205608,107.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,alojamiento,0.7368421052631579,19.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,atencion_servicio,0.7530446549391069,739.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,atractivos,0.865361803084223,843.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,clima,0.6990291262135923,103.0,percepcion_mixta
+Museo de Sitio Huaca Pucllana,costos,0.7492537313432835,335.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,gastronomia,0.8388704318936877,301.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,limpieza,0.7142857142857143,28.0,percepcion_favorable
+Museo de Sitio Huaca Pucllana,seguridad,0.8157894736842105,19.0,percepcion_favorable
+Reserva Nacional de Paracas,accesibilidad,0.6523809523809524,105.0,percepcion_mixta
+Reserva Nacional de Paracas,aforo_multitudes,0.5128205128205128,117.0,percepcion_mixta
+Reserva Nacional de Paracas,alojamiento,0.6,10.0,percepcion_mixta
+Reserva Nacional de Paracas,atencion_servicio,0.5648148148148148,54.0,percepcion_mixta
+Reserva Nacional de Paracas,atractivos,0.8373205741626795,418.0,percepcion_favorable
+Reserva Nacional de Paracas,clima,0.7647058823529411,119.0,percepcion_favorable
+Reserva Nacional de Paracas,costos,0.5611111111111111,90.0,percepcion_mixta
+Reserva Nacional de Paracas,gastronomia,0.5633802816901409,71.0,percepcion_mixta
+Reserva Nacional de Paracas,limpieza,0.6454545454545455,165.0,percepcion_mixta
+Reserva Nacional de Paracas,seguridad,0.6129032258064516,31.0,percepcion_mixta
+Santuario Histórico de Machu Picchu,accesibilidad,0.7524711696869852,1214.0,percepcion_favorable
+Santuario Histórico de Machu Picchu,aforo_multitudes,0.7080394922425952,709.0,percepcion_favorable
+Santuario Histórico de Machu Picchu,alojamiento,0.7411347517730497,141.0,percepcion_favorable
+Santuario Histórico de Machu Picchu,atencion_servicio,0.772271714922049,898.0,percepcion_favorable
+Santuario Histórico de Machu Picchu,atractivos,0.8843552750225429,2218.0,percepcion_favorable
+Santuario Histórico de Machu Picchu,clima,0.7870967741935484,620.0,percepcion_favorable
+Santuario Histórico de Machu Picchu,costos,0.6652949245541838,729.0,percepcion_mixta
+Santuario Histórico de Machu Picchu,gastronomia,0.6992481203007519,133.0,percepcion_mixta
+Santuario Histórico de Machu Picchu,limpieza,0.6390728476821192,151.0,percepcion_mixta
+Santuario Histórico de Machu Picchu,seguridad,0.5930232558139534,86.0,percepcion_mixta
+Valle del Colca,accesibilidad,0.8157894736842105,133.0,percepcion_favorable
+Valle del Colca,aforo_multitudes,0.8032786885245902,61.0,percepcion_favorable
+Valle del Colca,alojamiento,0.8095238095238095,42.0,percepcion_favorable
+Valle del Colca,atencion_servicio,0.8384615384615385,65.0,percepcion_favorable
+Valle del Colca,atractivos,0.9137931034482758,522.0,percepcion_favorable
+Valle del Colca,clima,0.8689320388349515,103.0,percepcion_favorable
+Valle del Colca,costos,0.6914893617021276,47.0,percepcion_mixta
 Valle del Colca,gastronomia,0.8083333333333333,60.0,percepcion_favorable
-Valle del Colca,limpieza,0.8108108108108107,37.0,percepcion_favorable
+Valle del Colca,limpieza,0.7837837837837838,37.0,percepcion_favorable
 Valle del Colca,seguridad,0.78125,16.0,percepcion_favorable
