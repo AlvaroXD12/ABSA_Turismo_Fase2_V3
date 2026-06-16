@@ -1,0 +1,14 @@
+﻿archivo,existe,tamaño_bytes
+outputs\kappa_por_pares.csv,True,168
+outputs\fleiss_kappa_global.csv,True,104
+outputs\resumen_acuerdo_anotadores.csv,True,291
+outputs\desacuerdos_anotadores.csv,True,63165
+outputs\aspectos_invalidos_para_revision.csv,True,181
+outputs\gold_set_final.csv,True,2601683
+outputs\train.csv,True,1858297
+outputs\validation.csv,True,334480
+outputs\test.csv,True,409184
+data\gold_set_final.csv,True,2601683
+data\train.csv,True,1858297
+data\validation.csv,True,334480
+data\test.csv,True,409184

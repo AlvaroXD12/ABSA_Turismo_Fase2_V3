@@ -1,0 +1,4 @@
+﻿par_anotadores,n_comparado,acuerdo_porcentaje,cohen_kappa
+alvaro_vs_moises,2828,88.01,0.8097
+alvaro_vs_erick,2828,86.03,0.7815
+moises_vs_erick,2828,82.74,0.7311

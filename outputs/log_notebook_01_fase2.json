@@ -1,0 +1,33 @@
+{
+  "notebook": "01_gold_set_kappa_y_construccion_final.ipynb",
+  "anotadores": [
+    "alvaro",
+    "moises",
+    "erick"
+  ],
+  "filas_alineadas": 2828,
+  "filas_gold_set_final": 2736,
+  "filas_desacuerdo_revision": 92,
+  "labels_validos": [
+    "positivo",
+    "neutro",
+    "negativo"
+  ],
+  "aspectos_validos": [
+    "atractivos",
+    "costos",
+    "seguridad",
+    "accesibilidad",
+    "limpieza",
+    "atencion_servicio",
+    "gastronomia",
+    "alojamiento",
+    "clima",
+    "aforo_multitudes"
+  ],
+  "split": {
+    "train_filas": 1932,
+    "validation_filas": 375,
+    "test_filas": 429
+  }
+}
