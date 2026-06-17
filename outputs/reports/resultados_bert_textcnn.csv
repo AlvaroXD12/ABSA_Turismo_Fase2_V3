@@ -1,2 +1,2 @@
 ﻿modelo,accuracy,precision_macro,recall_macro,f1_macro,precision_weighted,recall_weighted,f1_weighted,loss
-bert_textcnn_test,0.7016,0.673,0.6773,0.674,0.7094,0.7016,0.7041,0.929633
+bert_textcnn_test,0.6627,0.6457,0.6382,0.64,0.667,0.6627,0.663,1.469026
