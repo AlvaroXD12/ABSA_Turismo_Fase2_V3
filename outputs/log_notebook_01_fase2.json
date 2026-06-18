@@ -5,9 +5,9 @@
     "moises",
     "erick"
   ],
-  "filas_alineadas": 2869,
-  "filas_gold_set_final": 2776,
-  "filas_desacuerdo_revision": 93,
+  "filas_alineadas": 2828,
+  "filas_gold_set_final": 2763,
+  "filas_desacuerdo_revision": 65,
   "labels_validos": [
     "positivo",
     "neutro",
@@ -26,8 +26,8 @@
     "aforo_multitudes"
   ],
   "split": {
-    "train_filas": 1912,
-    "validation_filas": 443,
-    "test_filas": 421
+    "train_filas": 1936,
+    "validation_filas": 423,
+    "test_filas": 404
   }
 }
