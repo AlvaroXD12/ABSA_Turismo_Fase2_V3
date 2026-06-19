@@ -1,0 +1,12 @@
+{
+  "resultados_por_semilla": "outputs/reports/resultados_bert_textcnn_v3.csv",
+  "resumen_y_veredicto": "outputs/reports/resumen_bert_textcnn_v3.csv",
+  "classification_report": "outputs/reports/classification_report_v3.csv",
+  "por_aspecto": "outputs/reports/por_aspecto_v3.csv",
+  "matriz_confusion": "outputs/visualizations/matriz_confusion_v3.png",
+  "splits": [
+    "data/train_gold_v3.csv",
+    "data/val_gold_v3.csv",
+    "data/test_gold_v3.csv"
+  ]
+}

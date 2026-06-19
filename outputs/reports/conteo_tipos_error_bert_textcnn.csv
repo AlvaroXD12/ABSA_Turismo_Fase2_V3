@@ -1,7 +1,7 @@
 ﻿tipo_error,count
-positivo_como_neutro,42
-negativo_como_neutro,29
+negativo_como_neutro,34
+positivo_como_neutro,34
 negativo_como_positivo,23
 neutro_como_positivo,20
-neutro_como_negativo,20
-positivo_como_negativo,13
+neutro_como_negativo,16
+positivo_como_negativo,11

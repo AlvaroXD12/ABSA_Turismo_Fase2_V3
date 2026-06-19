@@ -2,6 +2,7 @@
 venv/
 venv_gpu/
 env/
+absa_env/
 .env
 
 # Jupyter Notebooks
