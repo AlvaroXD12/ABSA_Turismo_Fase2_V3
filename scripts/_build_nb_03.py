@@ -49,7 +49,8 @@ pd.set_option("display.max_columns", 60); pd.set_option("display.width", 200)
 # Raiz del proyecto (el notebook vive en notebooks/)
 BASE = Path.cwd().parent if Path.cwd().name.lower() == "notebooks" else Path.cwd()
 DATA, REP, VIS = BASE / "data", BASE / "outputs" / "reports", BASE / "outputs" / "visualizations"
-for d in (REP, VIS): d.mkdir(parents=True, exist_ok=True)
+MODELS_DIR, PRED_DIR, MATR_DIR = BASE / "models", BASE / "outputs" / "predictions", BASE / "outputs" / "matrices"
+for d in (REP, VIS, MODELS_DIR, PRED_DIR, MATR_DIR): d.mkdir(parents=True, exist_ok=True)
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 USE_AMP = torch.cuda.is_available()
@@ -60,8 +61,10 @@ MODEL_NAME = "bert-base-multilingual-cased"
 MAX_LEN, BATCH, EPOCHS = 256, 8, 12
 LR, WEIGHT_DECAY, WARMUP_RATIO, PATIENCE, DROPOUT = 2e-5, 0.10, 0.10, 3, 0.40
 CNN_FILTERS, CNN_KERNELS = 128, (2, 3, 4)
-SEEDS = [42, 7, 123]            # >=3 semillas (requisito de la spec)
-FOCAL_GAMMA, NEG_BOOST = 2.0, 1.5
+SEEDS = [42, 7, 123, 2024, 77]  # 5 semillas: mejor ensemble + menos varianza (apunta a 0.70)
+FOCAL_GAMMA, NEG_BOOST = 1.0, 1.2   # menos agresivo: recupera precision del negativo
+LABEL_SMOOTHING = 0.1               # mejor calibracion de probabilidades (ayuda neg/neutro)
+CALIBRAR_DECISION = True            # tras entrenar, ajusta la frontera en val para maximizar F1-macro
 # GPU con poca VRAM (<6GB): pon True y baja BATCH a 4. GPU potente: deja False y sube BATCH.
 USE_GRADIENT_CHECKPOINTING = False
 # Umbrales de la spec
@@ -185,7 +188,8 @@ code(r"""
 class FocalLoss(nn.Module):
     def __init__(self, weight, gamma): super().__init__(); self.w=weight; self.g=gamma
     def forward(self, logits, y):
-        ce = nn.functional.cross_entropy(logits, y, weight=self.w, reduction="none")
+        ce = nn.functional.cross_entropy(logits, y, weight=self.w, reduction="none",
+                                         label_smoothing=LABEL_SMOOTHING)
         return (((1 - torch.exp(-ce)) ** self.g) * ce).mean()
 
 def class_weights(labels):
@@ -201,10 +205,16 @@ print(f"Focal gamma = {FOCAL_GAMMA} | NEG_BOOST = {NEG_BOOST}")
 """)
 
 md(r"""
-## 6. Entrenamiento con ≥ 3 semillas
+## 6. Entrenamiento con 5 semillas + calibración de decisión
 
 Cada semilla: entrenamiento con early stopping por F1-macro en validación; se guarda el
-mejor checkpoint. Al final, **ensemble** por promedio de probabilidades.
+mejor checkpoint. Al final, **ensemble** por promedio de probabilidades de las 5 semillas.
+
+Para cerrar el último tramo hacia 0.70 sin re-entrenar, se añade **calibración de la
+frontera de decisión**: sobre el conjunto de **validación** se busca el sesgo por clase
+(en log-probabilidad) que maximiza el F1-macro, y ese mismo ajuste se aplica a test y al
+corpus. Esto **rebalancea la precisión/recall de la clase negativa** (que el modelo tendía
+a sobre-predecir). Es una técnica estándar: se ajusta en val, se evalúa en test.
 """)
 
 code(r"""
@@ -227,6 +237,25 @@ def predict(model, loader):
                 lo = model(b["input_ids"].to(DEVICE), b["attention_mask"].to(DEVICE))
             P.append(torch.softmax(lo.float(), 1).cpu().numpy()); T += [I2L[y] for y in b["labels"].numpy()]
     return np.concatenate(P), T
+
+def apply_bias(probs, bias):
+    return [I2L[i] for i in (np.log(probs + 1e-9) + bias).argmax(1)]
+
+def best_bias(val_probs, val_trues):
+    # Calibracion de decision: busca el sesgo por clase (en log-prob) que maximiza
+    # F1-macro en VALIDACION. Rebalancea precision/recall del negativo sin re-entrenar.
+    # Se fija el sesgo de 'positivo' en 0 (solo importan las diferencias).
+    if not CALIBRAR_DECISION:
+        return np.zeros(3)
+    logp = np.log(val_probs + 1e-9)
+    grid = np.arange(-1.2, 1.21, 0.2)
+    best, bb = -1.0, np.zeros(3)
+    for b0 in grid:
+        for b1 in grid:
+            b = np.array([b0, b1, 0.0])
+            f1 = metrics(val_trues, [I2L[i] for i in (logp + b).argmax(1)])["f1_macro"]
+            if f1 > best: best, bb = f1, b
+    return bb
 
 def train_one(seed):
     set_seed(seed)
@@ -256,25 +285,36 @@ def train_one(seed):
             pat += 1
             if pat >= PATIENCE: print("    early stopping"); break
     if best_state: model.load_state_dict(best_state)
-    tp, tt = predict(model, el); del model
+    torch.save(best_state, MODELS_DIR / f"modelo_v3_seed{seed}.pt")   # para inferencia sobre el corpus
+    tp, tt = predict(model, el)
+    vp, vtv = predict(model, vl)          # probs de val (para calibrar la decision)
+    del model
     if torch.cuda.is_available(): torch.cuda.empty_cache()
-    return tp, tt
+    return tp, tt, vp, vtv
 
 t0 = time.time()
-rows, probs, test_trues = [], [], None
+rows, probs, val_probs, test_trues, val_trues = [], [], [], None, None
 for seed in SEEDS:
     print(f"=== Semilla {seed} ===")
-    p, tt = train_one(seed); test_trues = tt; probs.append(p)
+    p, tt, vp, vtv = train_one(seed); test_trues = tt; val_trues = vtv; probs.append(p); val_probs.append(vp)
     m = metrics(tt, [I2L[i] for i in p.argmax(1)])
     rows.append({"seed": seed, **{k: round(v, 4) for k, v in m.items()}})
     print(f"  -> f1_macro={m['f1_macro']:.3f} f1_neg={m['f1_negativo']:.3f} rec_neg={m['recall_negativo']:.3f} f1_neu={m['f1_neutro']:.3f}")
 
 det = pd.DataFrame(rows)
-ens_probs = np.mean(probs, axis=0)
-ens_preds = [I2L[i] for i in ens_probs.argmax(1)]
-ens_metrics = metrics(test_trues, ens_preds)
+ens_probs = np.mean(probs, axis=0)        # ensemble en test
+ens_val   = np.mean(val_probs, axis=0)    # ensemble en val (para calibrar)
+
+# Calibracion de la frontera de decision sobre validacion -> se aplica a test
+BIAS = best_bias(ens_val, val_trues)
+ens_preds_raw = [I2L[i] for i in ens_probs.argmax(1)]
+ens_preds     = apply_bias(ens_probs, BIAS)          # decision calibrada (oficial)
+ens_metrics   = metrics(test_trues, ens_preds)
+f1_raw  = metrics(test_trues, ens_preds_raw)["f1_macro"]
 det.to_csv(REP / "resultados_bert_textcnn_v3.csv", index=False, encoding="utf-8-sig")
 print(f"\nEntrenamiento completo en {(time.time()-t0)/60:.1f} min")
+print(f"Sesgo de calibracion (neg,neu,pos): {np.round(BIAS,2)}")
+print(f"F1-macro ensemble: SIN calibrar={f1_raw:.4f}  ->  CON calibracion={ens_metrics['f1_macro']:.4f}")
 """)
 
 md(r"""## 7. Resultados por semilla""")
@@ -341,7 +381,75 @@ print("\nRESULTADO:", "✅ ÉXITO TÉCNICO (cumple la spec)" if todos
       else "⚠️ NO alcanza el umbral -> VERSIÓN BASE DEFENDIBLE (con evidencia metodológica)")
 """)
 
-md(r"""## 11. Exportación de resultados (trazabilidad)""")
+md(r"""
+## 11. Inferencia sobre el corpus completo
+
+Para construir la matriz que consume la Fase 3 se aplica el **ensemble** de los modelos
+entrenados (uno por semilla) sobre **todo el corpus** (`tourism_reviews_clean_absa_ready.csv`,
+≈21.040 pares reseña×aspecto). Se promedian las probabilidades de las semillas y se guarda
+`outputs/predictions/predicciones_corpus_v3.csv` (`review_uid, destination, aspecto, label_pred`).
+Así las predicciones viajan por git (no hace falta transferir el modelo `.pt`).
+""")
+code(r"""
+corpus = pd.read_csv(BASE / "outputs/predictions/tourism_reviews_clean_absa_ready.csv", encoding="utf-8-sig")
+if "input_modelo" not in corpus.columns or corpus["input_modelo"].isna().any():
+    corpus["input_modelo"] = "aspecto: " + corpus["aspecto"].astype(str) + " reseña: " + corpus["text_clean"].astype(str)
+print("Corpus a predecir:", len(corpus), "pares reseña×aspecto")
+
+class InferDS(Dataset):
+    def __init__(self, texts, tok): self.t=list(texts); self.tok=tok
+    def __len__(self): return len(self.t)
+    def __getitem__(self, i):
+        e = self.tok(str(self.t[i]), add_special_tokens=True, max_length=MAX_LEN, padding="max_length",
+                     truncation=True, return_attention_mask=True, return_tensors="pt")
+        return {"input_ids": e["input_ids"].squeeze(0), "attention_mask": e["attention_mask"].squeeze(0)}
+
+_tok = AutoTokenizer.from_pretrained(MODEL_NAME)
+cl = DataLoader(InferDS(corpus["input_modelo"], _tok), batch_size=max(BATCH, 16))
+corpus_probs = np.zeros((len(corpus), 3))
+for seed in SEEDS:                                  # ensemble: una semilla a la vez (poca memoria)
+    model = BERTTextCNN().to(DEVICE)
+    model.load_state_dict(torch.load(MODELS_DIR / f"modelo_v3_seed{seed}.pt", map_location="cpu"))
+    model.eval()
+    pos = 0
+    with torch.no_grad():
+        for b in cl:
+            with torch.autocast("cuda", enabled=USE_AMP):
+                lo = model(b["input_ids"].to(DEVICE), b["attention_mask"].to(DEVICE))
+            p = torch.softmax(lo.float(), 1).cpu().numpy()
+            corpus_probs[pos:pos+len(p)] += p; pos += len(p)
+    del model
+    if torch.cuda.is_available(): torch.cuda.empty_cache()
+    print(f"  inferencia corpus seed {seed} lista")
+corpus_probs /= len(SEEDS)
+corpus["label_pred"] = apply_bias(corpus_probs, BIAS)   # misma decision calibrada que en test
+pred_cols = ["review_uid", "destination", "aspecto", "label_pred"]
+corpus[pred_cols].to_csv(PRED_DIR / "predicciones_corpus_v3.csv", index=False, encoding="utf-8-sig")
+print("Predicciones corpus ->", PRED_DIR / "predicciones_corpus_v3.csv")
+print("Distribución de polaridad predicha en el corpus:", corpus["label_pred"].value_counts().to_dict())
+""")
+
+md(r"""
+## 12. Matriz destino-aspecto-sentimiento
+
+Con las predicciones del modelo sobre el corpus se construye la matriz analítica que
+consumirá la Fase 3 (campos por celda, score, confianza, niveles de evidencia y conflicto;
+reglas R12–R16 de la spec). Se reutiliza `scripts/generar_matriz_absa.py`.
+""")
+code(r"""
+import sys
+sys.path.append(str(BASE / "scripts"))
+from generar_matriz_absa import build_matrix
+
+matriz = build_matrix(corpus[["review_uid", "destination", "aspecto", "label_pred"]])
+matriz.to_csv(MATR_DIR / "matriz_destino_aspecto_sentimiento.csv", index=False, encoding="utf-8-sig")
+print("Matriz ->", MATR_DIR / "matriz_destino_aspecto_sentimiento.csv", "| celdas:", len(matriz))
+print("Niveles de evidencia:", matriz["nivel_evidencia"].value_counts().to_dict())
+print("Celdas con conflicto:", int(matriz["conflict_flag"].sum()))
+display(matriz.head(20))
+""")
+
+md(r"""## 13. Exportación de resultados (trazabilidad)""")
 code(r"""
 resumen = {**{f"ensemble_{k}": round(v, 4) for k, v in ens_metrics.items()},
            **{f"media_{c}": round(det[c].mean(), 4) for c in cols},
@@ -354,6 +462,8 @@ indice = {
     "classification_report": "outputs/reports/classification_report_v3.csv",
     "por_aspecto": "outputs/reports/por_aspecto_v3.csv",
     "matriz_confusion": "outputs/visualizations/matriz_confusion_v3.png",
+    "predicciones_corpus": "outputs/predictions/predicciones_corpus_v3.csv",
+    "matriz_destino_aspecto": "outputs/matrices/matriz_destino_aspecto_sentimiento.csv",
     "splits": ["data/train_gold_v3.csv", "data/val_gold_v3.csv", "data/test_gold_v3.csv"],
 }
 with open(REP / "indice_trazabilidad_v3.json", "w", encoding="utf-8") as f:
@@ -362,7 +472,7 @@ print("Artefactos guardados en outputs/. Índice -> outputs/reports/indice_traza
 for k, v in indice.items(): print(f"  {k}: {v}")
 """)
 
-md(r"""## 12. Conclusión""")
+md(r"""## 14. Conclusión""")
 code(r"""
 em = ens_metrics
 print("CONCLUSIÓN (generada de los resultados)")

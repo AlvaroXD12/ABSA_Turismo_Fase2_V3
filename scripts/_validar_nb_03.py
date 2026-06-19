@@ -29,6 +29,10 @@ for i, src in enumerate(code_cells):
         ns["train"], ns["val"], ns["test"] = mini(ns["train"]), mini(ns["val"]), mini(ns["test"])
         shrunk = True
         print(f"  [override] splits reducidos a {len(ns['train'])}/{len(ns['val'])}/{len(ns['test'])} filas")
+    # Tras cargar el corpus de inferencia, reducirlo (si no, son 21040 filas en CPU)
+    if "corpus" in ns and len(ns["corpus"]) > 60:
+        ns["corpus"] = ns["corpus"].head(40).reset_index(drop=True)
+        print(f"  [override] corpus de inferencia reducido a {len(ns['corpus'])} filas")
 
 print("\n==================================================")
 print("VALIDACION OK: el notebook corre de principio a fin (CPU, datos mini).")
