@@ -1,0 +1,5 @@
+﻿config,modelo,head,seed,f1_macro,accuracy,f1_negativo,f1_neutro,f1_positivo
+mbert_textcnn,bert-base-multilingual-cased,cnn,42,0.595,0.6114,0.4974,0.5859,0.7019
+mbert_textcnn,bert-base-multilingual-cased,cnn,7,0.5982,0.6114,0.5152,0.5773,0.7022
+xlmr_simple,xlm-roberta-base,simple,42,0.5862,0.599,0.5135,0.5263,0.7188
+xlmr_simple,xlm-roberta-base,simple,7,0.6103,0.6238,0.5171,0.5923,0.7215

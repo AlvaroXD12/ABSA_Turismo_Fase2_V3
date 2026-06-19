@@ -1,0 +1,65 @@
+{
+  "fuente": "data/gold_set_v3.csv",
+  "total_items": 3562,
+  "total_review_uids": 1564,
+  "metodo": "StratifiedGroupKFold(n_splits=20, shuffle=True, random_state=42); test=folds{0,1,2}, val=folds{3,4,5}, train=resto",
+  "objetivo_proporcion": "70/15/15",
+  "proporcion_real": {
+    "train": 70.13,
+    "val": 14.94,
+    "test": 14.94
+  },
+  "no_fuga_review_uid": true,
+  "solapamientos": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "por_split": {
+    "train": {
+      "items": 2498,
+      "pct_items": 70.13,
+      "review_uids": 1077,
+      "polaridad": {
+        "negativo": 545,
+        "neutro": 809,
+        "positivo": 1144
+      },
+      "polaridad_pct": {
+        "negativo": 21.82,
+        "neutro": 32.39,
+        "positivo": 45.8
+      }
+    },
+    "val": {
+      "items": 532,
+      "pct_items": 14.94,
+      "review_uids": 243,
+      "polaridad": {
+        "negativo": 117,
+        "neutro": 173,
+        "positivo": 242
+      },
+      "polaridad_pct": {
+        "negativo": 21.99,
+        "neutro": 32.52,
+        "positivo": 45.49
+      }
+    },
+    "test": {
+      "items": 532,
+      "pct_items": 14.94,
+      "review_uids": 244,
+      "polaridad": {
+        "negativo": 116,
+        "neutro": 173,
+        "positivo": 243
+      },
+      "polaridad_pct": {
+        "negativo": 21.8,
+        "neutro": 32.52,
+        "positivo": 45.68
+      }
+    }
+  }
+}

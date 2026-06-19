@@ -1,0 +1,8 @@
+﻿aspecto,menciones_corpus,neg_actual_gold,objetivo_neg,deficit_neg,candidatos_a_minar,candidatos_disponibles_corpus,candidatos_incluidos,suficiente
+costos,2322,105,120,15,30,595,30,True
+seguridad,614,43,120,77,154,157,154,True
+accesibilidad,2617,83,120,37,74,586,74,True
+limpieza,912,32,120,88,176,246,176,True
+atencion_servicio,2777,50,120,70,140,466,140,True
+aforo_multitudes,1654,87,120,33,66,694,66,True
+alojamiento,282,1,120,119,238,67,67,False

@@ -1,0 +1,135 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+DEVICE: cuda | AMP: True
+train=1936  val=423  test=404
+
+=== mbert_textcnn  (bert-base-multilingual-cased, head=cnn) ===
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3320.63it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\mejoras_ablacion_rapido.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=USE_AMP)
+  seed= 42 f1_macro=0.595 acc=0.611 f1_neutro=0.586
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3197.29it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: bert-base-multilingual-cased
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\mejoras_ablacion_rapido.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=USE_AMP)
+  seed=  7 f1_macro=0.598 acc=0.611 f1_neutro=0.577
+  >> ENSEMBLE f1_macro=0.599 acc=0.614 f1_neutro=0.592
+
+=== xlmr_simple  (xlm-roberta-base, head=simple) ===
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3113.09it/s]
+[transformers] [1mXLMRobertaModel LOAD REPORT[0m from: xlm-roberta-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\mejoras_ablacion_rapido.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=USE_AMP)
+D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\torch\optim\lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+  seed= 42 f1_macro=0.586 acc=0.599 f1_neutro=0.526
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2866.60it/s]
+[transformers] [1mXLMRobertaModel LOAD REPORT[0m from: xlm-roberta-base
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\mejoras_ablacion_rapido.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=USE_AMP)
+D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\torch\optim\lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+[transformers] Could not extract SentencePiece model from C:\Users\ALVARO CHAN\.cache\huggingface\hub\models--cardiffnlp--twitter-xlm-roberta-base-sentiment\snapshots\f2f1202b1bdeb07342385c3f807f9c07cd8f5cf8\sentencepiece.bpe.model using sentencepiece library due to 
+SentencePieceExtractor requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+. Falling back to TikToken extractor.
+  seed=  7 f1_macro=0.610 acc=0.624 f1_neutro=0.592
+  >> ENSEMBLE f1_macro=0.592 acc=0.604 f1_neutro=0.555
+
+=== xlmr_sent_simple  (cardiffnlp/twitter-xlm-roberta-base-sentiment, head=simple) ===
+Traceback (most recent call last):
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\tokenization_utils_tokenizers.py", line 217, in convert_to_native_format
+    extractor = SentencePieceExtractor(vocab_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 152, in __init__
+    requires_backends(self, "sentencepiece")
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\utils\import_utils.py", line 2076, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+SentencePieceExtractor requires the SentencePiece library but it was not found in your environment. Check out the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1920, in extract_vocab_merges_from_model
+    from tiktoken.load import load_tiktoken_bpe
+ModuleNotFoundError: No module named 'tiktoken'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\mejoras_ablacion_rapido.py", line 241, in <module>
+    probs, trues = train_one(model_name, head, seed, bs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\mejoras_ablacion_rapido.py", line 185, in train_one
+    tok = AutoTokenizer.from_pretrained(model_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 891, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\tokenization_utils_base.py", line 1744, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\tokenization_utils_base.py", line 1931, in _from_pretrained
+    init_kwargs = cls.convert_to_native_format(**init_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\tokenization_utils_tokenizers.py", line 283, in convert_to_native_format
+    local_kwargs["tokenizer_object"] = converter.converted()
+                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1957, in converted
+    tokenizer = self.tokenizer()
+                ^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1950, in tokenizer
+    vocab_scores, merges = self.extract_vocab_merges_from_model(self.vocab_file)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\transformers\convert_slow_tokenizer.py", line 1922, in extract_vocab_merges_from_model
+    raise ValueError(
+ValueError: `tiktoken` is required to read a `tiktoken` file. Install it with `pip install tiktoken`.

@@ -1,0 +1,2 @@
+﻿config,modelo,head,seed,f1_macro,accuracy,f1_negativo,f1_neutro,f1_positivo
+mbert_textcnn,bert-base-multilingual-cased,cnn,42,0.6144,0.6262,0.5354,0.6075,0.7003

@@ -1,0 +1,42 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+train=1936 val=423 test=404
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 2846.27it/s]
+[transformers] [1mXLMRobertaModel LOAD REPORT[0m from: cardiffnlp/twitter-xlm-roberta-base-sentiment
+Key                        | Status     | 
+---------------------------+------------+-
+classifier.dense.bias      | UNEXPECTED | 
+classifier.dense.weight    | UNEXPECTED | 
+classifier.out_proj.weight | UNEXPECTED | 
+classifier.out_proj.bias   | UNEXPECTED | 
+pooler.dense.bias          | MISSING    | 
+pooler.dense.weight        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\run_cardiff.py:93: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=USE_AMP)
+D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\torch\optim\lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+  seed=42 f1_macro=0.582 acc=0.599 f1_neutro=0.511
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 3387.83it/s]
+[transformers] [1mXLMRobertaModel LOAD REPORT[0m from: cardiffnlp/twitter-xlm-roberta-base-sentiment
+Key                        | Status     | 
+---------------------------+------------+-
+classifier.dense.bias      | UNEXPECTED | 
+classifier.dense.weight    | UNEXPECTED | 
+classifier.out_proj.weight | UNEXPECTED | 
+classifier.out_proj.bias   | UNEXPECTED | 
+pooler.dense.bias          | MISSING    | 
+pooler.dense.weight        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+D:\Tesis\ABSA_Turismo_Fase2_V3\scripts\run_cardiff.py:93: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=USE_AMP)
+D:\Tesis\ABSA_Turismo_Fase2_V3\venv_gpu\Lib\site-packages\torch\optim\lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+  seed=7 f1_macro=0.621 acc=0.631 f1_neutro=0.580
+  >> ENSEMBLE f1_macro=0.603 acc=0.616 f1_neutro=0.545 f1_neg=0.519
+guardado: D:\Tesis\ABSA_Turismo_Fase2_V3\outputs\reports\cardiff_resultado.csv

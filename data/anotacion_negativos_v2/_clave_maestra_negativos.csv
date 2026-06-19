@@ -1,0 +1,697 @@
+﻿annotation_id,review_uid,destination,aspecto,stars,n_cues_neg,cues_neg,calidad_senal,en_overlap
+gm_7e94d2a120698b0d__alojamiento,gm_7e94d2a120698b0d,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,True
+gm_3d8dbe4c3a13e844__limpieza,gm_3d8dbe4c3a13e844,Museo de Sitio Huaca Pucllana,limpieza,4,1,cuidado,media,False
+gm_0677f1dc52605d09__aforo_multitudes,gm_0677f1dc52605d09,Museo de Sitio Huaca Pucllana,aforo_multitudes,2,1,filthy,alta,True
+gm_8d34fc9ed8f00480__atencion_servicio,gm_8d34fc9ed8f00480,Circuito Mágico del Agua,atencion_servicio,1,4,colas;horrible;pesimo,alta,False
+gm_1222722d8f401bda__atencion_servicio,gm_1222722d8f401bda,Museo de Sitio Huaca Pucllana,atencion_servicio,3,1,cuidado,media,False
+gm_0b482a21d65948d7__accesibilidad,gm_0b482a21d65948d7,Valle del Colca,accesibilidad,4,1,dangerous,media,True
+gm_37a2134f96290a93__atencion_servicio,gm_37a2134f96290a93,Monasterio de Santa Catalina,atencion_servicio,5,1,expensive,media,False
+gm_ac081e2cb561ad25__seguridad,gm_ac081e2cb561ad25,Centro Histórico de Lima,seguridad,5,1,cerrado,media,False
+gm_ea44326e68800331__limpieza,gm_ea44326e68800331,Ciudadela de Kuélap,limpieza,4,1,basura,media,False
+gm_9f4eedd81eb577ed__accesibilidad,gm_9f4eedd81eb577ed,Santuario Histórico de Machu Picchu,accesibilidad,5,3,crowded;mess;overcrowded,alta,False
+gm_3be8af8a3cee8894__limpieza,gm_3be8af8a3cee8894,Circuito Mágico del Agua,limpieza,3,2,basura;lleno,alta,False
+gm_446ca929104ec362__seguridad,gm_446ca929104ec362,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_59a8163927c16d8d__atencion_servicio,gm_59a8163927c16d8d,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,3,1,caro,media,False
+gm_406bfaca93843642__seguridad,gm_406bfaca93843642,Centro Histórico de Lima,seguridad,5,2,caro;cuidado,alta,False
+gm_1b63d48c17644d39__aforo_multitudes,gm_1b63d48c17644d39,Reserva Nacional de Paracas,aforo_multitudes,4,2,cobran;decepcion,alta,False
+gm_7e94d2a120698b0d__limpieza,gm_7e94d2a120698b0d,Santuario Histórico de Machu Picchu,limpieza,5,1,crowded,media,False
+gm_cf453ec46091dc6f__atencion_servicio,gm_cf453ec46091dc6f,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,2,horrible,alta,True
+gm_27550aaf07ade1af__limpieza,gm_27550aaf07ade1af,Santuario Histórico de Machu Picchu,limpieza,5,2,crowded;trash,alta,False
+gm_860f4b92889875b6__alojamiento,gm_860f4b92889875b6,Santuario Histórico de Machu Picchu,alojamiento,1,2,caro;decepcion,alta,False
+gm_b41ba62488292296__limpieza,gm_b41ba62488292296,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_35bd7e39935c86a4__alojamiento,gm_35bd7e39935c86a4,Santuario Histórico de Machu Picchu,alojamiento,4,1,scam,media,False
+gm_2e5935132c347b7a__atencion_servicio,gm_2e5935132c347b7a,Circuito Mágico del Agua,atencion_servicio,1,2,no funciona;pesimo,alta,False
+gm_3c58d9d5820e8501__aforo_multitudes,gm_3c58d9d5820e8501,Reserva Nacional de Paracas,aforo_multitudes,4,1,trash,media,False
+gm_0e195f876148e39e__limpieza,gm_0e195f876148e39e,Centro Histórico de Lima,limpieza,5,2,nunca;sucia,alta,False
+gm_1f3705b7a33b3383__atencion_servicio,gm_1f3705b7a33b3383,Santuario Histórico de Machu Picchu,atencion_servicio,5,3,avoid;crowded;evitar,alta,False
+gm_431e5a227b307f63__atencion_servicio,gm_431e5a227b307f63,Circuito Mágico del Agua,atencion_servicio,2,0,,alta,False
+gm_756a91a137370469__atencion_servicio,gm_756a91a137370469,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,1,1,pesimo,alta,False
+gm_84886a0557ffa8db__seguridad,gm_84886a0557ffa8db,Santuario Histórico de Machu Picchu,seguridad,5,2,avoid;closed,alta,False
+gm_2ce9c58de5e49f8a__accesibilidad,gm_2ce9c58de5e49f8a,Santuario Histórico de Machu Picchu,accesibilidad,5,3,caro;terrible,alta,False
+gm_87265a2798ae1cb0__accesibilidad,gm_87265a2798ae1cb0,Valle del Colca,accesibilidad,5,1,expensive,media,False
+gm_100a9af506ad9793__seguridad,gm_100a9af506ad9793,Santuario Histórico de Machu Picchu,seguridad,4,1,robo,media,False
+gm_1d0599ab37207c90__aforo_multitudes,gm_1d0599ab37207c90,Valle del Colca,aforo_multitudes,3,1,not worth,media,False
+gm_4a6e39c9af23c669__seguridad,gm_4a6e39c9af23c669,Santuario Histórico de Machu Picchu,seguridad,5,1,nunca,media,False
+gm_7b4d18fed5189668__seguridad,gm_7b4d18fed5189668,Santuario Histórico de Machu Picchu,seguridad,5,1,slow,media,False
+gm_34b4a843fec0bdb9__limpieza,gm_34b4a843fec0bdb9,Centro Histórico de Lima,limpieza,5,1,lleno,media,False
+gm_2cb05983c3ef3779__atencion_servicio,gm_2cb05983c3ef3779,Monasterio de Santa Catalina,atencion_servicio,5,1,expensive,media,False
+gm_208a776a78e407ae__accesibilidad,gm_208a776a78e407ae,Centro Histórico de Lima,accesibilidad,5,1,closed,media,True
+gm_b253313b4904c03b__atencion_servicio,gm_b253313b4904c03b,Valle del Colca,atencion_servicio,5,1,expensive,media,False
+gm_532dfb5df1f57736__limpieza,gm_532dfb5df1f57736,Centro Histórico de Lima,limpieza,4,1,closed,media,False
+gm_c1768443a6d72005__seguridad,gm_c1768443a6d72005,Circuito Mágico del Agua,seguridad,4,1,cuidado,media,False
+gm_47eec03310e41479__accesibilidad,gm_47eec03310e41479,Museo Tumbas Reales del Señor de Sipán,accesibilidad,5,1,lleno,media,False
+gm_3ccee15177370baa__seguridad,gm_3ccee15177370baa,Centro Histórico de Lima,seguridad,4,2,lleno;maltrato,alta,False
+gm_0e195f876148e39e__atencion_servicio,gm_0e195f876148e39e,Centro Histórico de Lima,atencion_servicio,5,2,nunca;sucia,alta,False
+gm_8f872969386fbab0__aforo_multitudes,gm_8f872969386fbab0,Valle del Colca,aforo_multitudes,4,2,lleno;rude,alta,False
+gm_bc0af94fc21b3512__alojamiento,gm_bc0af94fc21b3512,Santuario Histórico de Machu Picchu,alojamiento,3,2,expensive;overpriced,alta,False
+gm_1d5908f926aa304c__aforo_multitudes,gm_1d5908f926aa304c,Monasterio de Santa Catalina,aforo_multitudes,5,2,cuidado;lleno,alta,True
+gm_bb2394e71d89182b__alojamiento,gm_bb2394e71d89182b,Santuario Histórico de Machu Picchu,alojamiento,5,1,filthy,media,False
+gm_59a8163927c16d8d__limpieza,gm_59a8163927c16d8d,Museo Tumbas Reales del Señor de Sipán,limpieza,3,1,caro,media,True
+gm_c91313ce2f7a02df__seguridad,gm_c91313ce2f7a02df,Reserva Nacional de Paracas,seguridad,5,1,peligroso,media,True
+gm_519120f898d9eeb8__atencion_servicio,gm_519120f898d9eeb8,Reserva Nacional de Paracas,atencion_servicio,5,1,cuidado,media,True
+gm_c75a15b583c0d2a6__atencion_servicio,gm_c75a15b583c0d2a6,Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,5,1,evitar,media,False
+gm_9fbb4bea13fb357b__seguridad,gm_9fbb4bea13fb357b,Centro Histórico de Lima,seguridad,4,2,cuidado;peligroso,alta,False
+gm_9dd1d19aa8082f5e__limpieza,gm_9dd1d19aa8082f5e,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_31abcd0cc09c46bb__costos,gm_31abcd0cc09c46bb,Centro Histórico de Lima,costos,4,2,cerrado;cobran,alta,False
+gm_45cf57cbfae43a53__seguridad,gm_45cf57cbfae43a53,Valle del Colca,seguridad,5,1,lleno,media,False
+gm_9ae21dfc0c3f07b6__atencion_servicio,gm_9ae21dfc0c3f07b6,Centro Histórico de Lima,atencion_servicio,5,1,cuidado,media,False
+gm_c0371435fc5c7091__accesibilidad,gm_c0371435fc5c7091,Circuito Mágico del Agua,accesibilidad,1,3,colas;horrible,alta,False
+gm_51e03a5c5e93af3a__limpieza,gm_51e03a5c5e93af3a,Santuario Histórico de Machu Picchu,limpieza,4,2,colas;cuidado,alta,False
+gm_2ce74c10b67eb741__limpieza,gm_2ce74c10b67eb741,Centro Histórico de Lima,limpieza,5,1,lleno,media,False
+gm_0861ac0f60afac90__limpieza,gm_0861ac0f60afac90,Circuito Mágico del Agua,limpieza,4,1,cobran,media,False
+gm_8d34fc9ed8f00480__seguridad,gm_8d34fc9ed8f00480,Circuito Mágico del Agua,seguridad,1,4,colas;horrible;pesimo,alta,True
+gm_27550aaf07ade1af__atencion_servicio,gm_27550aaf07ade1af,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,crowded;trash,alta,False
+gm_5ae6fa6f1ae65fa4__alojamiento,gm_5ae6fa6f1ae65fa4,Santuario Histórico de Machu Picchu,alojamiento,5,2,avoid;closed,alta,True
+gm_1904957ccc3766a1__seguridad,gm_1904957ccc3766a1,Santuario Histórico de Machu Picchu,seguridad,5,2,estafa;peligroso,alta,False
+gm_67ec63d42a73a58b__limpieza,gm_67ec63d42a73a58b,Circuito Mágico del Agua,limpieza,4,1,rude,media,False
+gm_92fa6fc38c04438b__aforo_multitudes,gm_92fa6fc38c04438b,Centro Histórico de Lima,aforo_multitudes,4,3,lleno;robo;sucia,alta,False
+gm_85afb1b6c7d02726__accesibilidad,gm_85afb1b6c7d02726,Santuario Histórico de Machu Picchu,accesibilidad,5,3,crowded;expensive;overcrowded,alta,False
+gm_18ee7275dd6dfb22__seguridad,gm_18ee7275dd6dfb22,Valle del Colca,seguridad,5,1,expensive,media,False
+gm_c6110792494cd63b__seguridad,gm_c6110792494cd63b,Circuito Mágico del Agua,seguridad,4,1,cuidado,media,True
+gm_d16287810aac98e2__limpieza,gm_d16287810aac98e2,Centro Histórico de Lima,limpieza,5,2,horrible,alta,True
+gm_7a194319656fc8e0__limpieza,gm_7a194319656fc8e0,Centro Histórico de Lima,limpieza,4,2,crowded;dirty,alta,False
+gm_039d0315e8dc5753__costos,gm_039d0315e8dc5753,Ciudadela de Kuélap,costos,4,2,crowded;overcrowded,alta,False
+gm_c88a9acdaa1c90a7__limpieza,gm_c88a9acdaa1c90a7,Reserva Nacional de Paracas,limpieza,5,1,basura,media,False
+gm_46d1678075549e0a__seguridad,gm_46d1678075549e0a,Centro Histórico de Lima,seguridad,5,2,cuidado;nunca,alta,False
+gm_b141e04e17536521__limpieza,gm_b141e04e17536521,Santuario Histórico de Machu Picchu,limpieza,5,3,carisimo;cobran;sucio,alta,False
+gm_37d268c4b5ab0a79__alojamiento,gm_37d268c4b5ab0a79,Santuario Histórico de Machu Picchu,alojamiento,5,1,caro,media,False
+gm_dfa230107bd6f1b7__limpieza,gm_dfa230107bd6f1b7,Museo Tumbas Reales del Señor de Sipán,limpieza,4,1,cerrado,media,False
+gm_d89e441ca5247c58__aforo_multitudes,gm_d89e441ca5247c58,Museo de Sitio Huaca Pucllana,aforo_multitudes,5,2,demora;lleno,alta,False
+gm_9caf60eccb41ea1c__seguridad,gm_9caf60eccb41ea1c,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_84886a0557ffa8db__limpieza,gm_84886a0557ffa8db,Santuario Histórico de Machu Picchu,limpieza,5,2,avoid;closed,alta,False
+gm_7d6a65776eee42ac__accesibilidad,gm_7d6a65776eee42ac,Valle del Colca,accesibilidad,5,1,cuidado,media,False
+gm_9cc97b6b659e15db__accesibilidad,gm_9cc97b6b659e15db,Circuito Mágico del Agua,accesibilidad,5,3,cobran;cuidado;lleno,alta,False
+gm_e46b5b49ccede236__alojamiento,gm_e46b5b49ccede236,Santuario Histórico de Machu Picchu,alojamiento,5,1,dangerous,media,False
+gm_a179086e03b6931b__atencion_servicio,gm_a179086e03b6931b,Monasterio de Santa Catalina,atencion_servicio,5,2,cobran;lleno,alta,False
+gm_87355ff074b78f74__seguridad,gm_87355ff074b78f74,Centro Histórico de Lima,seguridad,4,1,closed,media,True
+gm_66bd712b659a6235__limpieza,gm_66bd712b659a6235,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_f1833f6629a75130__seguridad,gm_f1833f6629a75130,Museo de Sitio Huaca Pucllana,seguridad,5,1,cuidado,media,True
+gm_08cfe975d112b5e2__seguridad,gm_08cfe975d112b5e2,Centro Histórico de Lima,seguridad,5,1,lleno,media,False
+gm_6d4c61f9e42a067a__seguridad,gm_6d4c61f9e42a067a,Centro Histórico de Lima,seguridad,4,3,cobran;cuidado;no recomiendo,alta,False
+gm_88698a631f4065f5__seguridad,gm_88698a631f4065f5,Reserva Nacional de Paracas,seguridad,5,1,cuidado,media,False
+gm_88736afd2452d2f5__alojamiento,gm_88736afd2452d2f5,Valle del Colca,alojamiento,5,1,avoid,media,False
+gm_8458c918b9b2bb05__atencion_servicio,gm_8458c918b9b2bb05,Centro Histórico de Lima,atencion_servicio,5,1,cuidado,media,False
+gm_9b6cfc8189df5f0f__seguridad,gm_9b6cfc8189df5f0f,Museo Tumbas Reales del Señor de Sipán,seguridad,4,1,cuidado,media,False
+gm_d3974026888544e6__limpieza,gm_d3974026888544e6,Ciudadela de Kuélap,limpieza,4,1,cuidado,media,False
+gm_9a85e8ad7d31557d__seguridad,gm_9a85e8ad7d31557d,Santuario Histórico de Machu Picchu,seguridad,5,2,avoid;expensive,alta,False
+gm_3ccee15177370baa__accesibilidad,gm_3ccee15177370baa,Centro Histórico de Lima,accesibilidad,4,2,lleno;maltrato,alta,True
+gm_3b3a9440c3bc4010__seguridad,gm_3b3a9440c3bc4010,Centro Histórico de Lima,seguridad,5,1,cobran,media,False
+gm_a661c6e9c81623ad__atencion_servicio,gm_a661c6e9c81623ad,Museo de Sitio Huaca Pucllana,atencion_servicio,1,1,worst,alta,False
+gm_19cd798348ce4833__limpieza,gm_19cd798348ce4833,Circuito Mágico del Agua,limpieza,2,1,pesima,alta,False
+gm_237a02897c774a62__atencion_servicio,gm_237a02897c774a62,Monasterio de Santa Catalina,atencion_servicio,5,3,cobran;cuidado;lleno,alta,True
+gm_905004b112a3c165__limpieza,gm_905004b112a3c165,Centro Histórico de Lima,limpieza,5,1,cuidado,media,True
+gm_d89e441ca5247c58__atencion_servicio,gm_d89e441ca5247c58,Museo de Sitio Huaca Pucllana,atencion_servicio,5,2,demora;lleno,alta,False
+gm_ac5697fcaa9387ad__accesibilidad,gm_ac5697fcaa9387ad,Centro Histórico de Lima,accesibilidad,5,1,expensive,media,False
+gm_a90f670ba18cc26e__limpieza,gm_a90f670ba18cc26e,Museo Tumbas Reales del Señor de Sipán,limpieza,4,1,cerrado,media,False
+gm_fd8479829ab5caa0__seguridad,gm_fd8479829ab5caa0,Circuito Mágico del Agua,seguridad,3,2,inseguro;nunca,alta,True
+gm_b5bb02cd762e6fc9__aforo_multitudes,gm_b5bb02cd762e6fc9,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,1,disappointing,media,False
+gm_0b86df36efbdb9f4__seguridad,gm_0b86df36efbdb9f4,Centro Histórico de Lima,seguridad,4,2,lleno;scam,alta,False
+gm_b938deae616b0e0e__seguridad,gm_b938deae616b0e0e,Santuario Histórico de Machu Picchu,seguridad,5,1,expensive,media,False
+gm_c0371435fc5c7091__limpieza,gm_c0371435fc5c7091,Circuito Mágico del Agua,limpieza,1,3,colas;horrible,alta,False
+gm_cdb63a3f6437d775__seguridad,gm_cdb63a3f6437d775,Valle del Colca,seguridad,5,2,cobran;robo,alta,False
+gm_1f3705b7a33b3383__aforo_multitudes,gm_1f3705b7a33b3383,Santuario Histórico de Machu Picchu,aforo_multitudes,5,3,avoid;crowded;evitar,alta,False
+gm_3a042085d00b3564__accesibilidad,gm_3a042085d00b3564,Centro Histórico de Lima,accesibilidad,3,1,aglomeracion,media,True
+gm_40c83b090ea2b667__costos,gm_40c83b090ea2b667,Museo de Sitio Huaca Pucllana,costos,5,2,closed;expensive,alta,False
+gm_efa19b39cbddbe93__seguridad,gm_efa19b39cbddbe93,Centro Histórico de Lima,seguridad,3,1,lleno,media,True
+gm_c79fc240a79e52f0__seguridad,gm_c79fc240a79e52f0,Santuario Histórico de Machu Picchu,seguridad,4,1,cobran,media,True
+gm_f3259f7325f91df2__limpieza,gm_f3259f7325f91df2,Circuito Mágico del Agua,limpieza,4,2,terrible,alta,False
+gm_5c66a6f48de9bf7e__alojamiento,gm_5c66a6f48de9bf7e,Santuario Histórico de Machu Picchu,alojamiento,5,1,slow,media,False
+gm_118a40130a5c9cdf__accesibilidad,gm_118a40130a5c9cdf,Reserva Nacional de Paracas,accesibilidad,4,2,evitar;sucia,alta,False
+gm_9e3e6461177120d4__limpieza,gm_9e3e6461177120d4,Museo de Sitio Huaca Pucllana,limpieza,5,1,trash,media,False
+gm_926aa4a53a5d8104__seguridad,gm_926aa4a53a5d8104,Santuario Histórico de Machu Picchu,seguridad,5,1,cobran,media,False
+gm_1d62c05a31886740__aforo_multitudes,gm_1d62c05a31886740,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,5,1,lleno,media,False
+gm_ebf7312fa98f420a__limpieza,gm_ebf7312fa98f420a,Circuito Mágico del Agua,limpieza,5,2,colas;cuidado,alta,True
+gm_8ed1caeb1a2f688d__accesibilidad,gm_8ed1caeb1a2f688d,Circuito Mágico del Agua,accesibilidad,1,3,colas;cuidado;pesimo,alta,False
+gm_8dcdd8a46f2e9f6d__alojamiento,gm_8dcdd8a46f2e9f6d,Santuario Histórico de Machu Picchu,alojamiento,5,1,peligroso,media,False
+gm_235254da10adb74b__atencion_servicio,gm_235254da10adb74b,Museo de Sitio Huaca Pucllana,atencion_servicio,2,0,,alta,False
+gm_96573c69604be948__seguridad,gm_96573c69604be948,Santuario Histórico de Machu Picchu,seguridad,4,2,cerrado;cuidado,alta,False
+gm_19cd798348ce4833__atencion_servicio,gm_19cd798348ce4833,Circuito Mágico del Agua,atencion_servicio,2,1,pesima,alta,False
+gm_9b748c0e1431423c__atencion_servicio,gm_9b748c0e1431423c,Santuario Histórico de Machu Picchu,atencion_servicio,5,3,cobran;cuidado;estafa,alta,False
+gm_45a24b72ef71635a__limpieza,gm_45a24b72ef71635a,Ciudadela de Kuélap,limpieza,5,1,lleno,media,False
+gm_8ed1caeb1a2f688d__seguridad,gm_8ed1caeb1a2f688d,Circuito Mágico del Agua,seguridad,1,3,colas;cuidado;pesimo,alta,False
+gm_43ad8d6691dd1e80__seguridad,gm_43ad8d6691dd1e80,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_392999b44e1a969e__alojamiento,gm_392999b44e1a969e,Santuario Histórico de Machu Picchu,alojamiento,5,1,queue,media,False
+gm_0e195f876148e39e__seguridad,gm_0e195f876148e39e,Centro Histórico de Lima,seguridad,5,2,nunca;sucia,alta,False
+gm_4abdc77c5efc00d6__limpieza,gm_4abdc77c5efc00d6,Museo Tumbas Reales del Señor de Sipán,limpieza,5,1,lleno,media,True
+gm_9a377a24b8540611__atencion_servicio,gm_9a377a24b8540611,Ciudadela de Kuélap,atencion_servicio,4,1,colas,media,False
+gm_076d757e47212feb__costos,gm_076d757e47212feb,Monasterio de Santa Catalina,costos,4,2,closed;expensive,alta,False
+gm_23b79a7124f8a967__seguridad,gm_23b79a7124f8a967,Centro Histórico de Lima,seguridad,4,1,peligroso,media,False
+gm_0ea1d55cec0e98b9__limpieza,gm_0ea1d55cec0e98b9,Circuito Mágico del Agua,limpieza,4,1,expensive,media,False
+gm_4447eb35a861707a__atencion_servicio,gm_4447eb35a861707a,Museo de Sitio Huaca Pucllana,atencion_servicio,5,2,demora;pesimo,alta,False
+gm_1bd2d74ba2eb30ab__seguridad,gm_1bd2d74ba2eb30ab,Centro Histórico de Lima,seguridad,4,1,closed,media,False
+gm_5a3cd9aa1c0a0733__seguridad,gm_5a3cd9aa1c0a0733,Circuito Mágico del Agua,seguridad,4,2,basura;cuidado,alta,False
+gm_9a377a24b8540611__seguridad,gm_9a377a24b8540611,Ciudadela de Kuélap,seguridad,4,1,colas,media,False
+gm_1222722d8f401bda__accesibilidad,gm_1222722d8f401bda,Museo de Sitio Huaca Pucllana,accesibilidad,3,1,cuidado,media,False
+gm_97b009b901332772__atencion_servicio,gm_97b009b901332772,Museo de Sitio Huaca Pucllana,atencion_servicio,3,1,lento,media,False
+gm_92d0e911b03539b9__atencion_servicio,gm_92d0e911b03539b9,Valle del Colca,atencion_servicio,5,1,lleno,media,True
+gm_40c83b090ea2b667__atencion_servicio,gm_40c83b090ea2b667,Museo de Sitio Huaca Pucllana,atencion_servicio,5,2,closed;expensive,alta,False
+gm_2c8cc11878752f11__limpieza,gm_2c8cc11878752f11,Santuario Histórico de Machu Picchu,limpieza,5,1,trash,media,False
+gm_f990b1a4c588e261__accesibilidad,gm_f990b1a4c588e261,Monasterio de Santa Catalina,accesibilidad,5,2,demora;evitar,alta,False
+gm_9deec0eb47313fbc__costos,gm_9deec0eb47313fbc,Santuario Histórico de Machu Picchu,costos,2,4,crowded;queue;terrible,alta,False
+gm_066f85a7b9cae951__aforo_multitudes,gm_066f85a7b9cae951,Ciudadela de Kuélap,aforo_multitudes,5,1,lleno,media,False
+gm_2bc432a02ee0fa37__limpieza,gm_2bc432a02ee0fa37,Museo Tumbas Reales del Señor de Sipán,limpieza,5,2,cuidado;lleno,alta,False
+gm_0a850223fa42700b__limpieza,gm_0a850223fa42700b,Circuito Mágico del Agua,limpieza,5,1,cobran,media,False
+gm_27fb23f1a8e17acf__alojamiento,gm_27fb23f1a8e17acf,Santuario Histórico de Machu Picchu,alojamiento,5,1,caro,media,True
+gm_146c346510d85e58__seguridad,gm_146c346510d85e58,Reserva Nacional de Paracas,seguridad,5,1,peligroso,media,False
+gm_139aa58d9e3907bf__atencion_servicio,gm_139aa58d9e3907bf,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,cuidado,media,False
+gm_4bf7cd71e2dc35f3__limpieza,gm_4bf7cd71e2dc35f3,Centro Histórico de Lima,limpieza,4,1,lleno,media,False
+gm_18ee7275dd6dfb22__costos,gm_18ee7275dd6dfb22,Valle del Colca,costos,5,1,expensive,media,False
+gm_d6f0b901c3b078ec__seguridad,gm_d6f0b901c3b078ec,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_25e3fb4f8a38c8cc__atencion_servicio,gm_25e3fb4f8a38c8cc,Ciudadela de Kuélap,atencion_servicio,4,1,cobran,media,False
+gm_35d345d1a28bfa9c__limpieza,gm_35d345d1a28bfa9c,Reserva Nacional de Paracas,limpieza,4,1,caro,media,False
+gm_eb25a7642cfafbf5__limpieza,gm_eb25a7642cfafbf5,Museo Tumbas Reales del Señor de Sipán,limpieza,5,1,lleno,media,False
+gm_be98cba76e236e0a__alojamiento,gm_be98cba76e236e0a,Santuario Histórico de Machu Picchu,alojamiento,5,1,evitar,media,False
+gm_88698a631f4065f5__limpieza,gm_88698a631f4065f5,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_3a4a0ddffe0a8f14__limpieza,gm_3a4a0ddffe0a8f14,Centro Histórico de Lima,limpieza,4,1,cuidado,media,False
+gm_3efdf12b243b3d9f__limpieza,gm_3efdf12b243b3d9f,Santuario Histórico de Machu Picchu,limpieza,5,2,basura;lleno,alta,False
+gm_48a7afc3346a7c78__limpieza,gm_48a7afc3346a7c78,Reserva Nacional de Paracas,limpieza,3,1,sucia,media,True
+gm_e4c1199a5382ca76__accesibilidad,gm_e4c1199a5382ca76,Museo Tumbas Reales del Señor de Sipán,accesibilidad,3,1,no funciona,media,False
+gm_eaeb3ff119082d25__atencion_servicio,gm_eaeb3ff119082d25,Circuito Mágico del Agua,atencion_servicio,1,2,lleno;pesima,alta,True
+gm_41eae6b074041d2a__limpieza,gm_41eae6b074041d2a,Reserva Nacional de Paracas,limpieza,5,1,sucio,media,False
+gm_c75a15b583c0d2a6__accesibilidad,gm_c75a15b583c0d2a6,Líneas y Geoglifos de Nasca y Palpa,accesibilidad,5,1,evitar,media,True
+gm_d52280487d4ce031__alojamiento,gm_d52280487d4ce031,Reserva Nacional de Paracas,alojamiento,2,0,,alta,False
+gm_4f7db288fb93d848__atencion_servicio,gm_4f7db288fb93d848,Monasterio de Santa Catalina,atencion_servicio,5,1,crowded,media,False
+gm_8eac38ce24cc670f__seguridad,gm_8eac38ce24cc670f,Centro Histórico de Lima,seguridad,5,1,lleno,media,False
+gm_f71e09723b605555__alojamiento,gm_f71e09723b605555,Valle del Colca,alojamiento,5,1,evitar,media,False
+gm_38c2a24524d90c49__seguridad,gm_38c2a24524d90c49,Centro Histórico de Lima,seguridad,5,1,cobran,media,False
+gm_64b32c95702a9779__atencion_servicio,gm_64b32c95702a9779,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,disappointing;slow,alta,False
+gm_7ea274e95dd28357__aforo_multitudes,gm_7ea274e95dd28357,Monasterio de Santa Catalina,aforo_multitudes,5,2,cuidado;lleno,alta,True
+gm_39794d056ef3cd88__atencion_servicio,gm_39794d056ef3cd88,Museo de Sitio Huaca Pucllana,atencion_servicio,3,3,cuidado;evitar;peligroso,alta,False
+gm_4d3588b008332a20__limpieza,gm_4d3588b008332a20,Circuito Mágico del Agua,limpieza,4,2,evitar;saturado,alta,False
+gm_11ef492fe9a3ae5b__alojamiento,gm_11ef492fe9a3ae5b,Líneas y Geoglifos de Nasca y Palpa,alojamiento,5,1,worst,media,True
+gm_d93fe923743d849b__aforo_multitudes,gm_d93fe923743d849b,Ciudadela de Kuélap,aforo_multitudes,5,2,cobran;demora,alta,False
+gm_02fa923fd964c1d1__seguridad,gm_02fa923fd964c1d1,Centro Histórico de Lima,seguridad,5,1,closed,media,False
+gm_54f838ec20760712__seguridad,gm_54f838ec20760712,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_affa5c0cb5e3a00d__aforo_multitudes,gm_affa5c0cb5e3a00d,Valle del Colca,aforo_multitudes,5,1,avoid,media,False
+gm_87b1c624d3792d51__accesibilidad,gm_87b1c624d3792d51,Museo de Sitio Huaca Pucllana,accesibilidad,2,0,,alta,False
+gm_b4965532d087557c__limpieza,gm_b4965532d087557c,Museo de Sitio Huaca Pucllana,limpieza,5,1,closed,media,True
+gm_c67fc0aba65e5020__seguridad,gm_c67fc0aba65e5020,Santuario Histórico de Machu Picchu,seguridad,5,2,cobran;robo,alta,False
+gm_40aa0348915d3eae__costos,gm_40aa0348915d3eae,Reserva Nacional de Paracas,costos,3,2,basura;cobran,alta,False
+gm_9fec5b794f3857de__seguridad,gm_9fec5b794f3857de,Santuario Histórico de Machu Picchu,seguridad,5,2,cuidado;evitar,alta,False
+gm_34f6d246fd91ccd6__atencion_servicio,gm_34f6d246fd91ccd6,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,lleno,media,False
+gm_7a194319656fc8e0__aforo_multitudes,gm_7a194319656fc8e0,Centro Histórico de Lima,aforo_multitudes,4,2,crowded;dirty,alta,False
+gm_2f84a288d73680fa__atencion_servicio,gm_2f84a288d73680fa,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,4,1,demora,media,False
+gm_63696f47171a96e8__atencion_servicio,gm_63696f47171a96e8,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,crowded,media,False
+gm_9fec5b794f3857de__limpieza,gm_9fec5b794f3857de,Santuario Histórico de Machu Picchu,limpieza,5,2,cuidado;evitar,alta,False
+gm_50257ab99c24db16__accesibilidad,gm_50257ab99c24db16,Ciudadela de Kuélap,accesibilidad,5,2,caro;no recomiendo,alta,False
+gm_bf0336ac754c7ff2__seguridad,gm_bf0336ac754c7ff2,Centro Histórico de Lima,seguridad,5,1,slow,media,False
+gm_3160ef77e215a427__costos,gm_3160ef77e215a427,Santuario Histórico de Machu Picchu,costos,5,3,expensive;queue;slow,alta,False
+gm_acd41927d23581d7__seguridad,gm_acd41927d23581d7,Monasterio de Santa Catalina,seguridad,5,1,cerrado,media,False
+gm_572f0b6aea3dca89__seguridad,gm_572f0b6aea3dca89,Ciudadela de Kuélap,seguridad,4,1,cuidado,media,False
+gm_23e7e1630f4c1f9f__seguridad,gm_23e7e1630f4c1f9f,Circuito Mágico del Agua,seguridad,5,2,crowded;mess,alta,False
+gm_4fb993dec3d56efc__seguridad,gm_4fb993dec3d56efc,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_4459efdd15bc95b6__accesibilidad,gm_4459efdd15bc95b6,Reserva Nacional de Paracas,accesibilidad,4,2,caro;cobran,alta,False
+gm_02533990227cc434__aforo_multitudes,gm_02533990227cc434,Ciudadela de Kuélap,aforo_multitudes,5,1,lleno,media,True
+gm_d3974026888544e6__seguridad,gm_d3974026888544e6,Ciudadela de Kuélap,seguridad,4,1,cuidado,media,False
+gm_4d2c45cfa9b72384__costos,gm_4d2c45cfa9b72384,Circuito Mágico del Agua,costos,2,4,decepcion;lleno;no funciona;nunca,alta,False
+gm_ecc353064705da4d__alojamiento,gm_ecc353064705da4d,Monasterio de Santa Catalina,alojamiento,5,1,caro,media,False
+gm_f990b1a4c588e261__aforo_multitudes,gm_f990b1a4c588e261,Monasterio de Santa Catalina,aforo_multitudes,5,2,demora;evitar,alta,False
+gm_c3717bb78e558640__seguridad,gm_c3717bb78e558640,Centro Histórico de Lima,seguridad,4,1,cerrado,media,False
+gm_61308d8b5a7ec533__atencion_servicio,gm_61308d8b5a7ec533,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,nunca,media,False
+gm_823c93c04259ca21__limpieza,gm_823c93c04259ca21,Circuito Mágico del Agua,limpieza,1,1,cobran,alta,False
+gm_3195362964307cf0__alojamiento,gm_3195362964307cf0,Santuario Histórico de Machu Picchu,alojamiento,5,1,slow,media,False
+gm_9cc97b6b659e15db__limpieza,gm_9cc97b6b659e15db,Circuito Mágico del Agua,limpieza,5,3,cobran;cuidado;lleno,alta,False
+gm_9e9c95ba4a6cb2e3__aforo_multitudes,gm_9e9c95ba4a6cb2e3,Ciudadela de Kuélap,aforo_multitudes,5,1,crowded,media,False
+gm_c35a1492fc7820a1__seguridad,gm_c35a1492fc7820a1,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_4bf8b3f8deb19721__alojamiento,gm_4bf8b3f8deb19721,Circuito Mágico del Agua,alojamiento,5,1,crowded,media,False
+gm_45f21879c9df6c11__aforo_multitudes,gm_45f21879c9df6c11,Valle del Colca,aforo_multitudes,5,1,crowded,media,False
+gm_4cba6106d5c4403a__seguridad,gm_4cba6106d5c4403a,Santuario Histórico de Machu Picchu,seguridad,5,2,peligroso;rude,alta,False
+gm_187398ea563e866e__atencion_servicio,gm_187398ea563e866e,Ciudadela de Kuélap,atencion_servicio,4,1,closed,media,False
+gm_31f3d8a28689b433__limpieza,gm_31f3d8a28689b433,Reserva Nacional de Paracas,limpieza,5,1,aglomeracion,media,False
+gm_49352f4fdbb6f3a1__limpieza,gm_49352f4fdbb6f3a1,Ciudadela de Kuélap,limpieza,4,2,abandonado;sucia,alta,False
+gm_f7f459632c48987f__alojamiento,gm_f7f459632c48987f,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_a0777af30cec9602__seguridad,gm_a0777af30cec9602,Circuito Mágico del Agua,seguridad,5,2,dangerous;unsafe,alta,False
+gm_795a4edec2e47fd8__costos,gm_795a4edec2e47fd8,Líneas y Geoglifos de Nasca y Palpa,costos,5,1,expensive,media,False
+gm_59a8163927c16d8d__costos,gm_59a8163927c16d8d,Museo Tumbas Reales del Señor de Sipán,costos,3,1,caro,media,False
+gm_48a7afc3346a7c78__aforo_multitudes,gm_48a7afc3346a7c78,Reserva Nacional de Paracas,aforo_multitudes,3,1,sucia,media,False
+gm_0adf61d01f4c5a08__accesibilidad,gm_0adf61d01f4c5a08,Museo Tumbas Reales del Señor de Sipán,accesibilidad,5,1,cuidado,media,False
+gm_ceee405e9cfb1ddc__limpieza,gm_ceee405e9cfb1ddc,Monasterio de Santa Catalina,limpieza,5,1,cuidado,media,True
+gm_39377d9718caa83a__limpieza,gm_39377d9718caa83a,Santuario Histórico de Machu Picchu,limpieza,5,2,caro;cuidado,alta,False
+gm_51a25d3b1390275c__alojamiento,gm_51a25d3b1390275c,Santuario Histórico de Machu Picchu,alojamiento,5,1,expensive,media,False
+gm_18ee7275dd6dfb22__alojamiento,gm_18ee7275dd6dfb22,Valle del Colca,alojamiento,5,1,expensive,media,False
+gm_b3c4ca7485070ace__seguridad,gm_b3c4ca7485070ace,Centro Histórico de Lima,seguridad,5,1,dangerous,media,False
+gm_547c4a10905696b4__limpieza,gm_547c4a10905696b4,Santuario Histórico de Machu Picchu,limpieza,5,2,evitar;lleno,alta,False
+gm_fb62aabb444e1c5d__limpieza,gm_fb62aabb444e1c5d,Ciudadela de Kuélap,limpieza,4,1,basura,media,False
+gm_1a10c2af0a9db363__seguridad,gm_1a10c2af0a9db363,Líneas y Geoglifos de Nasca y Palpa,seguridad,5,1,avoid,media,False
+gm_5959338c1eb24b46__alojamiento,gm_5959338c1eb24b46,Circuito Mágico del Agua,alojamiento,5,1,expensive,media,False
+gm_a9a2dbed889be0dc__limpieza,gm_a9a2dbed889be0dc,Circuito Mágico del Agua,limpieza,1,4,cobran;lleno;pesima;pesimo,alta,True
+gm_4ce1d8ed14a15f29__costos,gm_4ce1d8ed14a15f29,Valle del Colca,costos,5,2,avoid;expensive,alta,False
+gm_50257ab99c24db16__costos,gm_50257ab99c24db16,Ciudadela de Kuélap,costos,5,2,caro;no recomiendo,alta,False
+gm_55e79b4e6c92b1d1__limpieza,gm_55e79b4e6c92b1d1,Reserva Nacional de Paracas,limpieza,5,2,basura;cuidado,alta,True
+gm_18ee7275dd6dfb22__accesibilidad,gm_18ee7275dd6dfb22,Valle del Colca,accesibilidad,5,1,expensive,media,False
+gm_84590a34a757d4c6__atencion_servicio,gm_84590a34a757d4c6,Circuito Mágico del Agua,atencion_servicio,1,2,horrible,alta,True
+gm_d8c5210fc7fe8d4b__alojamiento,gm_d8c5210fc7fe8d4b,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_e2796fb547fa20fc__limpieza,gm_e2796fb547fa20fc,Reserva Nacional de Paracas,limpieza,3,1,sucia,media,False
+gm_5a7cff29467a8412__seguridad,gm_5a7cff29467a8412,Centro Histórico de Lima,seguridad,5,2,cuidado;sucio,alta,False
+gm_2245250b90ca1bf9__limpieza,gm_2245250b90ca1bf9,Santuario Histórico de Machu Picchu,limpieza,4,2,basura;lleno,alta,False
+gm_8515c5fab7981b74__limpieza,gm_8515c5fab7981b74,Reserva Nacional de Paracas,limpieza,5,1,basura,media,False
+gm_cc74d80c44bc2e79__aforo_multitudes,gm_cc74d80c44bc2e79,Monasterio de Santa Catalina,aforo_multitudes,5,3,caro;cobran;lleno,alta,False
+gm_39794d056ef3cd88__limpieza,gm_39794d056ef3cd88,Museo de Sitio Huaca Pucllana,limpieza,3,3,cuidado;evitar;peligroso,alta,True
+gm_494d3d4a53bd3012__accesibilidad,gm_494d3d4a53bd3012,Circuito Mágico del Agua,accesibilidad,1,3,cobran;terrible,alta,False
+gm_357cb4ec2391546e__accesibilidad,gm_357cb4ec2391546e,Monasterio de Santa Catalina,accesibilidad,2,2,caro;lleno,alta,False
+gm_64b32c95702a9779__alojamiento,gm_64b32c95702a9779,Santuario Histórico de Machu Picchu,alojamiento,5,2,disappointing;slow,alta,False
+gm_a50ebc3612718742__limpieza,gm_a50ebc3612718742,Centro Histórico de Lima,limpieza,4,2,no recomiendo;sucio,alta,False
+gm_fb137d2534ecd8db__limpieza,gm_fb137d2534ecd8db,Circuito Mágico del Agua,limpieza,5,1,expensive,media,False
+gm_d64f783fb8bea9c6__seguridad,gm_d64f783fb8bea9c6,Centro Histórico de Lima,seguridad,5,2,evitar;maltrato,alta,False
+gm_91c83aa25e7eb306__aforo_multitudes,gm_91c83aa25e7eb306,Museo de Sitio Huaca Pucllana,aforo_multitudes,5,3,demora;horrible,alta,False
+gm_d3974026888544e6__atencion_servicio,gm_d3974026888544e6,Ciudadela de Kuélap,atencion_servicio,4,1,cuidado,media,False
+gm_e3e67a0e8849a384__limpieza,gm_e3e67a0e8849a384,Centro Histórico de Lima,limpieza,3,2,abandonado;sucio,alta,False
+gm_f24ff097aea2dfb8__atencion_servicio,gm_f24ff097aea2dfb8,Ciudadela de Kuélap,atencion_servicio,4,1,cuidado,media,True
+gm_4a62a35d85125d8a__accesibilidad,gm_4a62a35d85125d8a,Ciudadela de Kuélap,accesibilidad,2,2,cobran;robo,alta,False
+gm_89da86f57689dc9d__atencion_servicio,gm_89da86f57689dc9d,Circuito Mágico del Agua,atencion_servicio,2,0,,alta,False
+gm_ddaf13d355050f33__limpieza,gm_ddaf13d355050f33,Monasterio de Santa Catalina,limpieza,5,1,lleno,media,False
+gm_b66b0e7bdec3aab2__seguridad,gm_b66b0e7bdec3aab2,Santuario Histórico de Machu Picchu,seguridad,5,1,lleno,media,False
+gm_eb25a7642cfafbf5__seguridad,gm_eb25a7642cfafbf5,Museo Tumbas Reales del Señor de Sipán,seguridad,5,1,lleno,media,False
+gm_d25a65ed7ed504fc__limpieza,gm_d25a65ed7ed504fc,Centro Histórico de Lima,limpieza,5,2,cerrado;cuidado,alta,True
+gm_f8151d725fe07c76__seguridad,gm_f8151d725fe07c76,Museo de Sitio Huaca Pucllana,seguridad,5,1,lleno,media,True
+gm_65a387b500207376__limpieza,gm_65a387b500207376,Reserva Nacional de Paracas,limpieza,4,1,basura,media,False
+gm_4642e252850a1b15__accesibilidad,gm_4642e252850a1b15,Museo de Sitio Huaca Pucllana,accesibilidad,4,2,demora;sucia,alta,False
+gm_9e0f9987a7072d1f__accesibilidad,gm_9e0f9987a7072d1f,Museo de Sitio Huaca Pucllana,accesibilidad,5,1,expensive,media,True
+gm_ebf7312fa98f420a__seguridad,gm_ebf7312fa98f420a,Circuito Mágico del Agua,seguridad,5,2,colas;cuidado,alta,False
+gm_9b82f9bf294f8c95__aforo_multitudes,gm_9b82f9bf294f8c95,Ciudadela de Kuélap,aforo_multitudes,5,1,closed,media,False
+gm_87481c23c4607dde__seguridad,gm_87481c23c4607dde,Circuito Mágico del Agua,seguridad,5,1,cobran,media,False
+gm_544e2abd417a8aec__seguridad,gm_544e2abd417a8aec,Centro Histórico de Lima,seguridad,5,1,expensive,media,True
+gm_237a02897c774a62__aforo_multitudes,gm_237a02897c774a62,Monasterio de Santa Catalina,aforo_multitudes,5,3,cobran;cuidado;lleno,alta,False
+gm_1f3705b7a33b3383__accesibilidad,gm_1f3705b7a33b3383,Santuario Histórico de Machu Picchu,accesibilidad,5,3,avoid;crowded;evitar,alta,False
+gm_6d4c61f9e42a067a__costos,gm_6d4c61f9e42a067a,Centro Histórico de Lima,costos,4,3,cobran;cuidado;no recomiendo,alta,False
+gm_1a5d5d00434c85a8__alojamiento,gm_1a5d5d00434c85a8,Santuario Histórico de Machu Picchu,alojamiento,5,1,caro,media,False
+gm_35bd7e39935c86a4__limpieza,gm_35bd7e39935c86a4,Santuario Histórico de Machu Picchu,limpieza,4,1,scam,media,False
+gm_4a18d0c8238ac01f__atencion_servicio,gm_4a18d0c8238ac01f,Museo de Sitio Huaca Pucllana,atencion_servicio,5,2,avoid;queue,alta,True
+gm_1ab98813e3a6265d__limpieza,gm_1ab98813e3a6265d,Circuito Mágico del Agua,limpieza,5,2,colas;evitar,alta,False
+gm_8f62e474eb33bfcf__limpieza,gm_8f62e474eb33bfcf,Museo de Sitio Huaca Pucllana,limpieza,5,1,dirty,media,False
+gm_3e33613ca72b369d__seguridad,gm_3e33613ca72b369d,Centro Histórico de Lima,seguridad,5,1,closed,media,True
+gm_ac764a170eff3398__accesibilidad,gm_ac764a170eff3398,Museo de Sitio Huaca Pucllana,accesibilidad,3,1,no vale,media,False
+gm_ae593018ebdad4ab__alojamiento,gm_ae593018ebdad4ab,Santuario Histórico de Machu Picchu,alojamiento,4,1,crowded,media,False
+gm_1787ababef2b6b63__limpieza,gm_1787ababef2b6b63,Circuito Mágico del Agua,limpieza,2,2,cobran;cuidado,alta,False
+gm_3e5af088eaf3822f__limpieza,gm_3e5af088eaf3822f,Circuito Mágico del Agua,limpieza,5,3,cuidado;decepcion;nunca,alta,False
+gm_ea465674339ae741__atencion_servicio,gm_ea465674339ae741,Circuito Mágico del Agua,atencion_servicio,1,1,lleno,alta,False
+gm_d9b049623282f067__seguridad,gm_d9b049623282f067,Circuito Mágico del Agua,seguridad,4,1,basura,media,False
+gm_76d44bff863abca1__limpieza,gm_76d44bff863abca1,Circuito Mágico del Agua,limpieza,3,1,cobran,media,False
+gm_da52b6f7dc8f8e30__alojamiento,gm_da52b6f7dc8f8e30,Santuario Histórico de Machu Picchu,alojamiento,4,1,queue,media,False
+gm_bd0e2b433562aecc__aforo_multitudes,gm_bd0e2b433562aecc,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,5,1,lleno,media,False
+gm_f990b1a4c588e261__atencion_servicio,gm_f990b1a4c588e261,Monasterio de Santa Catalina,atencion_servicio,5,2,demora;evitar,alta,False
+gm_708f75658516f49a__limpieza,gm_708f75658516f49a,Museo Tumbas Reales del Señor de Sipán,limpieza,5,2,basura;caro,alta,False
+gm_5546c57b963ed82b__atencion_servicio,gm_5546c57b963ed82b,Centro Histórico de Lima,atencion_servicio,5,1,cuidado,media,False
+gm_648000e42958e44b__seguridad,gm_648000e42958e44b,Reserva Nacional de Paracas,seguridad,4,2,basura;cobran,alta,False
+gm_cef39b07c2ac1437__limpieza,gm_cef39b07c2ac1437,Reserva Nacional de Paracas,limpieza,5,3,basura;cuidado;evitar,alta,False
+gm_998f7b22042a20ff__accesibilidad,gm_998f7b22042a20ff,Líneas y Geoglifos de Nasca y Palpa,accesibilidad,5,1,nunca,media,False
+gm_d73e943bb5fc258e__alojamiento,gm_d73e943bb5fc258e,Santuario Histórico de Machu Picchu,alojamiento,5,1,caro,media,False
+gm_2a095b9508a9f6e4__aforo_multitudes,gm_2a095b9508a9f6e4,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,2,cuidado;lleno,alta,False
+gm_1748c7a52690ec89__seguridad,gm_1748c7a52690ec89,Centro Histórico de Lima,seguridad,5,1,dangerous,media,False
+gm_392264fe8077ba0c__aforo_multitudes,gm_392264fe8077ba0c,Reserva Nacional de Paracas,aforo_multitudes,4,3,sucia;terrible,alta,False
+gm_a2c6d4905deb29f0__atencion_servicio,gm_a2c6d4905deb29f0,Ciudadela de Kuélap,atencion_servicio,5,1,cuidado,media,False
+gm_c03c3f885faedd95__limpieza,gm_c03c3f885faedd95,Centro Histórico de Lima,limpieza,5,2,cuidado;sucia,alta,False
+gm_308e71b4e0a6a57b__seguridad,gm_308e71b4e0a6a57b,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_1b3774313faf3669__limpieza,gm_1b3774313faf3669,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_d2fff028af2198d9__aforo_multitudes,gm_d2fff028af2198d9,Museo de Sitio Huaca Pucllana,aforo_multitudes,1,0,,alta,False
+gm_8fd0f61dc85aa79b__limpieza,gm_8fd0f61dc85aa79b,Circuito Mágico del Agua,limpieza,3,2,cobran;decepcion,alta,False
+gm_c9f26ffe41e745a1__seguridad,gm_c9f26ffe41e745a1,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_5a7cff29467a8412__limpieza,gm_5a7cff29467a8412,Centro Histórico de Lima,limpieza,5,2,cuidado;sucio,alta,False
+gm_f627264fedfd6410__limpieza,gm_f627264fedfd6410,Santuario Histórico de Machu Picchu,limpieza,5,1,trash,media,False
+gm_9989550dd2a918b8__seguridad,gm_9989550dd2a918b8,Santuario Histórico de Machu Picchu,seguridad,4,1,peligroso,media,False
+gm_cd619dd4158452bc__seguridad,gm_cd619dd4158452bc,Santuario Histórico de Machu Picchu,seguridad,5,1,expensive,media,False
+gm_e0bc2786f445b496__atencion_servicio,gm_e0bc2786f445b496,Circuito Mágico del Agua,atencion_servicio,2,1,pesimo,alta,False
+gm_2c2399130ddd31d7__aforo_multitudes,gm_2c2399130ddd31d7,Reserva Nacional de Paracas,aforo_multitudes,3,1,sucia,media,False
+gm_8910bd34be336cbb__accesibilidad,gm_8910bd34be336cbb,Líneas y Geoglifos de Nasca y Palpa,accesibilidad,4,2,terrible,alta,False
+gm_00271d4c9c4e4837__limpieza,gm_00271d4c9c4e4837,Santuario Histórico de Machu Picchu,limpieza,5,1,cuidado,media,False
+gm_a9a2dbed889be0dc__aforo_multitudes,gm_a9a2dbed889be0dc,Circuito Mágico del Agua,aforo_multitudes,1,4,cobran;lleno;pesima;pesimo,alta,False
+gm_0082b8069707bbf3__alojamiento,gm_0082b8069707bbf3,Santuario Histórico de Machu Picchu,alojamiento,5,1,lleno,media,False
+gm_0286a89ae1c4ef26__aforo_multitudes,gm_0286a89ae1c4ef26,Centro Histórico de Lima,aforo_multitudes,4,2,cuidado;tumulto,alta,False
+gm_f51602303e0a0817__alojamiento,gm_f51602303e0a0817,Museo de Sitio Huaca Pucllana,alojamiento,5,1,expensive,media,False
+gm_8dcdd8a46f2e9f6d__seguridad,gm_8dcdd8a46f2e9f6d,Santuario Histórico de Machu Picchu,seguridad,5,1,peligroso,media,False
+gm_cb81ca55bb3b350f__seguridad,gm_cb81ca55bb3b350f,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_51b5a111ee50dc32__atencion_servicio,gm_51b5a111ee50dc32,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,crowded;queue,alta,False
+gm_e3ec63414eeb68d5__limpieza,gm_e3ec63414eeb68d5,Santuario Histórico de Machu Picchu,limpieza,5,2,avoid;crowded,alta,False
+gm_cdb63a3f6437d775__costos,gm_cdb63a3f6437d775,Valle del Colca,costos,5,2,cobran;robo,alta,False
+gm_67f99fedfaacddd8__seguridad,gm_67f99fedfaacddd8,Centro Histórico de Lima,seguridad,5,1,caro,media,False
+gm_25510aaec60feedd__aforo_multitudes,gm_25510aaec60feedd,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,2,cuidado;lleno,alta,False
+gm_d98066e34be6e3de__limpieza,gm_d98066e34be6e3de,Circuito Mágico del Agua,limpieza,1,2,cobran;decepcion,alta,False
+gm_9b748c0e1431423c__alojamiento,gm_9b748c0e1431423c,Santuario Histórico de Machu Picchu,alojamiento,5,3,cobran;cuidado;estafa,alta,False
+gm_49352f4fdbb6f3a1__costos,gm_49352f4fdbb6f3a1,Ciudadela de Kuélap,costos,4,2,abandonado;sucia,alta,True
+gm_2e5935132c347b7a__limpieza,gm_2e5935132c347b7a,Circuito Mágico del Agua,limpieza,1,2,no funciona;pesimo,alta,False
+gm_e4c1199a5382ca76__costos,gm_e4c1199a5382ca76,Museo Tumbas Reales del Señor de Sipán,costos,3,1,no funciona,media,False
+gm_7f163edc732d8e58__atencion_servicio,gm_7f163edc732d8e58,Centro Histórico de Lima,atencion_servicio,5,1,cuidado,media,True
+gm_53652bd9d5b715c3__seguridad,gm_53652bd9d5b715c3,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_104d4f71d446e1f8__aforo_multitudes,gm_104d4f71d446e1f8,Ciudadela de Kuélap,aforo_multitudes,5,1,lleno,media,False
+gm_098e7ee645337731__limpieza,gm_098e7ee645337731,Circuito Mágico del Agua,limpieza,5,1,cuidado,media,False
+gm_abaec9a7d2a0f042__accesibilidad,gm_abaec9a7d2a0f042,Museo de Sitio Huaca Pucllana,accesibilidad,5,1,queue,media,False
+gm_e3e3343e63375fa7__limpieza,gm_e3e3343e63375fa7,Circuito Mágico del Agua,limpieza,5,3,basura;cuidado;pesimo,alta,False
+gm_50257ab99c24db16__atencion_servicio,gm_50257ab99c24db16,Ciudadela de Kuélap,atencion_servicio,5,2,caro;no recomiendo,alta,False
+gm_45cf57cbfae43a53__limpieza,gm_45cf57cbfae43a53,Valle del Colca,limpieza,5,1,lleno,media,False
+gm_11d31cfdb04dee42__seguridad,gm_11d31cfdb04dee42,Centro Histórico de Lima,seguridad,4,1,cuidado,media,False
+gm_b65340485e20dc7a__seguridad,gm_b65340485e20dc7a,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,True
+gm_ddedc7b13d147986__atencion_servicio,gm_ddedc7b13d147986,Circuito Mágico del Agua,atencion_servicio,3,2,cobran;peligroso,alta,False
+gm_011ffa22e20a16e1__limpieza,gm_011ffa22e20a16e1,Reserva Nacional de Paracas,limpieza,4,1,sucia,media,False
+gm_30244be1815eb3e8__limpieza,gm_30244be1815eb3e8,Reserva Nacional de Paracas,limpieza,5,2,cobran;no vale,alta,False
+gm_1faa9de8d99f496f__seguridad,gm_1faa9de8d99f496f,Centro Histórico de Lima,seguridad,5,1,dangerous,media,False
+gm_c2348a606156e02f__limpieza,gm_c2348a606156e02f,Circuito Mágico del Agua,limpieza,5,1,crowded,media,False
+gm_6e412da2abd5949a__seguridad,gm_6e412da2abd5949a,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_5b0ab7b1ffbf8835__limpieza,gm_5b0ab7b1ffbf8835,Santuario Histórico de Machu Picchu,limpieza,5,2,caro;rude,alta,False
+gm_ddedc7b13d147986__seguridad,gm_ddedc7b13d147986,Circuito Mágico del Agua,seguridad,3,2,cobran;peligroso,alta,False
+gm_3c85c21a9056c2cd__atencion_servicio,gm_3c85c21a9056c2cd,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,cuidado,media,False
+gm_3e33613ca72b369d__accesibilidad,gm_3e33613ca72b369d,Centro Histórico de Lima,accesibilidad,5,1,closed,media,True
+gm_d0bd3589e21596ab__limpieza,gm_d0bd3589e21596ab,Santuario Histórico de Machu Picchu,limpieza,5,3,basura;cerrado;cobran,alta,False
+gm_c02af48e30f29223__costos,gm_c02af48e30f29223,Reserva Nacional de Paracas,costos,3,2,cobran;estafa,alta,True
+gm_8f1fa5a489dada60__limpieza,gm_8f1fa5a489dada60,Reserva Nacional de Paracas,limpieza,5,1,basura,media,False
+gm_67cacb307687ab79__limpieza,gm_67cacb307687ab79,Circuito Mágico del Agua,limpieza,2,2,caro;pesimo,alta,False
+gm_92fa6fc38c04438b__limpieza,gm_92fa6fc38c04438b,Centro Histórico de Lima,limpieza,4,3,lleno;robo;sucia,alta,False
+gm_5a3cd9aa1c0a0733__atencion_servicio,gm_5a3cd9aa1c0a0733,Circuito Mágico del Agua,atencion_servicio,4,2,basura;cuidado,alta,False
+gm_45f320ea5f381170__alojamiento,gm_45f320ea5f381170,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_3160ef77e215a427__accesibilidad,gm_3160ef77e215a427,Santuario Histórico de Machu Picchu,accesibilidad,5,3,expensive;queue;slow,alta,False
+gm_40aa0348915d3eae__atencion_servicio,gm_40aa0348915d3eae,Reserva Nacional de Paracas,atencion_servicio,3,2,basura;cobran,alta,False
+gm_7351779cdda3965b__aforo_multitudes,gm_7351779cdda3965b,Santuario Histórico de Machu Picchu,aforo_multitudes,5,3,crowded;overcrowded;queue,alta,False
+gm_58d49537b37bd1f2__limpieza,gm_58d49537b37bd1f2,Reserva Nacional de Paracas,limpieza,5,1,caro,media,False
+gm_9a9d5fc87fa2c02d__seguridad,gm_9a9d5fc87fa2c02d,Circuito Mágico del Agua,seguridad,2,0,,alta,False
+gm_d64db7bdc50ec974__seguridad,gm_d64db7bdc50ec974,Centro Histórico de Lima,seguridad,5,1,lleno,media,False
+gm_e6e9e841823bf031__limpieza,gm_e6e9e841823bf031,Museo de Sitio Huaca Pucllana,limpieza,5,1,dirty,media,False
+gm_b9f3b80f59bfdfa6__limpieza,gm_b9f3b80f59bfdfa6,Reserva Nacional de Paracas,limpieza,4,1,cobran,media,False
+gm_4ce1d8ed14a15f29__alojamiento,gm_4ce1d8ed14a15f29,Valle del Colca,alojamiento,5,2,avoid;expensive,alta,False
+gm_076d757e47212feb__atencion_servicio,gm_076d757e47212feb,Monasterio de Santa Catalina,atencion_servicio,4,2,closed;expensive,alta,False
+gm_2324dedc097aad39__atencion_servicio,gm_2324dedc097aad39,Centro Histórico de Lima,atencion_servicio,5,1,closed,media,False
+gm_544e2abd417a8aec__alojamiento,gm_544e2abd417a8aec,Centro Histórico de Lima,alojamiento,5,1,expensive,media,False
+gm_5ba6bc1dabc36bfa__costos,gm_5ba6bc1dabc36bfa,Museo Tumbas Reales del Señor de Sipán,costos,5,3,caro;cuidado;no recomiendo,alta,False
+gm_c47097aa38f6f1ca__seguridad,gm_c47097aa38f6f1ca,Museo de Sitio Huaca Pucllana,seguridad,4,1,expensive,media,False
+gm_4bf8b3f8deb19721__limpieza,gm_4bf8b3f8deb19721,Circuito Mágico del Agua,limpieza,5,1,crowded,media,False
+gm_6225712b8631049b__atencion_servicio,gm_6225712b8631049b,Circuito Mágico del Agua,atencion_servicio,4,2,aglomeracion;evitar,alta,False
+gm_5e27fded1539ac16__seguridad,gm_5e27fded1539ac16,Centro Histórico de Lima,seguridad,4,1,cuidado,media,False
+gm_575954b700fa9c73__costos,gm_575954b700fa9c73,Museo de Sitio Huaca Pucllana,costos,4,2,closed;expensive,alta,False
+gm_0b482a21d65948d7__seguridad,gm_0b482a21d65948d7,Valle del Colca,seguridad,4,1,dangerous,media,False
+gm_6c0e12f791c7572f__alojamiento,gm_6c0e12f791c7572f,Santuario Histórico de Machu Picchu,alojamiento,5,1,queue,media,False
+gm_580d8515d5c9cc90__alojamiento,gm_580d8515d5c9cc90,Santuario Histórico de Machu Picchu,alojamiento,5,3,broken;crowded;overcrowded,alta,False
+gm_4aab2b2f240dc380__costos,gm_4aab2b2f240dc380,Líneas y Geoglifos de Nasca y Palpa,costos,5,1,expensive,media,False
+gm_9f4eedd81eb577ed__atencion_servicio,gm_9f4eedd81eb577ed,Santuario Histórico de Machu Picchu,atencion_servicio,5,3,crowded;mess;overcrowded,alta,False
+gm_74e40ebf934c06cb__atencion_servicio,gm_74e40ebf934c06cb,Santuario Histórico de Machu Picchu,atencion_servicio,4,2,avoid;queue,alta,False
+gm_99b9ab2a69457294__limpieza,gm_99b9ab2a69457294,Santuario Histórico de Machu Picchu,limpieza,4,2,expensive;trash,alta,False
+gm_5f8e8994689c89f7__alojamiento,gm_5f8e8994689c89f7,Monasterio de Santa Catalina,alojamiento,5,1,demora,media,False
+gm_52109a686d4dc89b__limpieza,gm_52109a686d4dc89b,Ciudadela de Kuélap,limpieza,5,1,basura,media,False
+gm_ad56a171633e94f0__atencion_servicio,gm_ad56a171633e94f0,Museo de Sitio Huaca Pucllana,atencion_servicio,4,2,cerrado;cuidado,alta,True
+gm_0a3619fd9d140abf__limpieza,gm_0a3619fd9d140abf,Museo Tumbas Reales del Señor de Sipán,limpieza,5,1,no funciona,media,True
+gm_d64db7bdc50ec974__limpieza,gm_d64db7bdc50ec974,Centro Histórico de Lima,limpieza,5,1,lleno,media,False
+gm_ee1804fd11019781__accesibilidad,gm_ee1804fd11019781,Líneas y Geoglifos de Nasca y Palpa,accesibilidad,4,1,cuidado,media,False
+gm_91ec4e9c705aa061__costos,gm_91ec4e9c705aa061,Museo de Sitio Huaca Pucllana,costos,5,2,expensive;lleno,alta,False
+gm_4e969e1e3f3bc1ef__atencion_servicio,gm_4e969e1e3f3bc1ef,Monasterio de Santa Catalina,atencion_servicio,5,1,expensive,media,False
+gm_87346efbc3e43fc4__limpieza,gm_87346efbc3e43fc4,Valle del Colca,limpieza,4,1,trash,media,False
+gm_e3e3343e63375fa7__seguridad,gm_e3e3343e63375fa7,Circuito Mágico del Agua,seguridad,5,3,basura;cuidado;pesimo,alta,False
+gm_a57d5474e83d20b7__limpieza,gm_a57d5474e83d20b7,Circuito Mágico del Agua,limpieza,1,0,,alta,False
+gm_4628e8130a325c68__accesibilidad,gm_4628e8130a325c68,Reserva Nacional de Paracas,accesibilidad,1,0,,alta,False
+gm_4b338a359040e5e4__seguridad,gm_4b338a359040e5e4,Reserva Nacional de Paracas,seguridad,4,2,caro;cobran,alta,False
+gm_c813210a4387f163__seguridad,gm_c813210a4387f163,Santuario Histórico de Machu Picchu,seguridad,5,1,cobran,media,False
+gm_6824e8229502c609__accesibilidad,gm_6824e8229502c609,Reserva Nacional de Paracas,accesibilidad,3,1,asqueroso,media,False
+gm_4786f017ac28823f__alojamiento,gm_4786f017ac28823f,Santuario Histórico de Machu Picchu,alojamiento,4,1,queue,media,False
+gm_f8f82814d3ee25c6__limpieza,gm_f8f82814d3ee25c6,Santuario Histórico de Machu Picchu,limpieza,5,2,basura;evitar,alta,False
+gm_d2a702dd1b5c4317__limpieza,gm_d2a702dd1b5c4317,Santuario Histórico de Machu Picchu,limpieza,4,2,caro;cobran,alta,False
+gm_a20fd6515895339b__seguridad,gm_a20fd6515895339b,Centro Histórico de Lima,seguridad,5,1,caro,media,False
+gm_4579f68644e8c053__aforo_multitudes,gm_4579f68644e8c053,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,5,1,lleno,media,False
+gm_07a9ea2b1093fc1e__atencion_servicio,gm_07a9ea2b1093fc1e,Centro Histórico de Lima,atencion_servicio,4,1,cuidado,media,False
+gm_fd8479829ab5caa0__atencion_servicio,gm_fd8479829ab5caa0,Circuito Mágico del Agua,atencion_servicio,3,2,inseguro;nunca,alta,False
+gm_49352f4fdbb6f3a1__accesibilidad,gm_49352f4fdbb6f3a1,Ciudadela de Kuélap,accesibilidad,4,2,abandonado;sucia,alta,False
+gm_2bc432a02ee0fa37__aforo_multitudes,gm_2bc432a02ee0fa37,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,2,cuidado;lleno,alta,False
+gm_70179425baa6f758__aforo_multitudes,gm_70179425baa6f758,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,5,1,lleno,media,False
+gm_6aa51175dce62f95__atencion_servicio,gm_6aa51175dce62f95,Circuito Mágico del Agua,atencion_servicio,1,2,mala atencion;pesimo,alta,False
+gm_cc74d80c44bc2e79__atencion_servicio,gm_cc74d80c44bc2e79,Monasterio de Santa Catalina,atencion_servicio,5,3,caro;cobran;lleno,alta,True
+gm_30244be1815eb3e8__atencion_servicio,gm_30244be1815eb3e8,Reserva Nacional de Paracas,atencion_servicio,5,2,cobran;no vale,alta,False
+gm_638af7f8efd2855a__alojamiento,gm_638af7f8efd2855a,Santuario Histórico de Machu Picchu,alojamiento,5,1,expensive,media,False
+gm_aaaa785e382302cd__aforo_multitudes,gm_aaaa785e382302cd,Ciudadela de Kuélap,aforo_multitudes,1,1,closed,alta,False
+gm_8ed1caeb1a2f688d__aforo_multitudes,gm_8ed1caeb1a2f688d,Circuito Mágico del Agua,aforo_multitudes,1,3,colas;cuidado;pesimo,alta,False
+gm_ea444dc3df3e5ead__seguridad,gm_ea444dc3df3e5ead,Museo Tumbas Reales del Señor de Sipán,seguridad,4,1,ladrones,media,False
+gm_d64f783fb8bea9c6__atencion_servicio,gm_d64f783fb8bea9c6,Centro Histórico de Lima,atencion_servicio,5,2,evitar;maltrato,alta,False
+gm_52133000621f72d0__seguridad,gm_52133000621f72d0,Centro Histórico de Lima,seguridad,5,1,lleno,media,True
+gm_f11727f5abf5ea69__atencion_servicio,gm_f11727f5abf5ea69,Museo de Sitio Huaca Pucllana,atencion_servicio,1,2,not worth;worst,alta,False
+gm_30ac739c2cd6d489__seguridad,gm_30ac739c2cd6d489,Centro Histórico de Lima,seguridad,4,1,robo,media,False
+gm_648000e42958e44b__limpieza,gm_648000e42958e44b,Reserva Nacional de Paracas,limpieza,4,2,basura;cobran,alta,False
+gm_4d2c45cfa9b72384__accesibilidad,gm_4d2c45cfa9b72384,Circuito Mágico del Agua,accesibilidad,2,4,decepcion;lleno;no funciona;nunca,alta,False
+gm_b165c9b3e27461ac__alojamiento,gm_b165c9b3e27461ac,Santuario Histórico de Machu Picchu,alojamiento,5,1,avoid,media,False
+gm_4f14c8aea562a0ab__limpieza,gm_4f14c8aea562a0ab,Reserva Nacional de Paracas,limpieza,5,1,nunca,media,False
+gm_53652bd9d5b715c3__limpieza,gm_53652bd9d5b715c3,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_61520403f15e894b__aforo_multitudes,gm_61520403f15e894b,Circuito Mágico del Agua,aforo_multitudes,4,3,aglomeracion;cuidado;evitar,alta,False
+gm_0f5ad82de602245f__atencion_servicio,gm_0f5ad82de602245f,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,closed;queue,alta,False
+gm_10b4610d86e8665e__seguridad,gm_10b4610d86e8665e,Centro Histórico de Lima,seguridad,5,1,lleno,media,False
+gm_18ee7275dd6dfb22__atencion_servicio,gm_18ee7275dd6dfb22,Valle del Colca,atencion_servicio,5,1,expensive,media,False
+gm_d54ff9b92f08e7f1__aforo_multitudes,gm_d54ff9b92f08e7f1,Museo de Sitio Huaca Pucllana,aforo_multitudes,2,2,terrible,alta,False
+gm_a179086e03b6931b__accesibilidad,gm_a179086e03b6931b,Monasterio de Santa Catalina,accesibilidad,5,2,cobran;lleno,alta,False
+gm_ffcd0bd67c4a15df__atencion_servicio,gm_ffcd0bd67c4a15df,Centro Histórico de Lima,atencion_servicio,4,1,cobran,media,False
+gm_86be4d76ba40011a__atencion_servicio,gm_86be4d76ba40011a,Santuario Histórico de Machu Picchu,atencion_servicio,4,2,dangerous;overpriced,alta,False
+gm_4983a09dbddbe115__seguridad,gm_4983a09dbddbe115,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_a785c44bc5f9f9c2__limpieza,gm_a785c44bc5f9f9c2,Reserva Nacional de Paracas,limpieza,4,1,sucia,media,False
+gm_4c3e6113f8f07e79__atencion_servicio,gm_4c3e6113f8f07e79,Ciudadela de Kuélap,atencion_servicio,5,1,cuidado,media,False
+gm_10b85ecb08b9ec82__atencion_servicio,gm_10b85ecb08b9ec82,Monasterio de Santa Catalina,atencion_servicio,4,1,disorganized,media,False
+gm_e1d76e2c7d94cd57__seguridad,gm_e1d76e2c7d94cd57,Ciudadela de Kuélap,seguridad,4,1,cuidado,media,False
+gm_984f921fe2fd4929__seguridad,gm_984f921fe2fd4929,Santuario Histórico de Machu Picchu,seguridad,4,1,dangerous,media,False
+gm_ceda3d4189e26a25__limpieza,gm_ceda3d4189e26a25,Centro Histórico de Lima,limpieza,5,1,lleno,media,False
+gm_5f5bc857450189a5__alojamiento,gm_5f5bc857450189a5,Santuario Histórico de Machu Picchu,alojamiento,4,1,avoid,media,False
+gm_3e4957f00af19333__seguridad,gm_3e4957f00af19333,Centro Histórico de Lima,seguridad,4,1,avoid,media,False
+gm_dedcf3dcf5b06969__seguridad,gm_dedcf3dcf5b06969,Museo de Sitio Huaca Pucllana,seguridad,5,1,lleno,media,False
+gm_ae03855a85426cef__seguridad,gm_ae03855a85426cef,Santuario Histórico de Machu Picchu,seguridad,5,1,caro,media,False
+gm_c3717bb78e558640__limpieza,gm_c3717bb78e558640,Centro Histórico de Lima,limpieza,4,1,cerrado,media,True
+gm_3db5424c3881c77b__alojamiento,gm_3db5424c3881c77b,Santuario Histórico de Machu Picchu,alojamiento,5,2,avoid;expensive,alta,False
+gm_7cea0125696b47e7__accesibilidad,gm_7cea0125696b47e7,Museo Tumbas Reales del Señor de Sipán,accesibilidad,2,1,nunca,alta,False
+gm_4b338a359040e5e4__atencion_servicio,gm_4b338a359040e5e4,Reserva Nacional de Paracas,atencion_servicio,4,2,caro;cobran,alta,False
+gm_0b7ce4323adbbb90__aforo_multitudes,gm_0b7ce4323adbbb90,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,5,1,lleno,media,False
+gm_0c0baf9fc2982237__alojamiento,gm_0c0baf9fc2982237,Santuario Histórico de Machu Picchu,alojamiento,5,1,nunca,media,False
+gm_e8baa400c800015c__atencion_servicio,gm_e8baa400c800015c,Centro Histórico de Lima,atencion_servicio,5,1,cuidado,media,False
+gm_48fe4b8a354f5f6c__costos,gm_48fe4b8a354f5f6c,Santuario Histórico de Machu Picchu,costos,5,5,colas;cuidado;evitar;terrible,alta,False
+gm_4b9909f75d612a07__alojamiento,gm_4b9909f75d612a07,Monasterio de Santa Catalina,alojamiento,5,1,cuidado,media,True
+gm_39794d056ef3cd88__seguridad,gm_39794d056ef3cd88,Museo de Sitio Huaca Pucllana,seguridad,3,3,cuidado;evitar;peligroso,alta,False
+gm_b840ef233bb1c683__atencion_servicio,gm_b840ef233bb1c683,Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,4,1,evitar,media,False
+gm_81252267e777c61b__seguridad,gm_81252267e777c61b,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_4abdc77c5efc00d6__accesibilidad,gm_4abdc77c5efc00d6,Museo Tumbas Reales del Señor de Sipán,accesibilidad,5,1,lleno,media,False
+gm_3aa18f76ee2ab559__limpieza,gm_3aa18f76ee2ab559,Santuario Histórico de Machu Picchu,limpieza,5,2,avoid;scam,alta,True
+gm_5ae6fa6f1ae65fa4__atencion_servicio,gm_5ae6fa6f1ae65fa4,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,avoid;closed,alta,False
+gm_86be4d76ba40011a__alojamiento,gm_86be4d76ba40011a,Santuario Histórico de Machu Picchu,alojamiento,4,2,dangerous;overpriced,alta,False
+gm_8b37ae147b2fb649__limpieza,gm_8b37ae147b2fb649,Circuito Mágico del Agua,limpieza,2,0,,alta,False
+gm_a90f670ba18cc26e__seguridad,gm_a90f670ba18cc26e,Museo Tumbas Reales del Señor de Sipán,seguridad,4,1,cerrado,media,False
+gm_5259ed2b37ee3243__seguridad,gm_5259ed2b37ee3243,Circuito Mágico del Agua,seguridad,5,1,lleno,media,True
+gm_34b4a843fec0bdb9__atencion_servicio,gm_34b4a843fec0bdb9,Centro Histórico de Lima,atencion_servicio,5,1,lleno,media,False
+gm_7d6d9cc433561f59__atencion_servicio,gm_7d6d9cc433561f59,Reserva Nacional de Paracas,atencion_servicio,5,1,cuidado,media,False
+gm_95ad28105e3580f7__atencion_servicio,gm_95ad28105e3580f7,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,3,1,cuidado,media,False
+gm_308f915dec9b3de4__limpieza,gm_308f915dec9b3de4,Santuario Histórico de Machu Picchu,limpieza,5,5,basura;lleno;nunca;terrible,alta,False
+gm_48fe4b8a354f5f6c__aforo_multitudes,gm_48fe4b8a354f5f6c,Santuario Histórico de Machu Picchu,aforo_multitudes,5,5,colas;cuidado;evitar;terrible,alta,False
+gm_406bfaca93843642__limpieza,gm_406bfaca93843642,Centro Histórico de Lima,limpieza,5,2,caro;cuidado,alta,False
+gm_e46b5b49ccede236__limpieza,gm_e46b5b49ccede236,Santuario Histórico de Machu Picchu,limpieza,5,1,dangerous,media,False
+gm_0ee6168cac78c7ab__seguridad,gm_0ee6168cac78c7ab,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_3d8cfa87d43581ad__atencion_servicio,gm_3d8cfa87d43581ad,Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,5,1,desorganizado,media,True
+gm_4d2c45cfa9b72384__atencion_servicio,gm_4d2c45cfa9b72384,Circuito Mágico del Agua,atencion_servicio,2,4,decepcion;lleno;no funciona;nunca,alta,False
+gm_38cf73ec80f48337__limpieza,gm_38cf73ec80f48337,Ciudadela de Kuélap,limpieza,5,1,basura,media,False
+gm_768c08e71529e4cc__aforo_multitudes,gm_768c08e71529e4cc,Valle del Colca,aforo_multitudes,4,1,crowded,media,False
+gm_3298fbd38d1694d4__limpieza,gm_3298fbd38d1694d4,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_3e5af088eaf3822f__aforo_multitudes,gm_3e5af088eaf3822f,Circuito Mágico del Agua,aforo_multitudes,5,3,cuidado;decepcion;nunca,alta,True
+gm_d0bd3589e21596ab__seguridad,gm_d0bd3589e21596ab,Santuario Histórico de Machu Picchu,seguridad,5,3,basura;cerrado;cobran,alta,False
+gm_e46b5b49ccede236__seguridad,gm_e46b5b49ccede236,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_dacb4c45cefd5e9c__limpieza,gm_dacb4c45cefd5e9c,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_038238bf8cee2d5f__limpieza,gm_038238bf8cee2d5f,Circuito Mágico del Agua,limpieza,5,1,cuidado,media,False
+gm_5d019787eedabf0f__limpieza,gm_5d019787eedabf0f,Museo Tumbas Reales del Señor de Sipán,limpieza,5,1,lleno,media,False
+gm_4ecc18b59b9417ad__accesibilidad,gm_4ecc18b59b9417ad,Museo de Sitio Huaca Pucllana,accesibilidad,1,1,estafa,alta,False
+gm_0ee6168cac78c7ab__limpieza,gm_0ee6168cac78c7ab,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_82a4ec4e4c24d15c__alojamiento,gm_82a4ec4e4c24d15c,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_07fd8b683f6c07f3__seguridad,gm_07fd8b683f6c07f3,Centro Histórico de Lima,seguridad,5,1,decepcion,media,False
+gm_429c61cf03fa8b4e__atencion_servicio,gm_429c61cf03fa8b4e,Circuito Mágico del Agua,atencion_servicio,4,3,horrible;no funciona,alta,False
+gm_1ea9b84bbaf23488__alojamiento,gm_1ea9b84bbaf23488,Centro Histórico de Lima,alojamiento,5,1,lleno,media,False
+gm_c0371435fc5c7091__aforo_multitudes,gm_c0371435fc5c7091,Circuito Mágico del Agua,aforo_multitudes,1,3,colas;horrible,alta,False
+gm_d87fd819fa5c9860__limpieza,gm_d87fd819fa5c9860,Centro Histórico de Lima,limpieza,5,1,lleno,media,False
+gm_70179425baa6f758__atencion_servicio,gm_70179425baa6f758,Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,5,1,lleno,media,False
+gm_bac0b5fc28b7c3af__aforo_multitudes,gm_bac0b5fc28b7c3af,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,5,1,lleno,media,False
+gm_93ed8a15c795d00a__seguridad,gm_93ed8a15c795d00a,Santuario Histórico de Machu Picchu,seguridad,5,1,peligroso,media,True
+gm_f64ab05e50fc4e78__atencion_servicio,gm_f64ab05e50fc4e78,Ciudadela de Kuélap,atencion_servicio,5,1,demora,media,False
+gm_5a3cd9aa1c0a0733__limpieza,gm_5a3cd9aa1c0a0733,Circuito Mágico del Agua,limpieza,4,2,basura;cuidado,alta,False
+gm_150c89ac59b02629__atencion_servicio,gm_150c89ac59b02629,Monasterio de Santa Catalina,atencion_servicio,5,2,horrible,alta,False
+gm_038ef0802223d85a__limpieza,gm_038ef0802223d85a,Santuario Histórico de Machu Picchu,limpieza,4,2,cobran;cuidado,alta,True
+gm_4667bb5e5b8e3731__accesibilidad,gm_4667bb5e5b8e3731,Monasterio de Santa Catalina,accesibilidad,1,3,caro;cobran;decepcion,alta,False
+gm_9d72ee7cf53aa681__seguridad,gm_9d72ee7cf53aa681,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_146ec95acd448599__aforo_multitudes,gm_146ec95acd448599,Monasterio de Santa Catalina,aforo_multitudes,5,2,lleno;nunca,alta,False
+gm_a9d1b2611a711185__seguridad,gm_a9d1b2611a711185,Circuito Mágico del Agua,seguridad,2,0,,alta,True
+gm_0503dabcc2a783df__seguridad,gm_0503dabcc2a783df,Centro Histórico de Lima,seguridad,4,1,cuidado,media,False
+gm_26557b266a618e54__accesibilidad,gm_26557b266a618e54,Valle del Colca,accesibilidad,5,1,evitar,media,False
+gm_4722d0c96e3b9b99__limpieza,gm_4722d0c96e3b9b99,Santuario Histórico de Machu Picchu,limpieza,5,1,crowded,media,True
+gm_991452ccd7140f8d__atencion_servicio,gm_991452ccd7140f8d,Centro Histórico de Lima,atencion_servicio,4,1,dangerous,media,False
+gm_708f75658516f49a__accesibilidad,gm_708f75658516f49a,Museo Tumbas Reales del Señor de Sipán,accesibilidad,5,2,basura;caro,alta,False
+gm_222dc0eaf8c80aa9__seguridad,gm_222dc0eaf8c80aa9,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_40878194208d99ee__limpieza,gm_40878194208d99ee,Centro Histórico de Lima,limpieza,4,1,asqueroso,media,True
+gm_2c2399130ddd31d7__limpieza,gm_2c2399130ddd31d7,Reserva Nacional de Paracas,limpieza,3,1,sucia,media,False
+gm_118a40130a5c9cdf__limpieza,gm_118a40130a5c9cdf,Reserva Nacional de Paracas,limpieza,4,2,evitar;sucia,alta,False
+gm_3ab11d6f6ae6dd5f__limpieza,gm_3ab11d6f6ae6dd5f,Museo Tumbas Reales del Señor de Sipán,limpieza,5,1,cuidado,media,False
+gm_b63415c2afe0402f__accesibilidad,gm_b63415c2afe0402f,Museo de Sitio Huaca Pucllana,accesibilidad,5,1,expensive,media,False
+gm_4ef769962d4978e3__limpieza,gm_4ef769962d4978e3,Circuito Mágico del Agua,limpieza,5,1,expensive,media,False
+gm_3eb62eb67b7c85ba__seguridad,gm_3eb62eb67b7c85ba,Centro Histórico de Lima,seguridad,5,1,closed,media,False
+gm_a9a2dbed889be0dc__accesibilidad,gm_a9a2dbed889be0dc,Circuito Mágico del Agua,accesibilidad,1,4,cobran;lleno;pesima;pesimo,alta,False
+gm_02fa923fd964c1d1__accesibilidad,gm_02fa923fd964c1d1,Centro Histórico de Lima,accesibilidad,5,1,closed,media,False
+gm_48fe4b8a354f5f6c__atencion_servicio,gm_48fe4b8a354f5f6c,Santuario Histórico de Machu Picchu,atencion_servicio,5,5,colas;cuidado;evitar;terrible,alta,False
+gm_011ffa22e20a16e1__accesibilidad,gm_011ffa22e20a16e1,Reserva Nacional de Paracas,accesibilidad,4,1,sucia,media,False
+gm_d6f0b901c3b078ec__limpieza,gm_d6f0b901c3b078ec,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_0b86df36efbdb9f4__aforo_multitudes,gm_0b86df36efbdb9f4,Centro Histórico de Lima,aforo_multitudes,4,2,lleno;scam,alta,False
+gm_bc90c60d4bb4b180__seguridad,gm_bc90c60d4bb4b180,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_82a4ec4e4c24d15c__limpieza,gm_82a4ec4e4c24d15c,Santuario Histórico de Machu Picchu,limpieza,5,1,crowded,media,False
+gm_6f30cd7b2cf8df5b__atencion_servicio,gm_6f30cd7b2cf8df5b,Museo de Sitio Huaca Pucllana,atencion_servicio,3,1,worst,media,False
+gm_4a85f0fb598dc240__atencion_servicio,gm_4a85f0fb598dc240,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,cuidado,media,False
+gm_a2bf37d5ef75cf2f__accesibilidad,gm_a2bf37d5ef75cf2f,Reserva Nacional de Paracas,accesibilidad,5,2,evitar;tumulto,alta,False
+gm_3e4957f00af19333__alojamiento,gm_3e4957f00af19333,Centro Histórico de Lima,alojamiento,4,1,avoid,media,False
+gm_e42968507581c90f__atencion_servicio,gm_e42968507581c90f,Museo de Sitio Huaca Pucllana,atencion_servicio,1,0,,alta,False
+gm_9e0f9987a7072d1f__alojamiento,gm_9e0f9987a7072d1f,Museo de Sitio Huaca Pucllana,alojamiento,5,1,expensive,media,False
+gm_6cb51c216663828d__atencion_servicio,gm_6cb51c216663828d,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,avoid;crowded,alta,False
+gm_32792c175727b835__limpieza,gm_32792c175727b835,Santuario Histórico de Machu Picchu,limpieza,5,1,slow,media,False
+gm_7c6ee47ffb819a9d__alojamiento,gm_7c6ee47ffb819a9d,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_3db5424c3881c77b__atencion_servicio,gm_3db5424c3881c77b,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,avoid;expensive,alta,False
+gm_269504118f9db6eb__limpieza,gm_269504118f9db6eb,Monasterio de Santa Catalina,limpieza,5,1,basura,media,False
+gm_d93fe923743d849b__atencion_servicio,gm_d93fe923743d849b,Ciudadela de Kuélap,atencion_servicio,5,2,cobran;demora,alta,False
+gm_572f0b6aea3dca89__atencion_servicio,gm_572f0b6aea3dca89,Ciudadela de Kuélap,atencion_servicio,4,1,cuidado,media,True
+gm_82c7489645d4cf27__seguridad,gm_82c7489645d4cf27,Santuario Histórico de Machu Picchu,seguridad,5,1,slow,media,False
+gm_61400619fb013275__accesibilidad,gm_61400619fb013275,Centro Histórico de Lima,accesibilidad,5,1,closed,media,False
+gm_9deec0eb47313fbc__aforo_multitudes,gm_9deec0eb47313fbc,Santuario Histórico de Machu Picchu,aforo_multitudes,2,4,crowded;queue;terrible,alta,False
+gm_5abcb581fa92b1ac__limpieza,gm_5abcb581fa92b1ac,Reserva Nacional de Paracas,limpieza,5,1,basura,media,False
+gm_3e5af088eaf3822f__accesibilidad,gm_3e5af088eaf3822f,Circuito Mágico del Agua,accesibilidad,5,3,cuidado;decepcion;nunca,alta,False
+gm_78249d1261e7cd7b__atencion_servicio,gm_78249d1261e7cd7b,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,dangerous;slow,alta,False
+gm_bdccce0ac17634e5__limpieza,gm_bdccce0ac17634e5,Centro Histórico de Lima,limpieza,4,2,basura;lleno,alta,True
+gm_bb2394e71d89182b__limpieza,gm_bb2394e71d89182b,Santuario Histórico de Machu Picchu,limpieza,5,1,filthy,media,True
+gm_63696f47171a96e8__aforo_multitudes,gm_63696f47171a96e8,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,1,crowded,media,False
+gm_7372f23f22cf55b8__limpieza,gm_7372f23f22cf55b8,Santuario Histórico de Machu Picchu,limpieza,5,2,basura;evitar,alta,False
+gm_237a02897c774a62__limpieza,gm_237a02897c774a62,Monasterio de Santa Catalina,limpieza,5,3,cobran;cuidado;lleno,alta,True
+gm_429c61cf03fa8b4e__limpieza,gm_429c61cf03fa8b4e,Circuito Mágico del Agua,limpieza,4,3,horrible;no funciona,alta,False
+gm_577f6b409ba3b854__limpieza,gm_577f6b409ba3b854,Circuito Mágico del Agua,limpieza,3,1,cobran,media,False
+gm_c4d0ba0e227a35aa__limpieza,gm_c4d0ba0e227a35aa,Circuito Mágico del Agua,limpieza,3,1,pesima,media,False
+gm_846951ec765f1f62__accesibilidad,gm_846951ec765f1f62,Ciudadela de Kuélap,accesibilidad,2,0,,alta,True
+gm_e44b5ac7722503b2__alojamiento,gm_e44b5ac7722503b2,Santuario Histórico de Machu Picchu,alojamiento,5,2,crowded;slow,alta,False
+gm_78249d1261e7cd7b__alojamiento,gm_78249d1261e7cd7b,Santuario Histórico de Machu Picchu,alojamiento,5,2,dangerous;slow,alta,True
+gm_1d5908f926aa304c__atencion_servicio,gm_1d5908f926aa304c,Monasterio de Santa Catalina,atencion_servicio,5,2,cuidado;lleno,alta,True
+gm_08cfe975d112b5e2__limpieza,gm_08cfe975d112b5e2,Centro Histórico de Lima,limpieza,5,1,lleno,media,True
+gm_fbd5a3620a4802a2__atencion_servicio,gm_fbd5a3620a4802a2,Monasterio de Santa Catalina,atencion_servicio,5,2,aglomeracion;lleno,alta,False
+gm_ff68a9dd229d4994__alojamiento,gm_ff68a9dd229d4994,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_1f3705b7a33b3383__alojamiento,gm_1f3705b7a33b3383,Santuario Histórico de Machu Picchu,alojamiento,5,3,avoid;crowded;evitar,alta,False
+gm_2ffa87b0e7e13192__aforo_multitudes,gm_2ffa87b0e7e13192,Centro Histórico de Lima,aforo_multitudes,5,2,cuidado;lleno,alta,False
+gm_40c83b090ea2b667__aforo_multitudes,gm_40c83b090ea2b667,Museo de Sitio Huaca Pucllana,aforo_multitudes,5,2,closed;expensive,alta,False
+gm_6a515d09cf9eec70__atencion_servicio,gm_6a515d09cf9eec70,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,1,caro,media,False
+gm_6225712b8631049b__seguridad,gm_6225712b8631049b,Circuito Mágico del Agua,seguridad,4,2,aglomeracion;evitar,alta,False
+gm_169cb3ecb2829e30__accesibilidad,gm_169cb3ecb2829e30,Ciudadela de Kuélap,accesibilidad,5,1,lleno,media,False
+gm_cf21670328959bec__seguridad,gm_cf21670328959bec,Santuario Histórico de Machu Picchu,seguridad,5,1,peligroso,media,False
+gm_aa4e0c94638ab41f__atencion_servicio,gm_aa4e0c94638ab41f,Ciudadela de Kuélap,atencion_servicio,5,1,lleno,media,False
+gm_889d4cbd0d82abf6__seguridad,gm_889d4cbd0d82abf6,Museo Tumbas Reales del Señor de Sipán,seguridad,5,1,lleno,media,False
+gm_87b1c624d3792d51__atencion_servicio,gm_87b1c624d3792d51,Museo de Sitio Huaca Pucllana,atencion_servicio,2,0,,alta,False
+gm_5546c57b963ed82b__seguridad,gm_5546c57b963ed82b,Centro Histórico de Lima,seguridad,5,1,cuidado,media,False
+gm_5a3420d5eae94764__aforo_multitudes,gm_5a3420d5eae94764,Santuario Histórico de Machu Picchu,aforo_multitudes,2,4,disappointing;terrible;worst,alta,True
+gm_e3e67a0e8849a384__aforo_multitudes,gm_e3e67a0e8849a384,Centro Histórico de Lima,aforo_multitudes,3,2,abandonado;sucio,alta,False
+gm_208044aaa04c5813__alojamiento,gm_208044aaa04c5813,Santuario Histórico de Machu Picchu,alojamiento,5,2,expensive;queue,alta,False
+gm_05b46a91fcd171d3__seguridad,gm_05b46a91fcd171d3,Santuario Histórico de Machu Picchu,seguridad,4,1,dangerous,media,False
+gm_8ec4975296bd9585__atencion_servicio,gm_8ec4975296bd9585,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,avoid;queue,alta,True
+gm_856137db8cea4b5c__accesibilidad,gm_856137db8cea4b5c,Centro Histórico de Lima,accesibilidad,5,1,crowded,media,False
+gm_e3e3343e63375fa7__atencion_servicio,gm_e3e3343e63375fa7,Circuito Mágico del Agua,atencion_servicio,5,3,basura;cuidado;pesimo,alta,False
+gm_84886a0557ffa8db__atencion_servicio,gm_84886a0557ffa8db,Santuario Histórico de Machu Picchu,atencion_servicio,5,2,avoid;closed,alta,False
+gm_864b9b23503c70f9__aforo_multitudes,gm_864b9b23503c70f9,Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,4,1,lleno,media,False
+gm_1d5908f926aa304c__accesibilidad,gm_1d5908f926aa304c,Monasterio de Santa Catalina,accesibilidad,5,2,cuidado;lleno,alta,False
+gm_49952a6139c3d236__limpieza,gm_49952a6139c3d236,Circuito Mágico del Agua,limpieza,5,1,crowded,media,False
+gm_87404d62c5756d8f__limpieza,gm_87404d62c5756d8f,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_4d2c45cfa9b72384__aforo_multitudes,gm_4d2c45cfa9b72384,Circuito Mágico del Agua,aforo_multitudes,2,4,decepcion;lleno;no funciona;nunca,alta,False
+gm_0b90415f4e3bea51__accesibilidad,gm_0b90415f4e3bea51,Museo Tumbas Reales del Señor de Sipán,accesibilidad,3,1,cuidado,media,False
+gm_237a02897c774a62__costos,gm_237a02897c774a62,Monasterio de Santa Catalina,costos,5,3,cobran;cuidado;lleno,alta,True
+gm_a179086e03b6931b__aforo_multitudes,gm_a179086e03b6931b,Monasterio de Santa Catalina,aforo_multitudes,5,2,cobran;lleno,alta,False
+gm_4b2a48a6ae14c234__atencion_servicio,gm_4b2a48a6ae14c234,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,4,1,caro,media,False
+gm_3a042085d00b3564__seguridad,gm_3a042085d00b3564,Centro Histórico de Lima,seguridad,3,1,aglomeracion,media,True
+gm_308f915dec9b3de4__aforo_multitudes,gm_308f915dec9b3de4,Santuario Histórico de Machu Picchu,aforo_multitudes,5,5,basura;lleno;nunca;terrible,alta,False
+gm_8ac598d8d61bbc0b__limpieza,gm_8ac598d8d61bbc0b,Santuario Histórico de Machu Picchu,limpieza,5,1,crowded,media,False
+gm_606a6eae5e8d091d__atencion_servicio,gm_606a6eae5e8d091d,Centro Histórico de Lima,atencion_servicio,4,1,cuidado,media,False
+gm_78249d1261e7cd7b__seguridad,gm_78249d1261e7cd7b,Santuario Histórico de Machu Picchu,seguridad,5,2,dangerous;slow,alta,False
+gm_45a24b72ef71635a__seguridad,gm_45a24b72ef71635a,Ciudadela de Kuélap,seguridad,5,1,lleno,media,True
+gm_580d8515d5c9cc90__accesibilidad,gm_580d8515d5c9cc90,Santuario Histórico de Machu Picchu,accesibilidad,5,3,broken;crowded;overcrowded,alta,False
+gm_991452ccd7140f8d__seguridad,gm_991452ccd7140f8d,Centro Histórico de Lima,seguridad,4,1,dangerous,media,False
+gm_09b13a033aaf3fa5__costos,gm_09b13a033aaf3fa5,Reserva Nacional de Paracas,costos,5,2,cuidado;sucia,alta,False
+gm_e3851acec23bff80__aforo_multitudes,gm_e3851acec23bff80,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,2,cuidado;rude,alta,False
+gm_08eb6234aaaff581__accesibilidad,gm_08eb6234aaaff581,Santuario Histórico de Machu Picchu,accesibilidad,5,3,caro;cerrado;evitar,alta,False
+gm_b8ead55ccaa98cb7__atencion_servicio,gm_b8ead55ccaa98cb7,Monasterio de Santa Catalina,atencion_servicio,4,2,caro;cobran,alta,True
+gm_1a1b9ccd8fa803b1__limpieza,gm_1a1b9ccd8fa803b1,Santuario Histórico de Machu Picchu,limpieza,5,1,avoid,media,False
+gm_48e3dc7e15757178__limpieza,gm_48e3dc7e15757178,Santuario Histórico de Machu Picchu,limpieza,2,2,expensive;trash,alta,False
+gm_eb762cb90d91f1d4__limpieza,gm_eb762cb90d91f1d4,Santuario Histórico de Machu Picchu,limpieza,5,1,expensive,media,False
+gm_766f2c929119a183__limpieza,gm_766f2c929119a183,Centro Histórico de Lima,limpieza,5,1,basura,media,False
+gm_6332c151eb12f596__aforo_multitudes,gm_6332c151eb12f596,Reserva Nacional de Paracas,aforo_multitudes,5,2,caro;nunca,alta,False
+gm_5b4a87b4197c895a__atencion_servicio,gm_5b4a87b4197c895a,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,4,1,closed,media,False
+gm_cb6f0eba8278baab__seguridad,gm_cb6f0eba8278baab,Circuito Mágico del Agua,seguridad,5,1,nunca,media,False
+gm_86be4d76ba40011a__seguridad,gm_86be4d76ba40011a,Santuario Histórico de Machu Picchu,seguridad,4,2,dangerous;overpriced,alta,False
+gm_259c6427981264f7__atencion_servicio,gm_259c6427981264f7,Ciudadela de Kuélap,atencion_servicio,5,1,demora,media,False
+gm_5b0bf528ff10d690__seguridad,gm_5b0bf528ff10d690,Centro Histórico de Lima,seguridad,5,1,dangerous,media,False
+gm_aa143d8029ec3745__alojamiento,gm_aa143d8029ec3745,Santuario Histórico de Machu Picchu,alojamiento,5,1,queue,media,False
+gm_d4d8186dffed8a45__atencion_servicio,gm_d4d8186dffed8a45,Museo de Sitio Huaca Pucllana,atencion_servicio,1,0,,alta,False
+gm_2ffa87b0e7e13192__seguridad,gm_2ffa87b0e7e13192,Centro Histórico de Lima,seguridad,5,2,cuidado;lleno,alta,False
+gm_cc74d80c44bc2e79__costos,gm_cc74d80c44bc2e79,Monasterio de Santa Catalina,costos,5,3,caro;cobran;lleno,alta,False
+gm_1276ff178fd9a140__seguridad,gm_1276ff178fd9a140,Centro Histórico de Lima,seguridad,5,1,cuidado,media,True
+gm_ee638cefffdb1d1f__seguridad,gm_ee638cefffdb1d1f,Centro Histórico de Lima,seguridad,5,2,dangerous;mess,alta,True
+gm_72628c75dde64df3__atencion_servicio,gm_72628c75dde64df3,Reserva Nacional de Paracas,atencion_servicio,5,1,caro,media,False
+gm_52d64bfe96627b1e__limpieza,gm_52d64bfe96627b1e,Centro Histórico de Lima,limpieza,5,1,cuidado,media,False
+gm_5ba6bc1dabc36bfa__accesibilidad,gm_5ba6bc1dabc36bfa,Museo Tumbas Reales del Señor de Sipán,accesibilidad,5,3,caro;cuidado;no recomiendo,alta,False
+gm_278b46760ba5c7db__accesibilidad,gm_278b46760ba5c7db,Monasterio de Santa Catalina,accesibilidad,5,2,caro;demora,alta,True
+gm_a544c7271a5d26da__seguridad,gm_a544c7271a5d26da,Museo Tumbas Reales del Señor de Sipán,seguridad,5,1,cerrado,media,False
+gm_3c58d9d5820e8501__limpieza,gm_3c58d9d5820e8501,Reserva Nacional de Paracas,limpieza,4,1,trash,media,False
+gm_4459efdd15bc95b6__limpieza,gm_4459efdd15bc95b6,Reserva Nacional de Paracas,limpieza,4,2,caro;cobran,alta,True
+gm_1fc3c6ced521e710__accesibilidad,gm_1fc3c6ced521e710,Ciudadela de Kuélap,accesibilidad,5,1,lleno,media,False
+gm_066f85a7b9cae951__atencion_servicio,gm_066f85a7b9cae951,Ciudadela de Kuélap,atencion_servicio,5,1,lleno,media,False
+gm_d54ff9b92f08e7f1__atencion_servicio,gm_d54ff9b92f08e7f1,Museo de Sitio Huaca Pucllana,atencion_servicio,2,2,terrible,alta,False
+gm_ab9f550b183130f1__alojamiento,gm_ab9f550b183130f1,Santuario Histórico de Machu Picchu,alojamiento,5,1,caro,media,False
+gm_06ff71b2f93d9a12__limpieza,gm_06ff71b2f93d9a12,Museo de Sitio Huaca Pucllana,limpieza,4,1,dirty,media,True
+gm_6ea84ef3241aa363__accesibilidad,gm_6ea84ef3241aa363,Valle del Colca,accesibilidad,2,0,,alta,False
+gm_d8c0d0d094d7f444__seguridad,gm_d8c0d0d094d7f444,Santuario Histórico de Machu Picchu,seguridad,4,1,grosero,media,False
+gm_549c0a74255fa816__atencion_servicio,gm_549c0a74255fa816,Monasterio de Santa Catalina,atencion_servicio,5,1,expensive,media,False
+gm_87cba72e6323ca20__limpieza,gm_87cba72e6323ca20,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_45cf57cbfae43a53__atencion_servicio,gm_45cf57cbfae43a53,Valle del Colca,atencion_servicio,5,1,lleno,media,False
+gm_277ebcfb2b9a68d3__seguridad,gm_277ebcfb2b9a68d3,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False
+gm_6d4c61f9e42a067a__aforo_multitudes,gm_6d4c61f9e42a067a,Centro Histórico de Lima,aforo_multitudes,4,3,cobran;cuidado;no recomiendo,alta,True
+gm_84263f6c641b4115__limpieza,gm_84263f6c641b4115,Reserva Nacional de Paracas,limpieza,4,1,basura,media,False
+gm_a9a2dbed889be0dc__costos,gm_a9a2dbed889be0dc,Circuito Mágico del Agua,costos,1,4,cobran;lleno;pesima;pesimo,alta,False
+gm_2b852a262eab7a6d__alojamiento,gm_2b852a262eab7a6d,Circuito Mágico del Agua,alojamiento,4,1,aglomeracion,media,False
+gm_6f57c97ccce2991a__atencion_servicio,gm_6f57c97ccce2991a,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,4,1,cuidado,media,True
+gm_2245250b90ca1bf9__seguridad,gm_2245250b90ca1bf9,Santuario Histórico de Machu Picchu,seguridad,4,2,basura;lleno,alta,True
+gm_b840ef233bb1c683__accesibilidad,gm_b840ef233bb1c683,Líneas y Geoglifos de Nasca y Palpa,accesibilidad,4,1,evitar,media,False
+gm_0bf73d7b5ed4dacc__seguridad,gm_0bf73d7b5ed4dacc,Monasterio de Santa Catalina,seguridad,5,1,cuidado,media,False
+gm_a4b224782413ca3f__atencion_servicio,gm_a4b224782413ca3f,Reserva Nacional de Paracas,atencion_servicio,5,1,cuidado,media,False
+gm_dc04a3f27ad60d32__limpieza,gm_dc04a3f27ad60d32,Centro Histórico de Lima,limpieza,5,1,cerrado,media,False
+gm_e3851acec23bff80__atencion_servicio,gm_e3851acec23bff80,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,2,cuidado;rude,alta,False
+gm_c67fc0aba65e5020__limpieza,gm_c67fc0aba65e5020,Santuario Histórico de Machu Picchu,limpieza,5,2,cobran;robo,alta,False
+gm_f38b1ec70386187b__seguridad,gm_f38b1ec70386187b,Circuito Mágico del Agua,seguridad,5,2,cerrado;cuidado,alta,False
+gm_0503dabcc2a783df__limpieza,gm_0503dabcc2a783df,Centro Histórico de Lima,limpieza,4,1,cuidado,media,False
+gm_8b37ae147b2fb649__atencion_servicio,gm_8b37ae147b2fb649,Circuito Mágico del Agua,atencion_servicio,2,0,,alta,False
+gm_11721ad4c1633f4a__limpieza,gm_11721ad4c1633f4a,Reserva Nacional de Paracas,limpieza,4,1,tumulto,media,False
+gm_429c61cf03fa8b4e__accesibilidad,gm_429c61cf03fa8b4e,Circuito Mágico del Agua,accesibilidad,4,3,horrible;no funciona,alta,False
+gm_6f4f074165405131__costos,gm_6f4f074165405131,Líneas y Geoglifos de Nasca y Palpa,costos,5,1,expensive,media,True
+gm_88d67b154815db76__limpieza,gm_88d67b154815db76,Reserva Nacional de Paracas,limpieza,5,2,cuidado;sucia,alta,False
+gm_cf453ec46091dc6f__aforo_multitudes,gm_cf453ec46091dc6f,Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,5,2,horrible,alta,True
+gm_606a6eae5e8d091d__limpieza,gm_606a6eae5e8d091d,Centro Histórico de Lima,limpieza,4,1,cuidado,media,False
+gm_292a0dbca8905453__limpieza,gm_292a0dbca8905453,Centro Histórico de Lima,limpieza,5,2,crowded;overcrowded,alta,False
+gm_4bf7cd71e2dc35f3__seguridad,gm_4bf7cd71e2dc35f3,Centro Histórico de Lima,seguridad,4,1,lleno,media,False
+gm_2dd8856c2c0fd64f__alojamiento,gm_2dd8856c2c0fd64f,Santuario Histórico de Machu Picchu,alojamiento,5,1,lleno,media,True
+gm_c97bde957c2d3741__alojamiento,gm_c97bde957c2d3741,Monasterio de Santa Catalina,alojamiento,5,1,cuidado,media,True
+gm_48e3dc7e15757178__atencion_servicio,gm_48e3dc7e15757178,Santuario Histórico de Machu Picchu,atencion_servicio,2,2,expensive;trash,alta,False
+gm_b4f516ca417fa4b4__alojamiento,gm_b4f516ca417fa4b4,Santuario Histórico de Machu Picchu,alojamiento,5,1,queue,media,False
+gm_85f50afcd9ef2bcf__atencion_servicio,gm_85f50afcd9ef2bcf,Ciudadela de Kuélap,atencion_servicio,5,1,demora,media,False
+gm_6012db4d362960c1__accesibilidad,gm_6012db4d362960c1,Monasterio de Santa Catalina,accesibilidad,2,1,caro,alta,False
+gm_8d34fc9ed8f00480__aforo_multitudes,gm_8d34fc9ed8f00480,Circuito Mágico del Agua,aforo_multitudes,1,4,colas;horrible;pesimo,alta,False
+gm_ac764a170eff3398__atencion_servicio,gm_ac764a170eff3398,Museo de Sitio Huaca Pucllana,atencion_servicio,3,1,no vale,media,True
+gm_09b13a033aaf3fa5__accesibilidad,gm_09b13a033aaf3fa5,Reserva Nacional de Paracas,accesibilidad,5,2,cuidado;sucia,alta,False
+gm_983cea504ed5a16e__atencion_servicio,gm_983cea504ed5a16e,Santuario Histórico de Machu Picchu,atencion_servicio,1,2,disappointing;mess,alta,False
+gm_7f145aecc03d4380__atencion_servicio,gm_7f145aecc03d4380,Centro Histórico de Lima,atencion_servicio,4,1,pesima,media,False
+gm_a2c6d4905deb29f0__seguridad,gm_a2c6d4905deb29f0,Ciudadela de Kuélap,seguridad,5,1,cuidado,media,False
+gm_4628e8130a325c68__atencion_servicio,gm_4628e8130a325c68,Reserva Nacional de Paracas,atencion_servicio,1,0,,alta,True
+gm_5ca8f640b1a74e53__atencion_servicio,gm_5ca8f640b1a74e53,Monasterio de Santa Catalina,atencion_servicio,5,1,expensive,media,False
+gm_b5be103fd88029f0__accesibilidad,gm_b5be103fd88029f0,Monasterio de Santa Catalina,accesibilidad,2,1,demora,alta,False
+gm_8ed1caeb1a2f688d__costos,gm_8ed1caeb1a2f688d,Circuito Mágico del Agua,costos,1,3,colas;cuidado;pesimo,alta,False
+gm_8b4b5851f449a351__limpieza,gm_8b4b5851f449a351,Museo Tumbas Reales del Señor de Sipán,limpieza,4,1,cobran,media,False
+gm_3e33613ca72b369d__atencion_servicio,gm_3e33613ca72b369d,Centro Histórico de Lima,atencion_servicio,5,1,closed,media,False
+gm_2432aed22aff0fb0__seguridad,gm_2432aed22aff0fb0,Centro Histórico de Lima,seguridad,5,1,lleno,media,False
+gm_5ee6e4754c5f1e0c__limpieza,gm_5ee6e4754c5f1e0c,Monasterio de Santa Catalina,limpieza,5,1,cuidado,media,True
+gm_4ce1d8ed14a15f29__accesibilidad,gm_4ce1d8ed14a15f29,Valle del Colca,accesibilidad,5,2,avoid;expensive,alta,False
+gm_7d6d9cc433561f59__limpieza,gm_7d6d9cc433561f59,Reserva Nacional de Paracas,limpieza,5,1,cuidado,media,False
+gm_932a017dfcb4b475__limpieza,gm_932a017dfcb4b475,Reserva Nacional de Paracas,limpieza,5,1,basura,media,False
+gm_a2338737aa09275b__atencion_servicio,gm_a2338737aa09275b,Museo de Sitio Huaca Pucllana,atencion_servicio,4,2,caro;cerrado,alta,False
+gm_07fd8b683f6c07f3__limpieza,gm_07fd8b683f6c07f3,Centro Histórico de Lima,limpieza,5,1,decepcion,media,False
+gm_06de5503ee0c20a4__limpieza,gm_06de5503ee0c20a4,Museo de Sitio Huaca Pucllana,limpieza,4,1,cerrado,media,False
+gm_2731900d3fed517d__alojamiento,gm_2731900d3fed517d,Santuario Histórico de Machu Picchu,alojamiento,5,1,crowded,media,False
+gm_ff8e3bbcb830a684__seguridad,gm_ff8e3bbcb830a684,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_32792c175727b835__alojamiento,gm_32792c175727b835,Santuario Histórico de Machu Picchu,alojamiento,5,1,slow,media,True
+gm_03eeaa1984773e33__seguridad,gm_03eeaa1984773e33,Circuito Mágico del Agua,seguridad,4,1,pesima,media,False
+gm_1e89eeaed33e2d7e__limpieza,gm_1e89eeaed33e2d7e,Circuito Mágico del Agua,limpieza,3,1,sucio,media,False
+gm_82ba02cef00c7e63__seguridad,gm_82ba02cef00c7e63,Centro Histórico de Lima,seguridad,5,2,cuidado;inseguro,alta,True
+gm_87265a2798ae1cb0__atencion_servicio,gm_87265a2798ae1cb0,Valle del Colca,atencion_servicio,5,1,expensive,media,False
+gm_2143f59d262872d5__limpieza,gm_2143f59d262872d5,Santuario Histórico de Machu Picchu,limpieza,5,2,cobran;lleno,alta,False
+gm_d93fe923743d849b__accesibilidad,gm_d93fe923743d849b,Ciudadela de Kuélap,accesibilidad,5,2,cobran;demora,alta,True
+gm_648000e42958e44b__atencion_servicio,gm_648000e42958e44b,Reserva Nacional de Paracas,atencion_servicio,4,2,basura;cobran,alta,False
+gm_ca8e69c848fa1f29__seguridad,gm_ca8e69c848fa1f29,Santuario Histórico de Machu Picchu,seguridad,5,1,slow,media,False
+gm_992c6b1a3962a767__aforo_multitudes,gm_992c6b1a3962a767,Valle del Colca,aforo_multitudes,5,1,worst,media,True
+gm_3ccee15177370baa__costos,gm_3ccee15177370baa,Centro Histórico de Lima,costos,4,2,lleno;maltrato,alta,False
+gm_d15bbc23fa9287c9__seguridad,gm_d15bbc23fa9287c9,Valle del Colca,seguridad,5,1,peligroso,media,False
+gm_75c26c3ba1d7f877__seguridad,gm_75c26c3ba1d7f877,Santuario Histórico de Machu Picchu,seguridad,5,1,dangerous,media,False
+gm_40aa0348915d3eae__limpieza,gm_40aa0348915d3eae,Reserva Nacional de Paracas,limpieza,3,2,basura;cobran,alta,False
+gm_5ba6bc1dabc36bfa__atencion_servicio,gm_5ba6bc1dabc36bfa,Museo Tumbas Reales del Señor de Sipán,atencion_servicio,5,3,caro;cuidado;no recomiendo,alta,False
+gm_04b55b098bf66db6__seguridad,gm_04b55b098bf66db6,Circuito Mágico del Agua,seguridad,5,1,cuidado,media,False

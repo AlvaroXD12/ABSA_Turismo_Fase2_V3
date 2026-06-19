@@ -1,0 +1,6 @@
+LOTES DE AMPLIACION DE NEGATIVOS (v2)
+Estos archivos son CANDIDATOS NUEVOS a anotar, NO el gold existente.
+Cada anotador llena la columna 'label' (positivo/neutro/negativo) de su
+archivo lote_negativos_anotador_<n>.csv siguiendo GUIA_ANOTACION.md.
+Hay items solapados entre los 3 a proposito (para kappa). No comparen entre si.
+Al terminar, devolver los 3 archivos para consolidar y fusionar al gold.
