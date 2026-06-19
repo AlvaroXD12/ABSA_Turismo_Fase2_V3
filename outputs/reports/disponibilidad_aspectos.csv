@@ -1,0 +1,10 @@
+﻿aspecto,polaridad,en_gold,target,deficit,a_minar,disponibles,incluidos,suficiente
+clima,negativo,65,100,35,70,556,70,True
+clima,neutro,30,100,70,140,203,140,True
+clima,positivo,28,100,72,144,260,144,True
+aforo_multitudes,negativo,153,100,0,0,595,0,True
+aforo_multitudes,neutro,105,100,0,0,799,0,True
+aforo_multitudes,positivo,28,100,72,144,59,59,False
+limpieza,negativo,74,100,26,52,14,14,False
+limpieza,neutro,72,100,28,56,227,56,True
+limpieza,positivo,152,100,0,0,428,0,True

@@ -34,9 +34,9 @@ ASPECTOS = ["atractivos", "costos", "seguridad", "accesibilidad", "limpieza",
 
 def nivel_evidencia(n):
     if n == 0:  return "sin datos"
-    if n <= 4:  return "evidencia insuficiente"
-    if n <= 9:  return "baja evidencia"
-    return "evidencia suficiente"
+    if n <= 4:  return "insuficiente"
+    if n <= 9:  return "baja"
+    return "suficiente"
 
 
 def construir_celda(g):
@@ -51,26 +51,28 @@ def construir_celda(g):
     score = (npos - nneg) / ntot if ntot else 0.0
     # Conflicto (spec R15b): n>=5, ppos>=.25, pneg>=.25, |ppos-pneg|<.15
     conflict = int(n >= 5 and ppos >= 0.25 and pneg >= 0.25 and abs(ppos - pneg) < 0.15)
-    # Etiqueta dominante (interpretativa); si conflicto -> mixta/conflictiva
     if ntot == 0:
-        etiqueta = "sin datos"
+        dominant = "sin datos"
     elif conflict:
-        etiqueta = "mixta/conflictiva"
+        dominant = "mixta/conflictiva"
     else:
-        etiqueta = L[int(np.argmax([nneg, nneu, npos]))]
-    # Confianza (spec R15)
+        dominant = L[int(np.argmax([nneg, nneu, npos]))]
+    # Confianza (spec R15): volumen de evidencia, penalizado si hay conflicto
     conf_ev = min(1.0, n / 10.0)
-    confianza = conf_ev * 0.65 if conflict else conf_ev
+    confidence = conf_ev * 0.65 if conflict else conf_ev
+    # Score ajustado por confianza: jala hacia 0 las celdas de poca evidencia/conflicto
+    score_ajustado = score * confidence
     return pd.Series({
         "n_menciones": n,
-        "n_resenas_unicas": int(g["review_uid"].nunique()),
-        "n_positivo": npos, "n_neutro": nneu, "n_negativo": nneg,
-        "prop_positivo": round(ppos, 4), "prop_neutro": round(pneu, 4), "prop_negativo": round(pneg, 4),
-        "score_sentimiento": round(score, 4),
-        "etiqueta_dominante": etiqueta,
-        "nivel_evidencia": nivel_evidencia(n),
+        "n_reseñas_únicas": int(g["review_uid"].nunique()),
+        "n_pos": npos, "n_neu": nneu, "n_neg": nneg,
+        "pct_pos": round(ppos, 4), "pct_neu": round(pneu, 4), "pct_neg": round(pneg, 4),
+        "sentiment_score": round(score, 4),
+        "score_ajustado": round(score_ajustado, 4),
+        "dominant_label": dominant,
+        "evidence_status": nivel_evidencia(n),
+        "confidence": round(confidence, 4),
         "conflict_flag": conflict,
-        "confianza": round(confianza, 4),
     })
 
 
@@ -82,13 +84,13 @@ def build_matrix(pred):
     agg = (pred.groupby(["destination", "aspecto"]).apply(construir_celda).reset_index())
     matriz = grid.merge(agg, on=["destination", "aspecto"], how="left")
     # Celdas sin menciones -> "sin datos"
-    cnt = ["n_menciones", "n_resenas_unicas", "n_positivo", "n_neutro", "n_negativo"]
+    cnt = ["n_menciones", "n_reseñas_únicas", "n_pos", "n_neu", "n_neg"]
     matriz[cnt] = matriz[cnt].fillna(0).astype(int)
-    prop = ["prop_positivo", "prop_neutro", "prop_negativo", "score_sentimiento", "confianza"]
+    prop = ["pct_pos", "pct_neu", "pct_neg", "sentiment_score", "score_ajustado", "confidence"]
     matriz[prop] = matriz[prop].fillna(0.0)
     matriz["conflict_flag"] = matriz["conflict_flag"].fillna(0).astype(int)
-    matriz["etiqueta_dominante"] = matriz["etiqueta_dominante"].fillna("sin datos")
-    matriz["nivel_evidencia"] = matriz["nivel_evidencia"].fillna("sin datos")
+    matriz["dominant_label"] = matriz["dominant_label"].fillna("sin datos")
+    matriz["evidence_status"] = matriz["evidence_status"].fillna("sin datos")
     return matriz.sort_values(["destination", "aspecto"]).reset_index(drop=True)
 
 
@@ -120,12 +122,13 @@ def main():
     matriz = build_matrix(pred)
     out = OUTM / f"matriz_destino_aspecto_sentimiento{sufijo}.csv"
     matriz.to_csv(out, index=False, encoding="utf-8-sig")
+    matriz.to_json(OUTM / f"matriz_destino_aspecto_sentimiento{sufijo}.json", orient="records", force_ascii=False, indent=2)
     print("Matriz ->", out, "| celdas:", len(matriz))
-    print("\nNiveles de evidencia:", matriz["nivel_evidencia"].value_counts().to_dict())
+    print("\nNiveles de evidencia:", matriz["evidence_status"].value_counts().to_dict())
     print("Celdas con conflicto:", int(matriz["conflict_flag"].sum()))
     print("\nEjemplo (Machu Picchu):")
-    cols = ["aspecto", "n_menciones", "n_negativo", "n_neutro", "n_positivo",
-            "score_sentimiento", "etiqueta_dominante", "nivel_evidencia", "conflict_flag", "confianza"]
+    cols = ["aspecto", "n_menciones", "n_neg", "n_neu", "n_pos",
+            "sentiment_score", "score_ajustado", "dominant_label", "evidence_status", "conflict_flag", "confidence"]
     mp = matriz[matriz["destination"].str.contains("Machu", na=False)]
     if len(mp):
         print(mp[cols].to_string(index=False))
