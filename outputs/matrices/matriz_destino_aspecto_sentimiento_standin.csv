@@ -1,0 +1,101 @@
+﻿destination,aspecto,n_menciones,n_resenas_unicas,n_positivo,n_neutro,n_negativo,prop_positivo,prop_neutro,prop_negativo,score_sentimiento,etiqueta_dominante,nivel_evidencia,conflict_flag,confianza
+Centro Histórico de Lima,accesibilidad,146,146,136,8,2,0.9315,0.0548,0.0137,0.9178,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,aforo_multitudes,214,214,197,13,4,0.9206,0.0607,0.0187,0.9019,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,alojamiento,18,18,14,3,1,0.7778,0.1667,0.0556,0.7222,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,atencion_servicio,106,106,99,6,1,0.934,0.0566,0.0094,0.9245,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,atractivos,984,984,948,31,5,0.9634,0.0315,0.0051,0.9583,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,clima,33,33,30,3,0,0.9091,0.0909,0.0,0.9091,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,costos,71,71,69,1,1,0.9718,0.0141,0.0141,0.9577,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,gastronomia,222,222,211,10,1,0.9505,0.045,0.0045,0.9459,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,limpieza,221,221,210,7,4,0.9502,0.0317,0.0181,0.9321,positivo,evidencia suficiente,0,1.0
+Centro Histórico de Lima,seguridad,305,305,286,13,6,0.9377,0.0426,0.0197,0.918,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,accesibilidad,425,425,381,17,27,0.8965,0.04,0.0635,0.8329,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,aforo_multitudes,265,265,214,26,25,0.8075,0.0981,0.0943,0.7132,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,alojamiento,21,21,17,3,1,0.8095,0.1429,0.0476,0.7619,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,atencion_servicio,130,130,104,9,17,0.8,0.0692,0.1308,0.6692,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,atractivos,973,973,918,36,19,0.9435,0.037,0.0195,0.9239,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,clima,69,69,60,4,5,0.8696,0.058,0.0725,0.7971,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,costos,558,558,489,34,35,0.8763,0.0609,0.0627,0.8136,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,gastronomia,188,188,169,10,9,0.8989,0.0532,0.0479,0.8511,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,limpieza,225,225,191,15,19,0.8489,0.0667,0.0844,0.7644,positivo,evidencia suficiente,0,1.0
+Circuito Mágico del Agua,seguridad,102,102,90,6,6,0.8824,0.0588,0.0588,0.8235,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,accesibilidad,193,193,176,9,8,0.9119,0.0466,0.0415,0.8705,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,aforo_multitudes,55,55,48,4,3,0.8727,0.0727,0.0545,0.8182,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,alojamiento,10,10,9,0,1,0.9,0.0,0.1,0.8,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,atencion_servicio,131,131,118,4,9,0.9008,0.0305,0.0687,0.8321,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,atractivos,436,436,415,12,9,0.9518,0.0275,0.0206,0.9312,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,clima,51,51,48,1,2,0.9412,0.0196,0.0392,0.902,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,costos,85,85,73,5,7,0.8588,0.0588,0.0824,0.7765,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,gastronomia,23,23,22,0,1,0.9565,0.0,0.0435,0.913,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,limpieza,20,20,20,0,0,1.0,0.0,0.0,1.0,positivo,evidencia suficiente,0,1.0
+Ciudadela de Kuélap,seguridad,21,21,19,0,2,0.9048,0.0,0.0952,0.8095,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,accesibilidad,42,42,35,5,2,0.8333,0.119,0.0476,0.7857,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,aforo_multitudes,32,32,27,3,2,0.8438,0.0938,0.0625,0.7812,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,alojamiento,5,5,4,0,1,0.8,0.0,0.2,0.6,positivo,baja evidencia,0,0.5
+Líneas y Geoglifos de Nasca y Palpa,atencion_servicio,29,29,25,3,1,0.8621,0.1034,0.0345,0.8276,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,atractivos,143,143,134,7,2,0.9371,0.049,0.014,0.9231,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,clima,18,18,18,0,0,1.0,0.0,0.0,1.0,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,costos,35,35,24,5,6,0.6857,0.1429,0.1714,0.5143,positivo,evidencia suficiente,0,1.0
+Líneas y Geoglifos de Nasca y Palpa,gastronomia,3,3,3,0,0,1.0,0.0,0.0,1.0,positivo,evidencia insuficiente,0,0.3
+Líneas y Geoglifos de Nasca y Palpa,limpieza,4,4,1,2,1,0.25,0.5,0.25,0.0,neutro,evidencia insuficiente,0,0.4
+Líneas y Geoglifos de Nasca y Palpa,seguridad,11,11,10,0,1,0.9091,0.0,0.0909,0.8182,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,accesibilidad,188,188,170,7,11,0.9043,0.0372,0.0585,0.8457,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,aforo_multitudes,96,96,91,2,3,0.9479,0.0208,0.0312,0.9167,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,alojamiento,28,28,28,0,0,1.0,0.0,0.0,1.0,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,atencion_servicio,449,449,421,14,14,0.9376,0.0312,0.0312,0.9065,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,atractivos,698,698,676,13,9,0.9685,0.0186,0.0129,0.9556,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,clima,36,36,36,0,0,1.0,0.0,0.0,1.0,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,costos,347,347,315,15,17,0.9078,0.0432,0.049,0.8588,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,gastronomia,15,15,13,0,2,0.8667,0.0,0.1333,0.7333,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,limpieza,31,31,29,0,2,0.9355,0.0,0.0645,0.871,positivo,evidencia suficiente,0,1.0
+Monasterio de Santa Catalina,seguridad,4,4,4,0,0,1.0,0.0,0.0,1.0,positivo,evidencia insuficiente,0,0.4
+Museo Tumbas Reales del Señor de Sipán,accesibilidad,105,105,95,9,1,0.9048,0.0857,0.0095,0.8952,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,aforo_multitudes,60,60,56,2,2,0.9333,0.0333,0.0333,0.9,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,alojamiento,4,4,2,1,1,0.5,0.25,0.25,0.25,positivo,evidencia insuficiente,0,0.4
+Museo Tumbas Reales del Señor de Sipán,atencion_servicio,309,309,284,15,10,0.9191,0.0485,0.0324,0.8867,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,atractivos,736,736,692,36,8,0.9402,0.0489,0.0109,0.9293,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,clima,27,27,22,5,0,0.8148,0.1852,0.0,0.8148,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,costos,131,131,123,6,2,0.9389,0.0458,0.0153,0.9237,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,gastronomia,11,11,10,1,0,0.9091,0.0909,0.0,0.9091,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,limpieza,45,45,43,2,0,0.9556,0.0444,0.0,0.9556,positivo,evidencia suficiente,0,1.0
+Museo Tumbas Reales del Señor de Sipán,seguridad,27,27,24,1,2,0.8889,0.037,0.0741,0.8148,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,accesibilidad,199,199,178,13,8,0.8945,0.0653,0.0402,0.8543,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,aforo_multitudes,93,93,80,6,7,0.8602,0.0645,0.0753,0.7849,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,alojamiento,17,17,14,2,1,0.8235,0.1176,0.0588,0.7647,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,atencion_servicio,668,668,586,47,35,0.8772,0.0704,0.0524,0.8249,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,atractivos,763,763,700,42,21,0.9174,0.055,0.0275,0.8899,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,clima,92,92,76,11,5,0.8261,0.1196,0.0543,0.7717,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,costos,297,297,271,13,13,0.9125,0.0438,0.0438,0.8687,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,gastronomia,279,279,260,14,5,0.9319,0.0502,0.0179,0.914,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,limpieza,28,28,26,2,0,0.9286,0.0714,0.0,0.9286,positivo,evidencia suficiente,0,1.0
+Museo de Sitio Huaca Pucllana,seguridad,18,18,16,2,0,0.8889,0.1111,0.0,0.8889,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,accesibilidad,93,93,84,6,3,0.9032,0.0645,0.0323,0.871,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,aforo_multitudes,107,107,85,11,11,0.7944,0.1028,0.1028,0.6916,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,alojamiento,10,10,8,1,1,0.8,0.1,0.1,0.7,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,atencion_servicio,52,52,40,9,3,0.7692,0.1731,0.0577,0.7115,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,atractivos,411,411,381,18,12,0.927,0.0438,0.0292,0.8978,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,clima,111,111,107,3,1,0.964,0.027,0.009,0.955,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,costos,82,82,70,7,5,0.8537,0.0854,0.061,0.7927,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,gastronomia,67,67,56,5,6,0.8358,0.0746,0.0896,0.7463,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,limpieza,163,163,140,15,8,0.8589,0.092,0.0491,0.8098,positivo,evidencia suficiente,0,1.0
+Reserva Nacional de Paracas,seguridad,29,29,25,2,2,0.8621,0.069,0.069,0.7931,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,accesibilidad,1107,1107,1064,16,27,0.9612,0.0145,0.0244,0.9368,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,aforo_multitudes,676,676,632,22,22,0.9349,0.0325,0.0325,0.9024,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,alojamiento,132,132,125,2,5,0.947,0.0152,0.0379,0.9091,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,atencion_servicio,844,844,809,12,23,0.9585,0.0142,0.0273,0.9313,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,atractivos,2119,2119,2072,24,23,0.9778,0.0113,0.0109,0.967,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,clima,573,573,555,7,11,0.9686,0.0122,0.0192,0.9494,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,costos,674,674,623,18,33,0.9243,0.0267,0.049,0.8754,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,gastronomia,125,125,119,2,4,0.952,0.016,0.032,0.92,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,limpieza,141,141,135,1,5,0.9574,0.0071,0.0355,0.922,positivo,evidencia suficiente,0,1.0
+Santuario Histórico de Machu Picchu,seguridad,83,83,77,2,4,0.9277,0.0241,0.0482,0.8795,positivo,evidencia suficiente,0,1.0
+Valle del Colca,accesibilidad,119,119,108,3,8,0.9076,0.0252,0.0672,0.8403,positivo,evidencia suficiente,0,1.0
+Valle del Colca,aforo_multitudes,56,56,52,2,2,0.9286,0.0357,0.0357,0.8929,positivo,evidencia suficiente,0,1.0
+Valle del Colca,alojamiento,37,37,35,2,0,0.9459,0.0541,0.0,0.9459,positivo,evidencia suficiente,0,1.0
+Valle del Colca,atencion_servicio,59,59,54,1,4,0.9153,0.0169,0.0678,0.8475,positivo,evidencia suficiente,0,1.0
+Valle del Colca,atractivos,504,504,481,13,10,0.9544,0.0258,0.0198,0.9345,positivo,evidencia suficiente,0,1.0
+Valle del Colca,clima,95,95,92,2,1,0.9684,0.0211,0.0105,0.9579,positivo,evidencia suficiente,0,1.0
+Valle del Colca,costos,42,42,32,2,8,0.7619,0.0476,0.1905,0.5714,positivo,evidencia suficiente,0,1.0
+Valle del Colca,gastronomia,57,57,53,2,2,0.9298,0.0351,0.0351,0.8947,positivo,evidencia suficiente,0,1.0
+Valle del Colca,limpieza,34,34,31,2,1,0.9118,0.0588,0.0294,0.8824,positivo,evidencia suficiente,0,1.0
+Valle del Colca,seguridad,14,14,13,0,1,0.9286,0.0,0.0714,0.8571,positivo,evidencia suficiente,0,1.0
