@@ -4,6 +4,8 @@
   "classification_report": "outputs/reports/classification_report_v3.csv",
   "por_aspecto": "outputs/reports/por_aspecto_v3.csv",
   "matriz_confusion": "outputs/visualizations/matriz_confusion_v3.png",
+  "predicciones_corpus": "outputs/predictions/predicciones_corpus_v3.csv",
+  "matriz_destino_aspecto": "outputs/matrices/matriz_destino_aspecto_sentimiento.csv",
   "splits": [
     "data/train_gold_v3.csv",
     "data/val_gold_v3.csv",
