@@ -30,6 +30,8 @@ exploratoria y se mantiene la versión base defendible.
 """)
 
 code(r"""
+import os, gc
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")   # reduce fragmentacion -> menos OOM
 from pathlib import Path
 import json, random, time, warnings
 import numpy as np, pandas as pd
@@ -47,13 +49,13 @@ COLOR = {"negativo": "#d62728", "neutro": "#7f7f7f", "positivo": "#2ca02c"}
 VER = "v4"
 RUN_TRAINING = False
 MODEL_BERT, MODEL_XLMR = "bert-base-multilingual-cased", "xlm-roberta-base"
-MAX_LEN, BATCH, EPOCHS = 192, 8, 10   # maxlen 192: la mayoría de reseñas caben y va más rápido
+MAX_LEN, BATCH, EPOCHS = 192, 4, 10   # batch 4 + checkpointing para no exceder 8GB (RTX 2070)
 LR, WEIGHT_DECAY, WARMUP_RATIO, PATIENCE, DROPOUT = 2e-5, 0.10, 0.10, 3, 0.40
 CNN_FILTERS, CNN_KERNELS = 128, (2, 3, 4)
 SEEDS = [42, 7, 123, 2024, 77]
 LABEL_SMOOTHING = 0.1
 CALIBRAR_DECISION = True
-USE_GRADIENT_CHECKPOINTING = False
+USE_GRADIENT_CHECKPOINTING = True   # reduce mucho la memoria de activaciones (cabe en 8GB)
 TH_MACRO, TH_NEG_F1, TH_NEG_REC, TH_NEU_F1 = 0.70, 0.60, 0.60, 0.60
 # --- Seleccion de hiperparametros de la clase negativa POR VALIDACION ---
 SELECCIONAR_HP = True
@@ -224,7 +226,8 @@ def train_one(seed, model_name, neg_boost, focal_gamma, epochs=EPOCHS, record_hi
             if pat >= PATIENCE: break
     if bs: model.load_state_dict(bs)
     if save_tag: torch.save(bs, MODELS_DIR / f"modelo_{save_tag}.pt")
-    tp, tt, _ = predict(model, el); vp, vtv, _ = predict(model, vl); del model
+    tp, tt, _ = predict(model, el); vp, vtv, _ = predict(model, vl); del model, opt, scaler
+    gc.collect()
     if torch.cuda.is_available(): torch.cuda.empty_cache()
     return tp, tt, vp, vtv, pd.DataFrame(hist)
 
