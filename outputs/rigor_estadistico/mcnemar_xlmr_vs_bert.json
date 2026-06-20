@@ -1,0 +1,14 @@
+{
+  "contingencia": {
+    "ambos_correctos": 375,
+    "XLMR_si_BERT_no": 65,
+    "BERT_si_XLMR_no": 34,
+    "ambos_incorrectos": 136
+  },
+  "n_discordantes": 99,
+  "mcnemar_chi2_cc": 9.0909,
+  "p_value_chi2": 0.002569,
+  "p_value_exacto_binomial": 0.002395,
+  "interpretacion": "XLM-R mejora a BERT de forma estadísticamente significativa (p<0.05)",
+  "nota": "Compara errores PAREADOS en el MISMO test v4 (610 instancias)."
+}

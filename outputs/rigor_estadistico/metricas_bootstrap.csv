@@ -1,0 +1,5 @@
+﻿metrica,puntual,IC95_inf,IC95_sup
+f1_macro,0.7082,0.6718,0.7452
+f1_negativo,0.6353,0.566,0.7007
+recall_negativo,0.6507,0.5639,0.7308
+f1_neutro,0.7353,0.6926,0.7768
