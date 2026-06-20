@@ -1,0 +1,4 @@
+﻿modelo,f1_macro
+TF-IDF + LogReg (baseline),0.5744
+BERT-mult + TextCNN (base PPI),0.6514
+XLM-R + TextCNN (principal),0.709
