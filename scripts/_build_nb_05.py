@@ -58,8 +58,8 @@ TH_MACRO, TH_NEG_F1, TH_NEG_REC, TH_NEU_F1 = 0.70, 0.60, 0.60, 0.60
 # --- Seleccion de hiperparametros de la clase negativa POR VALIDACION ---
 SELECCIONAR_HP = True
 NEG_BOOST_GRID = [1.2, 1.8]
-FOCAL_GRID = [1.0, 2.0]
-SEARCH_EPOCHS = 6                # epocas reducidas solo para rankear HP
+FOCAL_GRID = [2.0]               # focal fijo; se rankea NEG_BOOST por validacion (2 combos, rapido)
+SEARCH_EPOCHS = 5                # epocas reducidas solo para rankear HP
 NEG_BOOST_DEFAULT, FOCAL_DEFAULT = 1.6, 2.0   # si SELECCIONAR_HP=False
 MAX_CORPUS_INFER = None
 
@@ -211,6 +211,7 @@ def train_one(seed, model_name, neg_boost, focal_gamma, epochs=EPOCHS, record_hi
             scaler.step(opt); scaler.update(); sch.step(); run += loss.item()
             bar.set_postfix(loss=f"{loss.item():.3f}")
         vp, vt, vloss = predict(model, vl, loss_fn); vf = metrics(vt, [I2L[i] for i in vp.argmax(1)])["f1_macro"]
+        print(f"  [{short}] seed {seed} | época {ep}/{epochs} | val_f1={vf:.3f} | loss={run/len(tl):.3f}", flush=True)
         if record_history:
             tp_, tt_, _ = predict(model, tl); tf = metrics(tt_, [I2L[i] for i in tp_.argmax(1)])["f1_macro"]
             hist.append({"epoch": ep, "train_loss": run/len(tl), "val_loss": vloss, "train_f1_macro": tf, "val_f1_macro": vf})
@@ -225,9 +226,10 @@ def train_one(seed, model_name, neg_boost, focal_gamma, epochs=EPOCHS, record_hi
     return tp, tt, vp, vtv, pd.DataFrame(hist)
 
 def run_modelo(model_name, tag, neg_boost, focal_gamma):
+    print(f"\n===== Entrenando {tag.upper()} ({model_name}) — {len(SEEDS)} semillas =====", flush=True)
     rows, probs, vprobs, tt0, vt0, hist0 = [], [], [], None, None, None
     for k, sd in enumerate(SEEDS):
-        print(f"  [{tag}] semilla {sd}")
+        print(f"  [{tag}] semilla {sd} ({k+1}/{len(SEEDS)})", flush=True)
         tp, tt, vp, vtv, h = train_one(sd, model_name, neg_boost, focal_gamma, record_history=(k==0), save_tag=f"{tag}_seed{sd}_{VER}")
         tt0, vt0 = tt, vtv; probs.append(tp); vprobs.append(vp)
         if k==0: hist0 = h
@@ -240,16 +242,20 @@ def run_modelo(model_name, tag, neg_boost, focal_gamma):
 NEED_TRAIN = RUN_TRAINING or (not artefactos_existen())
 if NEED_TRAIN:
     t0 = time.time()
+    n_hp = (len(NEG_BOOST_GRID) * len(FOCAL_GRID)) if SELECCIONAR_HP else 0
+    print(f"PLAN DE ENTRENAMIENTO: {n_hp} combos de HP (búsqueda en validación, {SEARCH_EPOCHS} épocas c/u) "
+          f"+ {len(SEEDS)} semillas XLM-R + {len(SEEDS)} semillas BERT (hasta {EPOCHS} épocas c/u).", flush=True)
+    print("Verás 'val_f1' impreso al final de CADA época. Si no ves la barra gráfica, instala ipywidgets.", flush=True)
     # 1) Seleccion de HP por validacion (sobre el candidato principal XLM-R)
     if SELECCIONAR_HP:
-        srows = []
-        for nb in NEG_BOOST_GRID:
-            for fg in FOCAL_GRID:
-                _, _, vp, vtv, _ = train_one(42, MODEL_XLMR, nb, fg, epochs=SEARCH_EPOCHS)
-                vf = metrics(vtv, [I2L[i] for i in vp.argmax(1)])["f1_macro"]
-                vneg = metrics(vtv, [I2L[i] for i in vp.argmax(1)])["recall_negativo"]
-                srows.append({"neg_boost": nb, "focal_gamma": fg, "val_f1_macro": round(vf,4), "val_recall_neg": round(vneg,4)})
-                print(f"  HP nb={nb} fg={fg} -> val_f1={vf:.3f}")
+        srows = []; combos = [(nb, fg) for nb in NEG_BOOST_GRID for fg in FOCAL_GRID]
+        for ci, (nb, fg) in enumerate(combos, 1):
+            print(f"\n[Búsqueda HP {ci}/{len(combos)}] NEG_BOOST={nb}, FOCAL_GAMMA={fg} (en validación)...", flush=True)
+            _, _, vp, vtv, _ = train_one(42, MODEL_XLMR, nb, fg, epochs=SEARCH_EPOCHS)
+            vf = metrics(vtv, [I2L[i] for i in vp.argmax(1)])["f1_macro"]
+            vneg = metrics(vtv, [I2L[i] for i in vp.argmax(1)])["recall_negativo"]
+            srows.append({"neg_boost": nb, "focal_gamma": fg, "val_f1_macro": round(vf,4), "val_recall_neg": round(vneg,4)})
+            print(f"  -> combo {ci}: val_f1={vf:.3f}", flush=True)
         hp = pd.DataFrame(srows).sort_values("val_f1_macro", ascending=False); hp.to_csv(ART["hp"], index=False, encoding="utf-8-sig")
         NEG_BOOST, FOCAL_GAMMA = float(hp.iloc[0]["neg_boost"]), float(hp.iloc[0]["focal_gamma"])
     else:
