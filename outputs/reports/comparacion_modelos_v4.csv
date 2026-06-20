@@ -1,4 +1,0 @@
-﻿modelo,f1_macro
-TF-IDF + LogReg,0.5744
-BERT-mult + TextCNN (ensemble),0.6778
-"XLM-R + TextCNN (ref, 1 semilla)",0.7073
