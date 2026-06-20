@@ -1,0 +1,13 @@
+{
+  "det": "outputs\\reports\\resultados_bert_textcnn_v4.csv",
+  "resumen": "outputs\\reports\\resumen_bert_textcnn_v4.csv",
+  "clsrep": "outputs\\reports\\classification_report_v4.csv",
+  "aspecto": "outputs\\reports\\por_aspecto_v4.csv",
+  "hist": "outputs\\reports\\historial_entrenamiento_v4.csv",
+  "baselines": "outputs\\reports\\comparacion_modelos_v4.csv",
+  "preds_test": "outputs\\predictions\\predicciones_test_v4.csv",
+  "matriz": "outputs\\matrices\\matriz_destino_aspecto_sentimiento.csv",
+  "matriz_json": "outputs/matrices/matriz_destino_aspecto_sentimiento.json",
+  "predicciones_corpus": "outputs/predictions/predicciones_corpus_v4.csv",
+  "split_report": "outputs/reports/split_report_gold_v4.md"
+}
