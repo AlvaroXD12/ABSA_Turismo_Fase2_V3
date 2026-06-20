@@ -173,6 +173,8 @@ F1-macro en validación** con épocas reducidas; los valores elegidos se usan pa
 de **ambos** modelos (XLM-R principal y BERT base) bajo el mismo protocolo.
 """)
 code(r"""
+from tqdm.auto import tqdm   # barra de progreso por época/semilla
+
 def set_seed(sd):
     random.seed(sd); np.random.seed(sd); torch.manual_seed(sd)
     if torch.cuda.is_available(): torch.cuda.manual_seed_all(sd)
@@ -197,14 +199,17 @@ def train_one(seed, model_name, neg_boost, focal_gamma, epochs=EPOCHS, record_hi
     opt = torch.optim.AdamW(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
     sch = get_linear_schedule_with_warmup(opt, int(len(tl)*epochs*WARMUP_RATIO), len(tl)*epochs)
     scaler = torch.amp.GradScaler("cuda", enabled=USE_AMP); best,bs,pat,hist = -1,None,0,[]
+    short = model_name.split("-")[0]
     for ep in range(1, epochs+1):
         model.train(); run=0.0
-        for b in tl:
+        bar = tqdm(tl, desc=f"{short} | seed {seed} | época {ep}/{epochs}", leave=False, unit="batch")
+        for b in bar:
             opt.zero_grad()
             with torch.autocast("cuda", enabled=USE_AMP):
                 loss = loss_fn(model(b["input_ids"].to(DEVICE), b["attention_mask"].to(DEVICE)), b["labels"].to(DEVICE))
             scaler.scale(loss).backward(); scaler.unscale_(opt); torch.nn.utils.clip_grad_norm_(model.parameters(),1.0)
             scaler.step(opt); scaler.update(); sch.step(); run += loss.item()
+            bar.set_postfix(loss=f"{loss.item():.3f}")
         vp, vt, vloss = predict(model, vl, loss_fn); vf = metrics(vt, [I2L[i] for i in vp.argmax(1)])["f1_macro"]
         if record_history:
             tp_, tt_, _ = predict(model, tl); tf = metrics(tt_, [I2L[i] for i in tp_.argmax(1)])["f1_macro"]
