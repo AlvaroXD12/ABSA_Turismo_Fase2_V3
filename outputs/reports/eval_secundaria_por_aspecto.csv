@@ -1,0 +1,11 @@
+﻿aspecto,negativo,neutro,positivo,n
+accesibilidad,0.073,0.801,0.126,2617
+aforo_multitudes,0.521,0.437,0.042,1654
+alojamiento,0.0,0.961,0.039,282
+atencion_servicio,0.018,0.799,0.183,2777
+atractivos,0.01,0.0,0.99,7767
+clima,0.437,0.556,0.007,1105
+costos,0.175,0.557,0.267,2322
+gastronomia,0.002,0.746,0.252,990
+limpieza,0.101,0.28,0.62,912
+seguridad,0.129,0.397,0.474,614
