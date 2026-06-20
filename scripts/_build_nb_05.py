@@ -47,7 +47,7 @@ COLOR = {"negativo": "#d62728", "neutro": "#7f7f7f", "positivo": "#2ca02c"}
 VER = "v4"
 RUN_TRAINING = False
 MODEL_BERT, MODEL_XLMR = "bert-base-multilingual-cased", "xlm-roberta-base"
-MAX_LEN, BATCH, EPOCHS = 256, 8, 12
+MAX_LEN, BATCH, EPOCHS = 192, 8, 10   # maxlen 192: la mayoría de reseñas caben y va más rápido
 LR, WEIGHT_DECAY, WARMUP_RATIO, PATIENCE, DROPOUT = 2e-5, 0.10, 0.10, 3, 0.40
 CNN_FILTERS, CNN_KERNELS = 128, (2, 3, 4)
 SEEDS = [42, 7, 123, 2024, 77]
@@ -59,7 +59,7 @@ TH_MACRO, TH_NEG_F1, TH_NEG_REC, TH_NEU_F1 = 0.70, 0.60, 0.60, 0.60
 SELECCIONAR_HP = True
 NEG_BOOST_GRID = [1.2, 1.8]
 FOCAL_GRID = [2.0]               # focal fijo; se rankea NEG_BOOST por validacion (2 combos, rapido)
-SEARCH_EPOCHS = 5                # epocas reducidas solo para rankear HP
+SEARCH_EPOCHS = 3                # epocas reducidas solo para rankear HP
 NEG_BOOST_DEFAULT, FOCAL_DEFAULT = 1.6, 2.0   # si SELECCIONAR_HP=False
 MAX_CORPUS_INFER = None
 
@@ -203,13 +203,16 @@ def train_one(seed, model_name, neg_boost, focal_gamma, epochs=EPOCHS, record_hi
     for ep in range(1, epochs+1):
         model.train(); run=0.0
         bar = tqdm(tl, desc=f"{short} | seed {seed} | época {ep}/{epochs}", leave=False, unit="batch")
-        for b in bar:
+        nbt = len(tl); cada = max(1, nbt // 4)
+        for bi, b in enumerate(bar, 1):
             opt.zero_grad()
             with torch.autocast("cuda", enabled=USE_AMP):
                 loss = loss_fn(model(b["input_ids"].to(DEVICE), b["attention_mask"].to(DEVICE)), b["labels"].to(DEVICE))
             scaler.scale(loss).backward(); scaler.unscale_(opt); torch.nn.utils.clip_grad_norm_(model.parameters(),1.0)
             scaler.step(opt); scaler.update(); sch.step(); run += loss.item()
             bar.set_postfix(loss=f"{loss.item():.3f}")
+            if bi % cada == 0 or bi == nbt:   # progreso visible dentro de la época (aunque falte ipywidgets)
+                print(f"      {short} seed {seed} ép {ep}/{epochs}: batch {bi}/{nbt} ({bi*100//nbt}%) loss={loss.item():.3f}", flush=True)
         vp, vt, vloss = predict(model, vl, loss_fn); vf = metrics(vt, [I2L[i] for i in vp.argmax(1)])["f1_macro"]
         print(f"  [{short}] seed {seed} | época {ep}/{epochs} | val_f1={vf:.3f} | loss={run/len(tl):.3f}", flush=True)
         if record_history:
