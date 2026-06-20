@@ -1,17 +1,22 @@
-# Dependencias del notebook 03 (entrenamiento ABSA BERT+TextCNN, gold v3)
+# Dependencias — ABSA Turismo Fase 2 (XLM-R / BERT + TextCNN)
 #
 # IMPORTANTE: instala PyTorch PRIMERO, segun la CUDA de tu GPU:
 #   https://pytorch.org/get-started/locally/
-# Este proyecto se probo con torch 2.5.1 + CUDA 12.1 (pip install torch --index-url
-# https://download.pytorch.org/whl/cu121). Luego instala el resto con:
-#   pip install -r requirements.txt
+# Probado con torch 2.5.1 + CUDA 12.1:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# Luego:  pip install -r requirements.txt
+#
+# Verifica la GPU:  python -c "import torch; print(torch.cuda.is_available())"  -> True
 #
 torch>=2.5
 transformers>=5.12
 scikit-learn>=1.4
+scipy>=1.10
 pandas>=2.0
 numpy>=1.26
 matplotlib>=3.7
+seaborn>=0.12
 tqdm>=4.66
 ipywidgets>=8.0
 safetensors>=0.4
+openpyxl>=3.1
